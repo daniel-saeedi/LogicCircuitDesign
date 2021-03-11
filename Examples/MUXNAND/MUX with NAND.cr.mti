@@ -1,0 +1,15 @@
+C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/MUXNAND/mymux.v {1 {vlog -work work -stats=none {C:\Users\saeed\Desktop\LogicCircuitDesign\Examples\MUXNAND\mymux.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mymux
+
+Top level modules:
+	mymux
+
+} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/MUXNAND/mymuxTB.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/MUXNAND/mymuxTB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mymuxTB
+
+Top level modules:
+	mymuxTB
+
+} {} {}}

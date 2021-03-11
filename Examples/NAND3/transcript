@@ -1,0 +1,65 @@
+# Compile of mynand.v was successful.
+# Compile of mynandTB.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of mynand.v was successful.
+# Compile of mynandTB.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.mynandTB
+# vsim -gui work.mynandTB 
+# Start time: 20:16:36 on Mar 04,2021
+# Loading work.mynandTB
+# Loading work.mynand
+# ** Error (suppressible): (vsim-3009) [TSCALE] - Module 'mynand' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#    Time: 0 ps  Iteration: 0  Instance: /mynandTB/CUT1 File: C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/NAND/mynand.v
+# Error loading design
+# End time: 20:16:36 on Mar 04,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 3
+vsim -gui work.mynandTB
+# vsim -gui work.mynandTB 
+# Start time: 20:17:37 on Mar 04,2021
+# Loading work.mynandTB
+# Loading work.mynand
+# ** Error (suppressible): (vsim-3009) [TSCALE] - Module 'mynand' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#    Time: 0 ps  Iteration: 0  Instance: /mynandTB/CUT1 File: C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/NAND/mynand.v
+# Error loading design
+# End time: 20:17:38 on Mar 04,2021, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
+# Compile of mynand.v was successful.
+# Compile of mynandTB.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.mynandTB
+# vsim -gui work.mynandTB 
+# Start time: 20:18:28 on Mar 04,2021
+# Loading work.mynandTB
+# Loading work.mynand
+# ** Error (suppressible): (vsim-3009) [TSCALE] - Module 'mynand' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#    Time: 0 ps  Iteration: 0  Instance: /mynandTB/CUT1 File: C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/NAND/mynand.v
+# Error loading design
+# End time: 20:18:28 on Mar 04,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 2
+vsim -gui work.mynand
+# vsim -gui work.mynand 
+# Start time: 20:18:37 on Mar 04,2021
+# Loading work.mynand
+vsim -gui work.mynandTB
+# End time: 20:18:53 on Mar 04,2021, Elapsed time: 0:00:16
+# Errors: 0, Warnings: 1
+# vsim -gui work.mynandTB 
+# Start time: 20:18:53 on Mar 04,2021
+# Loading work.mynandTB
+# Loading work.mynand
+# ** Error (suppressible): (vsim-3009) [TSCALE] - Module 'mynand' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#    Time: 0 ps  Iteration: 0  Instance: /mynandTB/CUT1 File: C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/NAND/mynand.v
+# Error loading design
+# End time: 20:18:54 on Mar 04,2021, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
+vsim -gui work.mynandTB
+# vsim -gui work.mynandTB 
+# Start time: 20:19:34 on Mar 04,2021
+# Loading work.mynandTB
+# Loading work.mynand
+# ** Error (suppressible): (vsim-3009) [TSCALE] - Module 'mynand' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#    Time: 0 ps  Iteration: 0  Instance: /mynandTB/CUT1 File: C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/NAND/mynand.v
+# Error loading design
+# End time: 20:19:34 on Mar 04,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1

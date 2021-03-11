@@ -1,0 +1,58 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/saeed/Desktop/LogicCircuitDesign/Examples/NAND
+vmynand
+Z0 !s110 1614876500
+!i10b 1
+!s100 1]Q2adjIg`D`Gkb2d>=:T0
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+In]fhG<O2ZB5Uhb>6^HMH52
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/saeed/Desktop/LogicCircuitDesign/Examples/NAND3
+w1614861448
+8C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/NAND/mynand.v
+FC:/Users/saeed/Desktop/LogicCircuitDesign/Examples/NAND/mynand.v
+!i122 16
+L0 1 9
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1614876500.000000
+!s107 C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/NAND/mynand.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/NAND/mynand.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vmynandTB
+R0
+!i10b 1
+!s100 lYF=`f1_XBbMMfRG`@BWZ2
+R1
+IAnHVO7flW9N`BgRBOWXUD3
+R2
+R3
+w1614861280
+8C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/NAND/mynandTB.v
+FC:/Users/saeed/Desktop/LogicCircuitDesign/Examples/NAND/mynandTB.v
+!i122 17
+L0 2 9
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/NAND/mynandTB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/NAND/mynandTB.v|
+!i113 1
+R6
+R7
+nmynand@t@b

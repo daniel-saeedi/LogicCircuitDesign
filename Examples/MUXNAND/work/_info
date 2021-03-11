@@ -1,0 +1,58 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/saeed/Desktop/LogicCircuitDesign/Examples/NAND4
+vmymux
+Z0 !s110 1614935361
+!i10b 1
+!s100 6^EZECjU8>P:1iA2UihZn3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I8XaHHQPY^Oo`_D;aN_Dod0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/saeed/Desktop/LogicCircuitDesign/Examples/MUXNAND
+w1614933038
+8C:\Users\saeed\Desktop\LogicCircuitDesign\Examples\MUXNAND\mymux.v
+FC:\Users\saeed\Desktop\LogicCircuitDesign\Examples\MUXNAND\mymux.v
+!i122 67
+Z4 L0 2 8
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1614935361.000000
+!s107 C:\Users\saeed\Desktop\LogicCircuitDesign\Examples\MUXNAND\mymux.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\saeed\Desktop\LogicCircuitDesign\Examples\MUXNAND\mymux.v|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+vmymuxTB
+R0
+!i10b 1
+!s100 hVRXB2eSHLlP2gB:04Ee_3
+R1
+IOzG6]RQFLSiKjWmce`ATG3
+R2
+R3
+w1614935353
+8C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/MUXNAND/mymuxTB.v
+FC:/Users/saeed/Desktop/LogicCircuitDesign/Examples/MUXNAND/mymuxTB.v
+!i122 68
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/MUXNAND/mymuxTB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/MUXNAND/mymuxTB.v|
+!i113 1
+R7
+R8
+nmymux@t@b

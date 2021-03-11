@@ -1,0 +1,305 @@
+# Compile of mymux.v failed with 1 errors.
+# Compile of mymux.v was successful.
+# Compile of mymuxTB.v failed with 1 errors.
+# Compile of mymux.v was successful.
+# Compile of mymuxTB.v failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of mymuxTB.v was successful.
+vsim -gui work.mymuxTB
+# vsim -gui work.mymuxTB 
+# Start time: 22:55:53 on Mar 04,2021
+# Loading work.mymuxTB
+# Loading work.mymux
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'CUT1'.  Expected 4, found 3.
+#    Time: 0 ns  Iteration: 0  Instance: /mymuxTB/CUT1 File: C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/MUXNAND/mymuxTB.v Line: 5
+# ** Warning: (vsim-3722) C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/MUXNAND/mymuxTB.v(5): [TFMPC] - Missing connection for port 'y'.
+add wave -position end  sim:/mymuxTB/aa
+add wave -position end  sim:/mymuxTB/bb
+add wave -position end  sim:/mymuxTB/yy
+run -all
+# ** Note: $stop    : C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/MUXNAND/mymuxTB.v(7)
+#    Time: 50 ns  Iteration: 0  Instance: /mymuxTB
+# Break in Module mymuxTB at C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/MUXNAND/mymuxTB.v line 7
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'CUT1'.  Expected 4, found 3.
+#    Time: 0 ns  Iteration: 0  Instance: /mymuxTB/CUT1 File: C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/MUXNAND/mymuxTB.v Line: 5
+# ** Warning: (vsim-3722) C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/MUXNAND/mymuxTB.v(5): [TFMPC] - Missing connection for port 'y'.
+# Compile of mymuxTB.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.mymuxTB
+run -all
+# ** Note: $stop    : C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/MUXNAND/mymuxTB.v(7)
+#    Time: 50 ns  Iteration: 0  Instance: /mymuxTB
+# Break in Module mymuxTB at C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/MUXNAND/mymuxTB.v line 7
+add wave -position 0  sim:/mymuxTB/ss
+restart -f
+run -all
+# ** Note: $stop    : C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/MUXNAND/mymuxTB.v(7)
+#    Time: 50 ns  Iteration: 0  Instance: /mymuxTB
+# Break in Module mymuxTB at C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/MUXNAND/mymuxTB.v line 7
+# Compile of mymux.v was successful.
+# Compile of mymuxTB.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.mymuxTB
+# Loading work.mymux
+run -all
+# ** Note: $stop    : C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/MUXNAND/mymuxTB.v(7)
+#    Time: 50 ns  Iteration: 0  Instance: /mymuxTB
+# Break in Module mymuxTB at C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/MUXNAND/mymuxTB.v line 7
+# Compile of mymux.v was successful.
+# Compile of mymuxTB.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.mymuxTB
+# Loading work.mymux
+run -all
+# ** Note: $stop    : C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/MUXNAND/mymuxTB.v(7)
+#    Time: 50 ns  Iteration: 0  Instance: /mymuxTB
+# Break in Module mymuxTB at C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/MUXNAND/mymuxTB.v line 7
+run -all
+# Compile of mymuxTB.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.mymuxTB
+run -all
+# ** Note: $stop    : C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/MUXNAND/mymuxTB.v(7)
+#    Time: 50 ns  Iteration: 0  Instance: /mymuxTB
+# Break in Module mymuxTB at C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/MUXNAND/mymuxTB.v line 7
+# Compile of mymux.v was successful.
+# Compile of mymuxTB.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.mymuxTB
+# Loading work.mymux
+run -all
+# ** Note: $stop    : C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/MUXNAND/mymuxTB.v(7)
+#    Time: 50 ns  Iteration: 0  Instance: /mymuxTB
+# Break in Module mymuxTB at C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/MUXNAND/mymuxTB.v line 7
+# Compile of mymux.v was successful.
+# Compile of mymuxTB.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.mymuxTB
+# Loading work.mymux
+run -all
+# ** Note: $stop    : C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/MUXNAND/mymuxTB.v(7)
+#    Time: 50 ns  Iteration: 0  Instance: /mymuxTB
+# Break in Module mymuxTB at C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/MUXNAND/mymuxTB.v line 7
+# Compile of mymux.v was successful.
+# Compile of mymuxTB.v was successful.
+# 2 compiles, 0 failed with no errors.
+run -all
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.mymuxTB
+# Loading work.mymux
+run -all
+# ** Note: $stop    : C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/MUXNAND/mymuxTB.v(7)
+#    Time: 50 ns  Iteration: 0  Instance: /mymuxTB
+# Break in Module mymuxTB at C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/MUXNAND/mymuxTB.v line 7
+# Compile of mymux.v was successful.
+# Compile of mymuxTB.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.mymuxTB
+# Loading work.mymux
+run -all
+# ** Note: $stop    : C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/MUXNAND/mymuxTB.v(7)
+#    Time: 50 ns  Iteration: 0  Instance: /mymuxTB
+# Break in Module mymuxTB at C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/MUXNAND/mymuxTB.v line 7
+# Compile of mymux.v was successful.
+# Compile of mymuxTB.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.mymuxTB
+# Loading work.mymux
+run -all
+# ** Note: $stop    : C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/MUXNAND/mymuxTB.v(7)
+#    Time: 50 ns  Iteration: 0  Instance: /mymuxTB
+# Break in Module mymuxTB at C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/MUXNAND/mymuxTB.v line 7
+add wave -position end  sim:/mymuxTB/CUT1/g
+add wave -position end  sim:/mymuxTB/CUT1/p
+add wave -position end  sim:/mymuxTB/CUT1/w
+restart -f
+run -all
+# ** Note: $stop    : C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/MUXNAND/mymuxTB.v(7)
+#    Time: 50 ns  Iteration: 0  Instance: /mymuxTB
+# Break in Module mymuxTB at C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/MUXNAND/mymuxTB.v line 7
+# WARNING: No extended dataflow license exists
+add dataflow \
+sim:/mymuxTB/ss \
+sim:/mymuxTB/aa \
+sim:/mymuxTB/bb \
+sim:/mymuxTB/CUT1/g \
+sim:/mymuxTB/CUT1/p \
+sim:/mymuxTB/CUT1/w \
+sim:/mymuxTB/yy 
+# WARNING: No extended dataflow license exists
+# No drivers or ports for ss
+# No drivers or ports for aa
+# No drivers or ports for bb
+# No drivers or ports for g
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+restart -f
+# Compile of mymux.v was successful.
+# Compile of mymuxTB.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.mymuxTB
+# Loading work.mymux
+run -all
+# ** Note: $stop    : C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/MUXNAND/mymuxTB.v(7)
+#    Time: 50 ns  Iteration: 0  Instance: /mymuxTB
+# Break in Module mymuxTB at C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/MUXNAND/mymuxTB.v line 7
+# Compile of mymux.v was successful.
+# Compile of mymuxTB.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.mymuxTB
+# Loading work.mymux
+run -all
+# ** Note: $stop    : C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/MUXNAND/mymuxTB.v(7)
+#    Time: 50 ns  Iteration: 0  Instance: /mymuxTB
+# Break in Module mymuxTB at C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/MUXNAND/mymuxTB.v line 7
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Compile of mymux.v was successful.
+# Compile of mymuxTB.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.mymuxTB
+# Loading work.mymux
+run -all
+# ** Note: $stop    : C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/MUXNAND/mymuxTB.v(7)
+#    Time: 50 ns  Iteration: 0  Instance: /mymuxTB
+# Break in Module mymuxTB at C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/MUXNAND/mymuxTB.v line 7
+# Compile of mymux.v was successful.
+# Compile of mymuxTB.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.mymuxTB
+# Loading work.mymux
+run -all
+# ** Note: $stop    : C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/MUXNAND/mymuxTB.v(7)
+#    Time: 50 ns  Iteration: 0  Instance: /mymuxTB
+# Break in Module mymuxTB at C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/MUXNAND/mymuxTB.v line 7
+# Compile of mymux.v was successful.
+# Compile of mymuxTB.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.mymuxTB
+# Loading work.mymux
+run -all
+# ** Note: $stop    : C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/MUXNAND/mymuxTB.v(7)
+#    Time: 50 ns  Iteration: 0  Instance: /mymuxTB
+# Break in Module mymuxTB at C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/MUXNAND/mymuxTB.v line 7
+# Compile of mymux.v was successful.
+# Compile of mymuxTB.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.mymuxTB
+# Loading work.mymux
+run -all
+# ** Note: $stop    : C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/MUXNAND/mymuxTB.v(7)
+#    Time: 50 ns  Iteration: 0  Instance: /mymuxTB
+# Break in Module mymuxTB at C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/MUXNAND/mymuxTB.v line 7
+# Compile of mymux.v was successful.
+# Compile of mymuxTB.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.mymuxTB
+# Loading work.mymux
+run -all
+# ** Note: $stop    : C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/MUXNAND/mymuxTB.v(7)
+#    Time: 50 ns  Iteration: 0  Instance: /mymuxTB
+# Break in Module mymuxTB at C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/MUXNAND/mymuxTB.v line 7
+# Compile of mymux.v was successful.
+# Compile of mymuxTB.v was successful.
+# 2 compiles, 0 failed with no errors.
+run -all
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.mymuxTB
+# Loading work.mymux
+run -all
+# ** Note: $stop    : C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/MUXNAND/mymuxTB.v(7)
+#    Time: 50 ns  Iteration: 0  Instance: /mymuxTB
+# Break in Module mymuxTB at C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/MUXNAND/mymuxTB.v line 7
+# Compile of mymux.v was successful.
+# Compile of mymuxTB.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.mymuxTB
+# Loading work.mymux
+run -all
+# ** Note: $stop    : C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/MUXNAND/mymuxTB.v(7)
+#    Time: 50 ns  Iteration: 0  Instance: /mymuxTB
+# Break in Module mymuxTB at C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/MUXNAND/mymuxTB.v line 7
+# Compile of mymux.v was successful.
+# Compile of mymuxTB.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.mymuxTB
+# Loading work.mymux
+run -all
+# ** Note: $stop    : C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/MUXNAND/mymuxTB.v(7)
+#    Time: 50 ns  Iteration: 0  Instance: /mymuxTB
+# Break in Module mymuxTB at C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/MUXNAND/mymuxTB.v line 7
+restart -f
+# Compile of mymux.v was successful.
+# Compile of mymuxTB.v was successful.
+# 2 compiles, 0 failed with no errors.
+run -all
+# ** Note: $stop    : C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/MUXNAND/mymuxTB.v(7)
+#    Time: 50 ns  Iteration: 0  Instance: /mymuxTB
+# Break in Module mymuxTB at C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/MUXNAND/mymuxTB.v line 7
+run -all
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.mymuxTB
+# Loading work.mymux
+run -all
+# ** Note: $stop    : C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/MUXNAND/mymuxTB.v(7)
+#    Time: 50 ns  Iteration: 0  Instance: /mymuxTB
+# Break in Module mymuxTB at C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/MUXNAND/mymuxTB.v line 7
+# End time: 00:57:37 on Mar 05,2021, Elapsed time: 2:01:44
+# Errors: 0, Warnings: 1

@@ -1,0 +1,15 @@
+C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/NAND/mynandTB.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/NAND/mynandTB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mynandTB
+
+Top level modules:
+	mynandTB
+
+} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/NAND/mynand.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Examples/NAND/mynand.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mynand
+
+Top level modules:
+	mynand
+
+} {} {}}
