@@ -1,5 +1,5 @@
 `timescale 1ns/1ns
-module ThreeInputsNand(input a,b,c,d,output w);
+module FourInputsNand(input a,b,c,d,output w);
 	wire g,p,z;
 	supply1 Vdd;
 	supply0 Gnd;

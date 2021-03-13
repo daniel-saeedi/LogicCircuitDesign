@@ -6,11 +6,13 @@ module MyNandTB();
 	wire ww;
 	MyNAND CUT1(aa,bb,ww);
 	initial begin
-	#10 aa = 0;bb = 0;
-	#12 aa = 1;bb = 0;
-	#12 aa = 0;bb = 1;
-	#12 aa = 1;bb = 1;
-	#20
+	#10 aa = 1;bb = 1;
+	#25 aa = 1;bb = 0;
+	#25 aa = 1;bb = 1;
+	#25 aa = 0;bb = 0;
+	#25 aa = 1;bb = 1;
+	#25 aa = 0;bb = 1;
+	#25
 	repeat(15) #15 aa = ~aa; bb = ~bb;
 	#30 $stop;
 	end

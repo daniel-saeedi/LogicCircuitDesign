@@ -1,7 +1,6 @@
 `timescale 1ns/1ns
 module MyMUX2(
-	input s0,s1, // The selectors
-	a,b,c,d,      // Data Inputs
+	input s0,s1,a,b,c,d,
 	output y
 );
 	wire s0_not,s1_not,g,z;

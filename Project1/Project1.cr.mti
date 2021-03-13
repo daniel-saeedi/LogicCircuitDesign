@@ -5,19 +5,26 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	MUXComparison
 
+} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyMUX2-TB.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyMux-v2-TB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MyMuxV2TB
+
+Top level modules:
+	MyMuxV2TB
+
+} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyMUX-v2.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyMUX-v2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MyMuxV2
+
+Top level modules:
+	MyMuxV2
+
 } {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyNandTB.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyNandTB.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module MyNandTB
 
 Top level modules:
 	MyNandTB
-
-} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyMUX2-TB.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyMUX2-TB.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module MyMux2TB
-
-Top level modules:
-	MyMux2TB
 
 } {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyTriStateBuffer.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyTriStateBuffer.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -26,13 +33,6 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	MyTriStateBuffer
 
-} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyTriStateTB.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyTriStateTB.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module MyTriStateTB
-
-Top level modules:
-	MyTriStateTB
-
 } {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/ThreeInputsNand.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/ThreeInputsNand.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module ThreeInputsNand
@@ -40,26 +40,47 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	ThreeInputsNand
 
-} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyInverter.v {1 {vlog -work work -stats=none {C:\Users\saeed\Desktop\LogicCircuitDesign\Project1\MyInverter.v}
+} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyTriStateTB.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyTriStateTB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MyTriStateTB
+
+Top level modules:
+	MyTriStateTB
+
+} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyInverter.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyInverter.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module MyInverter
 
 Top level modules:
 	MyInverter
 
-} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyNand.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyNand.v
+} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyNand.v {2 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyNand.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+** Warning: (vlog-6) -- Waiting for lock by "saeed@DESKTOP-52GGFBA, pid = 4464
+". Lockfile is "C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/work/_lock".
+-- Compiling module MyMux2TB
+
+Top level modules:
+	MyMux2TB
 -- Compiling module MyNAND
 
 Top level modules:
 	MyNAND
 
-} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/FourInputsNand.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/FourInputsNand.v
+} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyMux-v2-TB.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyMux-v2-TB.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module ThreeInputsNand
+-- Compiling module MyMuxV2TB
 
 Top level modules:
-	ThreeInputsNand
+	MyMuxV2TB
+
+} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/FourInputsNand.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/FourInputsNand.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FourInputsNand
+
+Top level modules:
+	FourInputsNand
 
 } {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyMUX.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyMUX.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
