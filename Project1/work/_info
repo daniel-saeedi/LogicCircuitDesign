@@ -10,338 +10,338 @@ z2
 cModel Technology
 dC:/Users/saeed/Desktop/LogicCircuitDesign/CA#1
 vFourInputsNand
-Z0 !s110 1615639397
+!s110 1615761579
 !i10b 1
 !s100 Gc<8J@?nLZz[B8k[KmF?X2
-Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
 I?cU`iVzAMk12ZD7^QU4Z03
-Z2 VDg1SIo80bB@j0V0VzS_@n1
-Z3 dC:/Users/saeed/Desktop/LogicCircuitDesign/Project1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/saeed/Desktop/LogicCircuitDesign/Project1
 w1615634022
 8C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/FourInputsNand.v
 FC:/Users/saeed/Desktop/LogicCircuitDesign/Project1/FourInputsNand.v
-!i122 444
-Z4 L0 2 13
-Z5 OV;L;2020.1;71
+!i122 503
+Z3 L0 2 13
+Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z6 !s108 1615639397.000000
+!s108 1615761579.000000
 !s107 C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/FourInputsNand.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/FourInputsNand.v|
 !i113 1
-Z7 o-work work
-Z8 tCvgOpt 0
+Z5 o-work work
+Z6 tCvgOpt 0
 n@four@inputs@nand
 vMUXComparison
-Z9 !s110 1615639398
+Z7 !s110 1615761583
 !i10b 1
 !s100 aXBPnPD6;C6ZoM>Sm7<kA1
-R1
+R0
 IbXMh8`bnQVa^45Tn7zdhi0
+R1
 R2
-R3
 w1615639285
 8C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MUXComparison.v
 FC:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MUXComparison.v
-!i122 451
+!i122 507
 L0 2 19
-R5
+R4
 r1
 !s85 0
 31
-Z10 !s108 1615639398.000000
+Z8 !s108 1615761583.000000
 !s107 C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MUXComparison.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MUXComparison.v|
 !i113 1
-R7
-R8
+R5
+R6
 n@m@u@x@comparison
 vMyInverter
-Z11 !s110 1615639396
+Z9 !s110 1615761565
 !i10b 1
 !s100 i:97o]z?OYNMK5MlEfRbA3
-R1
+R0
 I=?^h^iCTXB1@>]Hm9_T:90
+R1
 R2
-R3
 w1615444951
 8C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyInverter.v
 FC:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyInverter.v
-!i122 439
+!i122 498
 L0 2 6
-R5
+R4
 r1
 !s85 0
 31
-Z12 !s108 1615639396.000000
+Z10 !s108 1615761565.000000
 !s107 C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyInverter.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyInverter.v|
 !i113 1
-R7
-R8
+R5
+R6
 n@my@inverter
 vMyMUX
-R0
+!s110 1615761568
 !i10b 1
 !s100 e3KZeIb[miPm3lSBlG;X@0
-R1
+R0
 I`1Ri<mB]c2;6:cL6XWO9o0
+R1
 R2
-R3
 w1615627275
 8C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyMUX.v
 FC:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyMUX.v
-!i122 443
+!i122 502
+R3
 R4
-R5
 r1
 !s85 0
 31
-R6
+!s108 1615761568.000000
 !s107 C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyMUX.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyMUX.v|
 !i113 1
-R7
-R8
+R5
+R6
 n@my@m@u@x
 vMyMUX2
-R0
+Z11 !s110 1615761582
 !i10b 1
 !s100 HfP9c3X4_]2:G7WL=@]V=2
-R1
+R0
 IBfhJ6Jb43e`a9F9c]>@=_0
+R1
 R2
-R3
 w1615637795
 8C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyMUX2.v
 FC:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyMUX2.v
-!i122 446
-Z13 L0 2 16
-R5
+!i122 505
+Z12 L0 2 16
+R4
 r1
 !s85 0
 31
-R6
+Z13 !s108 1615761582.000000
 !s107 C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyMUX2.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyMUX2.v|
 !i113 1
-R7
-R8
+R5
+R6
 n@my@m@u@x2
 vMyMux2TB
-R9
+R7
 !i10b 1
-!s100 H1aLXbZQQ[ZmTIZD`hX^;3
+!s100 j^<?EMaaoOO5KSUYlOHc?0
+R0
+Ig?QDk4J:8Nn03H0=SVEN[0
 R1
-I:i=PU_nNRHJm6aJ0FXadh3
 R2
-R3
-w1615638233
+w1615757356
 8C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyMUX2-TB.v
 FC:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyMUX2-TB.v
-!i122 447
-R13
-R5
+!i122 506
+L0 2 17
+R4
 r1
 !s85 0
 31
-R6
+R13
 !s107 C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyMUX2-TB.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyMUX2-TB.v|
 !i113 1
-R7
-R8
+R5
+R6
 n@my@mux2@t@b
 vMyMuxTB
-R0
+R11
 !i10b 1
 !s100 KNEfC5Z@V_W0mLbD:?@RR1
-R1
+R0
 IR5d9gDNV^KeEHZGz2@;dT1
+R1
 R2
-R3
 w1615630477
 8C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyMUX-TB.v
 FC:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyMUX-TB.v
-!i122 445
-R13
-R5
+!i122 504
+R12
+R4
 r1
 !s85 0
 31
-R6
+R13
 !s107 C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyMUX-TB.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyMUX-TB.v|
 !i113 1
-R7
-R8
+R5
+R6
 n@my@mux@t@b
 vMyMuxV2
-R9
+R7
 !i10b 1
 !s100 >n;iLD9zfR]DQ6GLCb][R2
-R1
+R0
 I3lKLE:C:4dd3[=`gK>1G90
+R1
 R2
-R3
 w1615634179
 8C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyMUX-v2.v
 FC:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyMUX-v2.v
-!i122 452
+!i122 508
+R3
 R4
-R5
 r1
 !s85 0
 31
-R10
+R8
 !s107 C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyMUX-v2.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyMUX-v2.v|
 !i113 1
-R7
-R8
+R5
+R6
 n@my@mux@v2
 vMyMuxV2TB
-R9
+R7
 !i10b 1
 !s100 6>RaoO>?6DhF]M=[BJ;1f1
-R1
+R0
 ID;bnPjoe44i7S76X[PZFi3
+R1
 R2
-R3
 w1615634437
 8C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyMux-v2-TB.v
 FC:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyMux-v2-TB.v
-!i122 453
-R13
+!i122 509
+R12
+R4
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyMux-v2-TB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyMux-v2-TB.v|
+!i113 1
 R5
+R6
+n@my@mux@v2@t@b
+vMyNAND
+R9
+!i10b 1
+!s100 @LbzL;lX@4S:MaV8i?h280
+R0
+IjDeO4g?5k4OkaGV^dUj_n0
+R1
+R2
+w1615562800
+8C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyNand.v
+FC:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyNand.v
+!i122 496
+L0 2 9
+R4
 r1
 !s85 0
 31
 R10
-!s107 C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyMux-v2-TB.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyMux-v2-TB.v|
-!i113 1
-R7
-R8
-n@my@mux@v2@t@b
-vMyNAND
-R11
-!i10b 1
-!s100 @LbzL;lX@4S:MaV8i?h280
-R1
-IjDeO4g?5k4OkaGV^dUj_n0
-R2
-R3
-w1615562800
-8C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyNand.v
-FC:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyNand.v
-!i122 437
-L0 2 9
-R5
-r1
-!s85 0
-31
-!s108 1615639395.000000
 !s107 C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyNand.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyNand.v|
 !i113 1
-R7
-R8
+R5
+R6
 n@my@n@a@n@d
 vMyNandTB
-R11
+R9
 !i10b 1
 !s100 [OlidWBkX>]n2z4LS_aMO0
-R1
+R0
 I=b:ECS:mcO0CFhQRCK`Sn2
+R1
 R2
-R3
 w1615580350
 8C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyNandTB.v
 FC:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyNandTB.v
-!i122 438
+!i122 497
 L0 2 18
-R5
+R4
 r1
 !s85 0
 31
-R12
+R10
 !s107 C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyNandTB.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyNandTB.v|
 !i113 1
-R7
-R8
+R5
+R6
 n@my@nand@t@b
 vMyTriStateBuffer
-R0
+R9
 !i10b 1
 !s100 5PeFUmLcTACRY2Y7dYcHB2
-R1
+R0
 I9bA3HWk_^PU]bln^I4oAa1
+R1
 R2
-R3
 w1615454294
 8C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyTriStateBuffer.v
 FC:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyTriStateBuffer.v
-!i122 440
+!i122 499
 L0 2 10
-R5
+R4
 r1
 !s85 0
 31
-R12
+R10
 !s107 C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyTriStateBuffer.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyTriStateBuffer.v|
 !i113 1
-R7
-R8
+R5
+R6
 n@my@tri@state@buffer
 vMyTriStateTB
-R0
+R9
 !i10b 1
 !s100 HFTf[dn>Pjdm72CR1h7IO1
-R1
+R0
 IDNnJ`_SOP<2]HL3LOmL5?1
+R1
 R2
-R3
 w1615584130
 8C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyTriStateTB.v
 FC:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyTriStateTB.v
-!i122 441
+!i122 500
 L0 2 15
-R5
+R4
 r1
 !s85 0
 31
-R6
+R10
 !s107 C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyTriStateTB.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyTriStateTB.v|
 !i113 1
-R7
-R8
+R5
+R6
 n@my@tri@state@t@b
 vThreeInputsNand
-R0
+R9
 !i10b 1
 !s100 ML4M=90]Rlk867MdYM;lz2
-R1
+R0
 IA3k2:fdkjYXC??`PGWe@20
+R1
 R2
-R3
 w1615633826
 8C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/ThreeInputsNand.v
 FC:/Users/saeed/Desktop/LogicCircuitDesign/Project1/ThreeInputsNand.v
-!i122 442
+!i122 501
 L0 2 11
-R5
+R4
 r1
 !s85 0
 31
-R6
+R10
 !s107 C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/ThreeInputsNand.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/ThreeInputsNand.v|
 !i113 1
-R7
-R8
+R5
+R6
 n@three@inputs@nand

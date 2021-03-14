@@ -10,213 +10,9 @@
 # Compile of MyMUX2.v was successful.
 # Compile of MyMUX2-TB.v was successful.
 # Compile of MUXComparison.v was successful.
-# 12 compiles, 0 failed with no errors.
-# Compile of MyNand.v was successful.
-# Compile of MyNandTB.v was successful.
-# Compile of MyInverter.v was successful.
-# Compile of MyTriStateBuffer.v was successful.
-# Compile of MyTriStateTB.v was successful.
-# Compile of ThreeInputsNand.v was successful.
-# Compile of MyMUX.v was successful.
-# Compile of FourInputsNand.v was successful.
-# Compile of MyMUX-TB.v was successful.
-# Compile of MyMUX2.v was successful.
-# Compile of MyMUX2-TB.v was successful.
-# Compile of MUXComparison.v was successful.
-# 12 compiles, 0 failed with no errors.
-vsim -gui work.MyMuxTB
-# vsim -gui work.MyMuxTB 
-# Start time: 13:21:37 on Mar 13,2021
-# Loading work.MyMuxTB
-# Loading work.MyMUX
-add wave -position end  sim:/MyMuxTB/yy
-add wave -position end  sim:/MyMuxTB/ss0
-add wave -position end  sim:/MyMuxTB/ss1
-add wave -position end  sim:/MyMuxTB/aa
-add wave -position end  sim:/MyMuxTB/bb
-add wave -position end  sim:/MyMuxTB/cc
-add wave -position end  sim:/MyMuxTB/dd
-run -all
-# ** Note: $stop    : C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyMUX-TB.v(13)
-#    Time: 610 ns  Iteration: 0  Instance: /MyMuxTB
-# Break in Module MyMuxTB at C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyMUX-TB.v line 13
-# Compile of MyNand.v was successful.
-# Compile of MyNandTB.v was successful.
-# Compile of MyInverter.v was successful.
-# Compile of MyTriStateBuffer.v was successful.
-# Compile of MyTriStateTB.v was successful.
-# Compile of ThreeInputsNand.v was successful.
-# Compile of MyMUX.v was successful.
-# Compile of FourInputsNand.v was successful.
-# Compile of MyMUX-TB.v was successful.
-# Compile of MyMUX2.v was successful.
-# Compile of MyMUX2-TB.v was successful.
-# Compile of MUXComparison.v was successful.
-# 12 compiles, 0 failed with no errors.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.MyMuxTB
-# Loading work.MyMUX
-run -all
-# ** Note: $stop    : C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyMUX-TB.v(11)
-#    Time: 210 ns  Iteration: 0  Instance: /MyMuxTB
-# Break in Module MyMuxTB at C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyMUX-TB.v line 11
-# Compile of MyNand.v was successful.
-# Compile of MyNandTB.v was successful.
-# Compile of MyInverter.v was successful.
-# Compile of MyTriStateBuffer.v was successful.
-# Compile of MyTriStateTB.v was successful.
-# Compile of ThreeInputsNand.v was successful.
-# Compile of MyMUX.v was successful.
-# Compile of FourInputsNand.v was successful.
-# Compile of MyMUX-TB.v was successful.
-# Compile of MyMUX2.v was successful.
-# Compile of MyMUX2-TB.v was successful.
-# Compile of MUXComparison.v was successful.
-# 12 compiles, 0 failed with no errors.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.MyMuxTB
-# Loading work.MyMUX
-run -all
-# ** Note: $stop    : C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyMUX-TB.v(14)
-#    Time: 360 ns  Iteration: 0  Instance: /MyMuxTB
-# Break in Module MyMuxTB at C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyMUX-TB.v line 14
-# Compile of MyNand.v was successful.
-# Compile of MyNandTB.v was successful.
-# Compile of MyInverter.v was successful.
-# Compile of MyTriStateBuffer.v was successful.
-# Compile of MyTriStateTB.v was successful.
-# Compile of ThreeInputsNand.v was successful.
-# Compile of MyMUX.v was successful.
-# Compile of FourInputsNand.v was successful.
-# Compile of MyMUX-TB.v was successful.
-# Compile of MyMUX2.v was successful.
-run -all
-# Compile of MyMUX2-TB.v was successful.
-# Compile of MUXComparison.v was successful.
-# 12 compiles, 0 failed with no errors.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.MyMuxTB
-# Loading work.MyMUX
-run -all
-# ** Note: $stop    : C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyMUX-TB.v(15)
-#    Time: 410 ns  Iteration: 0  Instance: /MyMuxTB
-# Break in Module MyMuxTB at C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyMUX-TB.v line 15
-quit -sim
-# End time: 14:34:40 on Mar 13,2021, Elapsed time: 1:13:03
-# Errors: 0, Warnings: 1
-# Compile of MyNand.v was successful.
-# Compile of MyNandTB.v was successful.
-# Compile of MyInverter.v was successful.
-# Compile of MyTriStateBuffer.v was successful.
-# Compile of MyTriStateTB.v was successful.
-# Compile of ThreeInputsNand.v was successful.
-# Compile of MyMUX.v was successful.
-# Compile of FourInputsNand.v was successful.
-# Compile of MyMUX-TB.v was successful.
-# Compile of MyMUX2.v was successful.
-# Compile of MyMUX2-TB.v was successful.
-# Compile of MUXComparison.v was successful.
 # Compile of MyMUX-v2.v was successful.
 # Compile of MyMux-v2-TB.v was successful.
 # 14 compiles, 0 failed with no errors.
-# Load canceled
-# Compile of MyNand.v was successful.
-# Compile of MyNandTB.v was successful.
-# Compile of MyInverter.v was successful.
-# Compile of MyTriStateBuffer.v was successful.
-# Compile of MyTriStateTB.v was successful.
-# Compile of ThreeInputsNand.v was successful.
-# Compile of MyMUX.v was successful.
-# Compile of FourInputsNand.v was successful.
-# Compile of MyMUX-TB.v was successful.
-# Compile of MyMUX2.v was successful.
-# Compile of MyMUX2-TB.v was successful.
-# Compile of MUXComparison.v was successful.
-# Compile of MyMUX-v2.v was successful.
-# Compile of MyMux-v2-TB.v was successful.
-# 14 compiles, 0 failed with no errors.
-# Compile of MyNand.v was successful.
-# Compile of MyNandTB.v was successful.
-# Compile of MyInverter.v was successful.
-# Compile of MyTriStateBuffer.v was successful.
-# Compile of MyTriStateTB.v was successful.
-# Compile of ThreeInputsNand.v was successful.
-# Compile of MyMUX.v was successful.
-# Compile of FourInputsNand.v was successful.
-# Compile of MyMUX-TB.v was successful.
-# Compile of MyMUX2.v was successful.
-# Compile of MyMUX2-TB.v was successful.
-# Compile of MUXComparison.v was successful.
-# Compile of MyMUX-v2.v was successful.
-# Compile of MyMux-v2-TB.v was successful.
-# 14 compiles, 0 failed with no errors.
-restart -f
-# No Design Loaded!
-vsim -gui work.MyMuxV2TB
-# vsim -gui work.MyMuxV2TB 
-# Start time: 14:49:56 on Mar 13,2021
-# Loading work.MyMuxV2TB
-# Loading work.MyMUX
-add wave -position end  sim:/MyMuxV2TB/yy
-add wave -position end  sim:/MyMuxV2TB/ss0
-add wave -position end  sim:/MyMuxV2TB/ss1
-add wave -position end  sim:/MyMuxV2TB/aa
-add wave -position end  sim:/MyMuxV2TB/bb
-add wave -position end  sim:/MyMuxV2TB/cc
-add wave -position end  sim:/MyMuxV2TB/dd
-run -all
-# ** Note: $stop    : C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyMux-v2-TB.v(15)
-#    Time: 410 ns  Iteration: 0  Instance: /MyMuxV2TB
-# Break in Module MyMuxV2TB at C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyMux-v2-TB.v line 15
-# Compile of MyNand.v was successful.
-# Compile of MyNandTB.v was successful.
-# Compile of MyInverter.v was successful.
-# Compile of MyTriStateBuffer.v was successful.
-# Compile of MyTriStateTB.v was successful.
-# Compile of ThreeInputsNand.v was successful.
-# Compile of MyMUX.v was successful.
-# Compile of FourInputsNand.v was successful.
-# Compile of MyMUX-TB.v was successful.
-# Compile of MyMUX2.v was successful.
-# Compile of MyMUX2-TB.v was successful.
-# Compile of MUXComparison.v was successful.
-# Compile of MyMUX-v2.v was successful.
-# Compile of MyMux-v2-TB.v was successful.
-# 14 compiles, 0 failed with no errors.
-# Compile of MyNand.v was successful.
-# Compile of MyNandTB.v was successful.
-# Compile of MyInverter.v was successful.
-# Compile of MyTriStateBuffer.v was successful.
-# Compile of MyTriStateTB.v was successful.
-# Compile of ThreeInputsNand.v was successful.
-# Compile of MyMUX.v was successful.
-# Compile of FourInputsNand.v was successful.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.MyMuxV2TB
-# Loading work.MyMuxV2
-# Loading work.MyNAND
-# Loading work.ThreeInputsNand
-# Loading work.FourInputsNand
-# Compile of MyMUX-TB.v was successful.
-# Compile of MyMUX2.v was successful.
-# Compile of MyMUX2-TB.v was successful.
-# Compile of MUXComparison.v was successful.
-run -all
-# ** Note: $stop    : C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyMux-v2-TB.v(15)
-#    Time: 410 ns  Iteration: 0  Instance: /MyMuxV2TB
-# Break in Module MyMuxV2TB at C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyMux-v2-TB.v line 15
-# Compile of MyMUX-v2.v was successful.
-# Compile of MyMux-v2-TB.v was successful.
-# 14 compiles, 0 failed with no errors.
-quit -sun
-# unknown switch: -sun
-quit -sim
-# End time: 15:55:11 on Mar 13,2021, Elapsed time: 1:05:15
-# Errors: 0, Warnings: 3
 # Compile of MyNand.v was successful.
 # Compile of MyNandTB.v was successful.
 # Compile of MyInverter.v was successful.
@@ -234,7 +30,7 @@ quit -sim
 # 14 compiles, 0 failed with no errors.
 vsim -gui work.MyMux2TB
 # vsim -gui work.MyMux2TB 
-# Start time: 15:55:34 on Mar 13,2021
+# Start time: 00:10:01 on Mar 15,2021
 # Loading work.MyMux2TB
 # Loading work.MyMUX2
 # Loading work.MyInverter
@@ -250,15 +46,14 @@ add wave -position end  sim:/MyMux2TB/aa
 add wave -position end  sim:/MyMux2TB/bb
 add wave -position end  sim:/MyMux2TB/cc
 add wave -position end  sim:/MyMux2TB/dd
+run -all
+run -all
 restart -f
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
 run -all
 # ** Note: $stop    : C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyMUX2-TB.v(15)
 #    Time: 410 ns  Iteration: 0  Instance: /MyMux2TB
 # Break in Module MyMux2TB at C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyMUX2-TB.v line 15
-quit -sim
-# End time: 16:13:06 on Mar 13,2021, Elapsed time: 0:17:32
-# Errors: 0, Warnings: 1
 # Compile of MyNand.v was successful.
 # Compile of MyNandTB.v was successful.
 # Compile of MyInverter.v was successful.
@@ -269,13 +64,58 @@ quit -sim
 # Compile of FourInputsNand.v was successful.
 # Compile of MyMUX-TB.v was successful.
 # Compile of MyMUX2.v was successful.
-# Compile of MyNand.v was successful with warnings.
+# Compile of MyMUX2-TB.v was successful.
+# Compile of MUXComparison.v was successful.
+# Compile of MyMUX-v2.v was successful.
+# Compile of MyMux-v2-TB.v was successful.
+# 14 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.MyMux2TB
+# Loading work.MyMUX2
+# Loading work.MyInverter
+# Loading work.MyTriStateBuffer
+run -all
+# ** Note: $stop    : C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyMUX2-TB.v(16)
+#    Time: 60 ns  Iteration: 0  Instance: /MyMux2TB
+# Break in Module MyMux2TB at C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyMUX2-TB.v line 16
+quit -sim
+# End time: 01:07:12 on Mar 15,2021, Elapsed time: 0:57:11
+# Errors: 0, Warnings: 1
+vsim -gui work.MyMuxTB
+# vsim -gui work.MyMuxTB 
+# Start time: 01:07:29 on Mar 15,2021
+# Loading work.MyMuxTB
+# Loading work.MyMUX
+add wave -position end  sim:/MyMuxTB/yy
+add wave -position end  sim:/MyMuxTB/ss0
+add wave -position end  sim:/MyMuxTB/ss1
+add wave -position end  sim:/MyMuxTB/aa
+add wave -position end  sim:/MyMuxTB/bb
+add wave -position end  sim:/MyMuxTB/cc
+add wave -position end  sim:/MyMuxTB/dd
+run -all
+# ** Note: $stop    : C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyMUX-TB.v(15)
+#    Time: 410 ns  Iteration: 0  Instance: /MyMuxTB
+# Break in Module MyMuxTB at C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyMUX-TB.v line 15
+quit -sim
+# End time: 02:09:21 on Mar 15,2021, Elapsed time: 1:01:52
+# Errors: 0, Warnings: 1
+# Compile of MyNand.v was successful.
 # Compile of MyNandTB.v was successful.
 # Compile of MyInverter.v was successful.
 # Compile of MyTriStateBuffer.v was successful.
 # Compile of MyTriStateTB.v was successful.
 # Compile of ThreeInputsNand.v was successful.
 # Compile of MyMUX.v was successful.
+vsim -gui work.MyMuxV2TB
+# vsim -gui work.MyMuxV2TB 
+# Start time: 02:09:39 on Mar 15,2021
+# Loading work.MyMuxV2TB
+# Loading work.MyMuxV2
+# Loading work.MyNAND
+# Loading work.ThreeInputsNand
+# Loading work.FourInputsNand
 # Compile of FourInputsNand.v was successful.
 # Compile of MyMUX-TB.v was successful.
 # Compile of MyMUX2.v was successful.
@@ -284,33 +124,14 @@ quit -sim
 # Compile of MyMUX-v2.v was successful.
 # Compile of MyMux-v2-TB.v was successful.
 # 14 compiles, 0 failed with no errors.
-# Compile of MyMUX2-TB.v was successful.
-# Compile of MUXComparison.v was successful.
-# Compile of MyMUX-v2.v was successful.
-# Compile of MyMux-v2-TB.v was successful.
-# 14 compiles, 0 failed with no errors.
-vsim -gui work.MUXComparison
-# vsim -gui work.MUXComparison 
-# Start time: 16:13:35 on Mar 13,2021
-# Loading work.MUXComparison
-# Loading work.MyMuxV2
-# Loading work.MyNAND
-# Loading work.ThreeInputsNand
-# Loading work.FourInputsNand
-# Loading work.MyMUX2
-# Loading work.MyInverter
-# Loading work.MyTriStateBuffer
-add wave -position end  sim:/MUXComparison/mux1_output
-add wave -position end  sim:/MUXComparison/mux2_output
-add wave -position end  sim:/MUXComparison/ss0
-add wave -position end  sim:/MUXComparison/ss1
-add wave -position end  sim:/MUXComparison/aa
-add wave -position end  sim:/MUXComparison/bb
-add wave -position end  sim:/MUXComparison/cc
-add wave -position end  sim:/MUXComparison/dd
+add wave -position end  sim:/MyMuxV2TB/yy
+add wave -position end  sim:/MyMuxV2TB/ss0
+add wave -position end  sim:/MyMuxV2TB/ss1
+add wave -position end  sim:/MyMuxV2TB/aa
+add wave -position end  sim:/MyMuxV2TB/bb
+add wave -position end  sim:/MyMuxV2TB/cc
+add wave -position end  sim:/MyMuxV2TB/dd
 run -all
-# ** Note: $stop    : C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MUXComparison.v(18)
-#    Time: 410 ns  Iteration: 0  Instance: /MUXComparison
-# Break in Module MUXComparison at C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MUXComparison.v line 18
-# End time: 16:45:13 on Mar 13,2021, Elapsed time: 0:31:38
-# Errors: 0, Warnings: 3
+# ** Note: $stop    : C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyMux-v2-TB.v(15)
+#    Time: 410 ns  Iteration: 0  Instance: /MyMuxV2TB
+# Break in Module MyMuxV2TB at C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyMux-v2-TB.v line 15
