@@ -1,0 +1,131 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vMyComparator
+Z0 !s110 1616165608
+!i10b 1
+!s100 Z5EAnV=FaM2oemaFhGaIE3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IYaNfRoWUak:EaSYKn0j1o3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/saeed/Desktop/LogicCircuitDesign/Homeworks
+w1616177612
+8C:/Users/saeed/Desktop/LogicCircuitDesign/Homeworks/HW1/Q6-MyComparator.v
+FC:/Users/saeed/Desktop/LogicCircuitDesign/Homeworks/HW1/Q6-MyComparator.v
+!i122 25
+L0 1 11
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1616165608.000000
+!s107 C:/Users/saeed/Desktop/LogicCircuitDesign/Homeworks/HW1/Q6-MyComparator.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/saeed/Desktop/LogicCircuitDesign/Homeworks/HW1/Q6-MyComparator.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+n@my@comparator
+vMyInverter
+R0
+!i10b 1
+!s100 R[DF2`A9J:Y1dh?mFfVZY2
+R1
+IFedz0N`c2LF91ZQnY:MSR3
+R2
+R3
+Z8 w1616177584
+Z9 8C:/Users/saeed/Desktop/LogicCircuitDesign/Homeworks/HW1/Q2-MyXOR.v
+Z10 FC:/Users/saeed/Desktop/LogicCircuitDesign/Homeworks/HW1/Q2-MyXOR.v
+!i122 22
+Z11 L0 1 6
+R4
+r1
+!s85 0
+31
+R5
+Z12 !s107 C:/Users/saeed/Desktop/LogicCircuitDesign/Homeworks/HW1/Q2-MyXOR.v|
+Z13 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/saeed/Desktop/LogicCircuitDesign/Homeworks/HW1/Q2-MyXOR.v|
+!i113 1
+R6
+R7
+n@my@inverter
+vMyNOR
+R0
+!i10b 1
+!s100 ?nzKi73T:IO<omOSThbl63
+R1
+IGVE?1bC<[g]LVWHG;YUWP1
+R2
+R3
+w1616165573
+8C:\Users\saeed\Desktop\LogicCircuitDesign\Homeworks\HW1\Q4-MyNOR.v
+FC:\Users\saeed\Desktop\LogicCircuitDesign\Homeworks\HW1\Q4-MyNOR.v
+!i122 24
+L0 1 13
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:\Users\saeed\Desktop\LogicCircuitDesign\Homeworks\HW1\Q4-MyNOR.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\saeed\Desktop\LogicCircuitDesign\Homeworks\HW1\Q4-MyNOR.v|
+!i113 1
+R6
+R7
+n@my@n@o@r
+vMyXOR
+R0
+!i10b 1
+!s100 3FGSn@Aa2S58[neVZUC__1
+R1
+IJ[M>cLUEE;;1zcCcRdR4:1
+R2
+R3
+R8
+R9
+R10
+!i122 22
+L0 8 15
+R4
+r1
+!s85 0
+31
+R5
+R12
+R13
+!i113 1
+R6
+R7
+n@my@x@o@r
+vMyXOR2
+R0
+!i10b 1
+!s100 Y4a8Tia;?GhjD[za7k02Z2
+R1
+IdQAKnACz2[44?9@=LQmR90
+R2
+R3
+w1616176730
+8C:/Users/saeed/Desktop/LogicCircuitDesign/Homeworks/HW1/Q3.v
+FC:/Users/saeed/Desktop/LogicCircuitDesign/Homeworks/HW1/Q3.v
+!i122 23
+R11
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/saeed/Desktop/LogicCircuitDesign/Homeworks/HW1/Q3.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/saeed/Desktop/LogicCircuitDesign/Homeworks/HW1/Q3.v|
+!i113 1
+R6
+R7
+n@my@x@o@r2

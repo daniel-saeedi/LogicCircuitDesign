@@ -1,4 +1,11 @@
-C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MUXComparison.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MUXComparison.v
+C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyMUX2-TB.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyMUX2-TB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MyMux2TB
+
+Top level modules:
+	MyMux2TB
+
+} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MUXComparison.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MUXComparison.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module MUXComparison
 

@@ -1,0 +1,145 @@
+# Compile of MyNand.v was successful.
+# Compile of MyNandTB.v was successful.
+# Compile of MyInverter.v was successful.
+# Compile of MyTriStateBuffer.v was successful.
+# Compile of MyTriStateTB.v was successful.
+# Compile of ThreeInputsNand.v was successful.
+# Compile of MyMUX.v was successful.
+# Compile of FourInputsNand.v was successful.
+# Compile of MyMUX-TB.v was successful.
+# Compile of MyMUX2.v was successful.
+# Compile of MyMUX2-TB.v was successful.
+# Compile of MUXComparison.v was successful.
+# Compile of MyMUX-v2.v was successful.
+# Compile of MyMux-v2-TB.v was successful.
+# 14 compiles, 0 failed with no errors.
+# Compile of MyNand.v was successful.
+# Compile of MyNandTB.v was successful.
+# Compile of MyInverter.v was successful.
+# Compile of MyTriStateBuffer.v was successful.
+# Compile of MyTriStateTB.v was successful.
+# Compile of ThreeInputsNand.v was successful.
+# Compile of MyMUX.v was successful.
+# Compile of FourInputsNand.v was successful.
+# Compile of MyMUX-TB.v was successful.
+# Compile of MyMUX2.v was successful.
+# Compile of MyMUX2-TB.v was successful.
+# Compile of MUXComparison.v was successful.
+# Compile of MyMUX-v2.v was successful.
+# Compile of MyMux-v2-TB.v was successful.
+# 14 compiles, 0 failed with no errors.
+vsim -gui work.MyNandTB
+# vsim -gui work.MyNandTB 
+# Start time: 08:53:51 on Mar 16,2021
+# Loading work.MyNandTB
+# Loading work.MyNAND
+add wave -position end  sim:/MyNandTB/aa
+add wave -position end  sim:/MyNandTB/bb
+add wave -position end  sim:/MyNandTB/ww
+run -all
+# ** Note: $stop    : C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyNandTB.v(17)
+#    Time: 415 ns  Iteration: 0  Instance: /MyNandTB
+# Break in Module MyNandTB at C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyNandTB.v line 17
+quit -sim
+# End time: 08:55:20 on Mar 16,2021, Elapsed time: 0:01:29
+# Errors: 0, Warnings: 3
+vsim -gui work.MyTriStateTB
+# vsim -gui work.MyTriStateTB 
+# Start time: 08:55:30 on Mar 16,2021
+# Loading work.MyTriStateTB
+# Loading work.MyTriStateBuffer
+# Loading work.MyInverter
+add wave -position end  sim:/MyTriStateTB/yy
+add wave -position end  sim:/MyTriStateTB/aa
+add wave -position end  sim:/MyTriStateTB/enable
+run -all
+# ** Note: $stop    : C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyTriStateTB.v(14)
+#    Time: 369 ns  Iteration: 0  Instance: /MyTriStateTB
+# Break in Module MyTriStateTB at C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyTriStateTB.v line 14
+quit -sim
+# End time: 08:58:51 on Mar 16,2021, Elapsed time: 0:03:21
+# Errors: 0, Warnings: 1
+vsim -gui work.MyMuxV2TB
+# vsim -gui work.MyMuxV2TB 
+# Start time: 08:59:23 on Mar 16,2021
+# Loading work.MyMuxV2TB
+# Loading work.MyMuxV2
+# Loading work.MyNAND
+# Loading work.ThreeInputsNand
+# Loading work.FourInputsNand
+add wave -position end  sim:/MyMuxV2TB/yy
+add wave -position end  sim:/MyMuxV2TB/ss0
+add wave -position end  sim:/MyMuxV2TB/ss1
+add wave -position end  sim:/MyMuxV2TB/aa
+add wave -position end  sim:/MyMuxV2TB/bb
+add wave -position end  sim:/MyMuxV2TB/cc
+add wave -position end  sim:/MyMuxV2TB/dd
+run -all
+# ** Note: $stop    : C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyMux-v2-TB.v(15)
+#    Time: 410 ns  Iteration: 0  Instance: /MyMuxV2TB
+# Break in Module MyMuxV2TB at C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyMux-v2-TB.v line 15
+quit -sim
+# Load canceled
+# End time: 09:03:33 on Mar 16,2021, Elapsed time: 0:04:10
+# Errors: 0, Warnings: 1
+# Compile of MyNand.v was successful.
+# Compile of MyNandTB.v was successful.
+# Compile of MyInverter.v was successful.
+# Compile of MyTriStateBuffer.v was successful.
+# Compile of MyTriStateTB.v was successful.
+# Compile of ThreeInputsNand.v was successful.
+# Compile of MyMUX.v was successful.
+# Compile of FourInputsNand.v was successful.
+# Compile of MyMUX-TB.v was successful.
+# Compile of MyMUX2.v was successful.
+# Compile of MyMUX2-TB.v was successful.
+# Compile of MUXComparison.v was successful.
+# Compile of MyMUX-v2.v was successful.
+# Compile of MyMux-v2-TB.v was successful.
+# 14 compiles, 0 failed with no errors.
+vsim -gui work.MyMux2TB
+# vsim -gui work.MyMux2TB 
+# Start time: 09:03:54 on Mar 16,2021
+# Loading work.MyMux2TB
+# Loading work.MyMUX2
+# Loading work.MyInverter
+# Loading work.MyTriStateBuffer
+add wave -position end  sim:/MyMux2TB/yy
+add wave -position end  sim:/MyMux2TB/ss0
+add wave -position end  sim:/MyMux2TB/ss1
+add wave -position end  sim:/MyMux2TB/aa
+add wave -position end  sim:/MyMux2TB/bb
+add wave -position end  sim:/MyMux2TB/cc
+add wave -position end  sim:/MyMux2TB/dd
+run -all
+# ** Note: $stop    : C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyMUX2-TB.v(15)
+#    Time: 410 ns  Iteration: 0  Instance: /MyMux2TB
+# Break in Module MyMux2TB at C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MyMUX2-TB.v line 15
+quit -sim
+# End time: 09:04:46 on Mar 16,2021, Elapsed time: 0:00:52
+# Errors: 0, Warnings: 2
+vsim -gui work.MUXComparison
+# vsim -gui work.MUXComparison 
+# Start time: 09:05:11 on Mar 16,2021
+# Loading work.MUXComparison
+# Loading work.MyMuxV2
+# Loading work.MyNAND
+# Loading work.ThreeInputsNand
+# Loading work.FourInputsNand
+# Loading work.MyMUX2
+# Loading work.MyInverter
+# Loading work.MyTriStateBuffer
+add wave -position end  sim:/MUXComparison/mux1_output
+add wave -position end  sim:/MUXComparison/mux2_output
+add wave -position end  sim:/MUXComparison/ss0
+add wave -position end  sim:/MUXComparison/ss1
+add wave -position end  sim:/MUXComparison/aa
+add wave -position end  sim:/MUXComparison/bb
+add wave -position end  sim:/MUXComparison/cc
+add wave -position end  sim:/MUXComparison/dd
+run -all
+# ** Note: $stop    : C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MUXComparison.v(18)
+#    Time: 410 ns  Iteration: 0  Instance: /MUXComparison
+# Break in Module MUXComparison at C:/Users/saeed/Desktop/LogicCircuitDesign/Project1/MUXComparison.v line 18
+# End time: 09:10:44 on Mar 16,2021, Elapsed time: 0:05:33
+# Errors: 0, Warnings: 1
