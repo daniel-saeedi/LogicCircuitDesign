@@ -1,0 +1,85 @@
+C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project2/SixteenMux.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project2/SixteenMux.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module SixteenMux
+
+Top level modules:
+	SixteenMux
+
+} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project2/problem1.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project2/problem1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MUX4to1
+
+Top level modules:
+	MUX4to1
+
+} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project2/MUX-CA1.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project2/MUX-CA1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MyMux
+
+Top level modules:
+	MyMux
+
+} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project2/FourBitBarrelShifterTB.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project2/FourBitBarrelShifterTB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FourBitBarrelShifterTB
+
+Top level modules:
+	FourBitBarrelShifterTB
+
+} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project2/SixteenMuxTB.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project2/SixteenMuxTB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module SixteenMuxTB
+
+Top level modules:
+	SixteenMuxTB
+
+} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project2/ThreeInputNAND.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project2/ThreeInputNAND.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ThreeInputsNand
+
+Top level modules:
+	ThreeInputsNand
+
+} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project2/problem1-2.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project2/problem1-2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MUX4to1V2
+
+Top level modules:
+	MUX4to1V2
+
+} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project2/TwoInputNAND.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project2/TwoInputNAND.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module TwoInputNAND
+
+Top level modules:
+	TwoInputNAND
+
+} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project2/FourInputNAND.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project2/FourInputNAND.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FourInputsNand
+
+Top level modules:
+	FourInputsNand
+
+} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project2/TB-MUX.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project2/TB-MUX.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MuxTB
+
+Top level modules:
+	MuxTB
+
+} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project2/SixteenBarrelShifter.v {1 {vlog -work work -stats=none {C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project2\SixteenBarrelShifter.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module SixteenBarrelShifter
+
+Top level modules:
+	SixteenBarrelShifter
+
+} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project2/FourBitBarrelShifter.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project2/FourBitBarrelShifter.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FourBitBarrelShifter
+
+Top level modules:
+	FourBitBarrelShifter
+
+} {} {}}

@@ -5,14 +5,7 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	MyComparator
 
-} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Homeworks/HW1/Q4-MyNOR.v {0 {vlog -work work -stats=none {C:\Users\saeed\Desktop\LogicCircuitDesign\Homeworks\HW1\Q4-MyNOR.v}
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module MyNOR
--- Compiling module MyNOR2
-** Error: C:\Users\saeed\Desktop\LogicCircuitDesign\Homeworks\HW1\Q4-MyNOR.v(16): (vlog-2730) Undefined variable: 'c'.
-** Error: C:\Users\saeed\Desktop\LogicCircuitDesign\Homeworks\HW1\Q4-MyNOR.v(16): (vlog-2730) Undefined variable: 'd'.
-
-} {5.0 7.0} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Homeworks/HW1/Q2-MyXOR.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Homeworks/HW1/Q2-MyXOR.v
+} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Homeworks/HW1/Q2-MyXOR.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Homeworks/HW1/Q2-MyXOR.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module MyInverter
 -- Compiling module MyXOR
@@ -20,7 +13,14 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	MyXOR
 
-} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Homeworks/HW1/Q3.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Homeworks/HW1/Q3.v
+} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Homeworks/HW1/Q4-MyNOR.v {0 {vlog -work work -stats=none {C:\Users\saeed\Desktop\LogicCircuitDesign\Homeworks\HW1\Q4-MyNOR.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MyNOR
+-- Compiling module MyNOR2
+** Error: C:\Users\saeed\Desktop\LogicCircuitDesign\Homeworks\HW1\Q4-MyNOR.v(16): (vlog-2730) Undefined variable: 'c'.
+** Error: C:\Users\saeed\Desktop\LogicCircuitDesign\Homeworks\HW1\Q4-MyNOR.v(16): (vlog-2730) Undefined variable: 'd'.
+
+} {5.0 7.0} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Homeworks/HW1/Q3.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Homeworks/HW1/Q3.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module MyXOR2
 
