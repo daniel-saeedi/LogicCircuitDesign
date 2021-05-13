@@ -12,6 +12,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	MUX4to1
 
+} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project2/SixteenBarrelShifterTB.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project2/SixteenBarrelShifterTB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module SixteenBShifterTB
+
+Top level modules:
+	SixteenBShifterTB
+
 } {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project2/MUX-CA1.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project2/MUX-CA1.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module MyMux
@@ -68,7 +75,7 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	MuxTB
 
-} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project2/SixteenBarrelShifter.v {1 {vlog -work work -stats=none {C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project2\SixteenBarrelShifter.v}
+} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project2/SixteenBarrelShifter.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project2/SixteenBarrelShifter.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module SixteenBarrelShifter
 

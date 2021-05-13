@@ -1,0 +1,367 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vFA_structural
+Z0 !s110 1620930103
+!i10b 1
+!s100 I4OF2A;P<Z7A4<ZOSW;oK0
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IDlOQG0WAJF@SEWHAfECoe2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project3
+w1620909410
+8C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project3\FA_structural.v
+FC:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project3\FA_structural.v
+!i122 264
+L0 2 8
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1620930103.000000
+!s107 C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project3\FA_structural.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project3\FA_structural.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+n@f@a_structural
+vFA_structural_TB
+R0
+!i10b 1
+!s100 @2`IIF97]=Hml^J5h[bHQ3
+R1
+ITVUQ[^^@0KD28FmjK4kV_2
+R2
+R3
+w1620909502
+8C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project3\FA_structural_TB.v
+FC:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project3\FA_structural_TB.v
+!i122 265
+L0 2 17
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project3\FA_structural_TB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project3\FA_structural_TB.v|
+!i113 1
+R6
+R7
+n@f@a_structural_@t@b
+vMyNAND
+!s110 1620903479
+!i10b 1
+!s100 @LbzL;lX@4S:MaV8i?h280
+R1
+I33jJM>`P^=?WUjUJcoDoI0
+R2
+R3
+w1620899262
+8C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project3\MyNand.v
+FC:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project3\MyNand.v
+!i122 0
+L0 2 9
+R4
+r1
+!s85 0
+31
+!s108 1620903478.000000
+!s107 C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project3\MyNand.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project3\MyNand.v|
+!i113 1
+R6
+R7
+n@my@n@a@n@d
+voc
+Z8 !s110 1620918903
+!i10b 1
+!s100 B2OTbia<21zk81el00:Va1
+R1
+I5<_j]BWV<<LO9`Y`0LK>83
+R2
+R3
+w1620917647
+Z9 8C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project3\OneCounter.v
+Z10 FC:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project3\OneCounter.v
+!i122 108
+L0 2 16
+R4
+r1
+!s85 0
+31
+Z11 !s108 1620918903.000000
+Z12 !s107 C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project3\OneCounter.v|
+Z13 !s90 -reportprogress|300|-work|work|-stats=none|C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project3\OneCounter.v|
+!i113 1
+R6
+R7
+vones_counter_behavioural
+Z14 !s110 1620930104
+!i10b 1
+!s100 Z];KlKm32FF1Ca]aS7?[X0
+R1
+IYQ0BzTWEoLf[Y;oSa`Z1W3
+R2
+R3
+w1620926387
+8C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project3\OnesCounter2.v
+FC:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project3\OnesCounter2.v
+!i122 272
+Z15 L0 2 12
+R4
+r1
+!s85 0
+31
+Z16 !s108 1620930104.000000
+!s107 C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project3\OnesCounter2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project3\OnesCounter2.v|
+!i113 1
+R6
+R7
+vones_counter_behavioural_synth
+Z17 !s110 1620930105
+!i10b 1
+!s100 N<HM_Vi21o:L6V[E1FBIM2
+R1
+IBSQXoz1C6ROD3G:=eS2OO3
+R2
+R3
+w1620928395
+8C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project3\ones_counter_synth.v
+FC:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project3\ones_counter_synth.v
+!i122 274
+L0 4 62696
+R4
+r1
+!s85 0
+31
+R16
+!s107 C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project3\ones_counter_synth.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project3\ones_counter_synth.v|
+!i113 1
+R6
+R7
+vones_counter_behavioural_synth_TB
+R17
+!i10b 1
+!s100 W=gbF_0D:NT@?XGX3^M>:3
+R1
+IW?F=dhfz_2`9QG^76M_mW1
+R2
+R3
+w1620928543
+8C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project3\one_counter_synth_TB.v
+FC:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project3\one_counter_synth_TB.v
+!i122 275
+Z18 L0 2 19
+R4
+r1
+!s85 0
+31
+!s108 1620930105.000000
+!s107 C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project3\one_counter_synth_TB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project3\one_counter_synth_TB.v|
+!i113 1
+R6
+R7
+nones_counter_behavioural_synth_@t@b
+vones_counter_behavioural_TB
+R14
+!i10b 1
+!s100 kfIUodb>hUCm]m?1g[1^i2
+R1
+I15@cWP^D^1g0RgnFdclF<1
+R2
+R3
+w1620923705
+8C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project3\ones_counter_behavioural_TB.v
+FC:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project3\ones_counter_behavioural_TB.v
+!i122 273
+R18
+R4
+r1
+!s85 0
+31
+R16
+!s107 C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project3\ones_counter_behavioural_TB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project3\ones_counter_behavioural_TB.v|
+!i113 1
+R6
+R7
+nones_counter_behavioural_@t@b
+vOnesCounter
+R14
+!i10b 1
+!s100 jiahUFiQzo<7obYz?M4mG0
+R1
+IN6THc>:<cE>GUaY[`n@cL3
+R2
+R3
+w1620928880
+R9
+R10
+!i122 270
+L0 2 18
+R4
+r1
+!s85 0
+31
+R16
+R12
+R13
+!i113 1
+R6
+R7
+n@ones@counter
+vOnesCounterTB
+R14
+!i10b 1
+!s100 4]LAjejL2Wm][JFzG>mA<2
+R1
+ITlFfcflfz<Z<1>4]^K2LK1
+R2
+R3
+w1620920792
+Z19 8C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project3\OneCounterTB.v
+Z20 FC:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project3\OneCounterTB.v
+!i122 271
+R18
+R4
+r1
+!s85 0
+31
+R16
+Z21 !s107 C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project3\OneCounterTB.v|
+Z22 !s90 -reportprogress|300|-work|work|-stats=none|C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project3\OneCounterTB.v|
+!i113 1
+R6
+R7
+n@ones@counter@t@b
+vRCA_behavioural
+R14
+!i10b 1
+!s100 zfWYVH`Tl^db<j;meJ_Ub0
+R1
+IcY_QZRUDB@7j<_lb2D9M71
+R2
+R3
+w1620914892
+8C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project3\RCA_behavioural.v
+FC:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project3\RCA_behavioural.v
+!i122 268
+L0 2 4
+R4
+r1
+!s85 0
+31
+R16
+!s107 C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project3\RCA_behavioural.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project3\RCA_behavioural.v|
+!i113 1
+R6
+R7
+n@r@c@a_behavioural
+vRCA_behavioural_TB
+R14
+!i10b 1
+!s100 lZZ9T=8T:3i1:LnmBch2N0
+R1
+IlH061n3]4BgF[;d3DjhXU1
+R2
+R3
+w1620914536
+8C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project3\RCA_behavioural_TB.v
+FC:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project3\RCA_behavioural_TB.v
+!i122 269
+L0 3 18
+R4
+r1
+!s85 0
+31
+R16
+!s107 C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project3\RCA_behavioural_TB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project3\RCA_behavioural_TB.v|
+!i113 1
+R6
+R7
+n@r@c@a_behavioural_@t@b
+vRCA_structural
+R14
+!i10b 1
+!s100 Q[oK82kGTZ0>GQ0cJABdB3
+R1
+IZ<loPjE^[gkRMz=?i1Qcf0
+R2
+R3
+w1620911923
+8C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project3\RCA_structural.v
+FC:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project3\RCA_structural.v
+!i122 266
+R15
+R4
+r1
+!s85 0
+31
+R16
+!s107 C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project3\RCA_structural.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project3\RCA_structural.v|
+!i113 1
+R6
+R7
+n@r@c@a_structural
+vRCA_structural_TB
+R14
+!i10b 1
+!s100 LD3[cRkkekZM0EH>QFVLM0
+R1
+INLZViIk??A3d;l7_<fgQ10
+R2
+R3
+w1620911774
+8C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project3\RCA_structural_TB.v
+FC:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project3\RCA_structural_TB.v
+!i122 267
+L0 3 17
+R4
+r1
+!s85 0
+31
+R16
+!s107 C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project3\RCA_structural_TB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project3\RCA_structural_TB.v|
+!i113 1
+R6
+R7
+n@r@c@a_structural_@t@b
+vtb_oc
+R8
+!i10b 1
+!s100 J27@;i86NWfle6Q1>^WYM1
+R1
+IAmoeD5iWgXci=KYSX@P=O2
+R2
+R3
+w1620918843
+R19
+R20
+!i122 109
+L0 2 11
+R4
+r1
+!s85 0
+31
+R11
+R21
+R22
+!i113 1
+R6
+R7
