@@ -1,0 +1,106 @@
+C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project4/Shift_Register2_TB.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project4/Shift_Register2_TB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module shift_register2_TB
+
+Top level modules:
+	shift_register2_TB
+
+} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project4/D_Latch_TB.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project4/D_Latch_TB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module D_Latch_TB
+
+Top level modules:
+	D_Latch_TB
+
+} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project4/DFF_MS_TB.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project4/DFF_MS_TB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DFF_MS_TB
+
+Top level modules:
+	DFF_MS_TB
+
+} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project4/D_Latch.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project4/D_Latch.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module D_Latch
+
+Top level modules:
+	D_Latch
+
+} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project4/DFF_MS.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project4/DFF_MS.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DFF_MS
+
+Top level modules:
+	DFF_MS
+
+} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project4/SR_Gated.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project4/SR_Gated.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module SR_Latch
+
+Top level modules:
+	SR_Latch
+
+} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project4/Shift_Register3_TB.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project4/Shift_Register3_TB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module shift_register3_TB
+
+Top level modules:
+	shift_register3_TB
+
+} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project4/SR_Gate_TB.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project4/SR_Gate_TB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module SR_Gated_TB
+
+Top level modules:
+	SR_Gated_TB
+
+} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project4/Shift_Register.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project4/Shift_Register.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module shift_register
+
+Top level modules:
+	shift_register
+
+} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project4/LFSR_TB.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project4/LFSR_TB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module LFSR_TB
+
+Top level modules:
+	LFSR_TB
+
+} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project4/DFF_MS_RST_TB.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project4/DFF_MS_RST_TB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DFF_MS_RST_TB
+
+Top level modules:
+	DFF_MS_RST_TB
+
+} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project4/Shift_Register2.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project4/Shift_Register2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module shift_register2
+
+Top level modules:
+	shift_register2
+
+} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project4/Shift_Register3.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project4/Shift_Register3.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module shift_register3
+
+Top level modules:
+	shift_register3
+
+} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project4/Shift_Register_TB.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project4/Shift_Register_TB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module shift_register_TB
+
+Top level modules:
+	shift_register_TB
+
+} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project4/DFF_MS_RST.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project4/DFF_MS_RST.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DFF_MS_RST
+
+Top level modules:
+	DFF_MS_RST
+
+} {} {}}

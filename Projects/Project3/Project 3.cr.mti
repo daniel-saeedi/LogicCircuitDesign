@@ -1,81 +1,81 @@
-C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project3/RCA_behavioural_TB.v {1 {vlog -work work -stats=none {C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project3\RCA_behavioural_TB.v}
+C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project3/RCA_behavioural_TB.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project3/RCA_behavioural_TB.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module RCA_behavioural_TB
 
 Top level modules:
 	RCA_behavioural_TB
 
-} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project3/FA_structural.v {1 {vlog -work work -stats=none {C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project3\FA_structural.v}
+} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project3/FA_structural.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project3/FA_structural.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module FA_structural
 
 Top level modules:
 	FA_structural
 
-} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project3/ones_counter_synth.v {1 {vlog -work work -stats=none {C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project3\ones_counter_synth.v}
+} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project3/ones_counter_synth.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project3/ones_counter_synth.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module ones_counter_behavioural_synth
 
 Top level modules:
 	ones_counter_behavioural_synth
 
-} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project3/OneCounter.v {1 {vlog -work work -stats=none {C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project3\OneCounter.v}
+} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project3/OneCounter.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project3/OneCounter.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module OnesCounter
 
 Top level modules:
 	OnesCounter
 
-} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project3/ones_counter_behavioural_TB.v {1 {vlog -work work -stats=none {C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project3\ones_counter_behavioural_TB.v}
+} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project3/ones_counter_behavioural_TB.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project3/ones_counter_behavioural_TB.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module ones_counter_behavioural_TB
 
 Top level modules:
 	ones_counter_behavioural_TB
 
-} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project3/one_counter_synth_TB.v {1 {vlog -work work -stats=none {C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project3\one_counter_synth_TB.v}
+} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project3/one_counter_synth_TB.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project3/one_counter_synth_TB.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module ones_counter_behavioural_synth_TB
 
 Top level modules:
 	ones_counter_behavioural_synth_TB
 
-} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project3/RCA_structural_TB.v {1 {vlog -work work -stats=none {C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project3\RCA_structural_TB.v}
+} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project3/RCA_structural_TB.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project3/RCA_structural_TB.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module RCA_structural_TB
 
 Top level modules:
 	RCA_structural_TB
 
-} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project3/FA_structural_TB.v {1 {vlog -work work -stats=none {C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project3\FA_structural_TB.v}
+} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project3/FA_structural_TB.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project3/FA_structural_TB.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module FA_structural_TB
 
 Top level modules:
 	FA_structural_TB
 
-} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project3/RCA_structural.v {1 {vlog -work work -stats=none {C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project3\RCA_structural.v}
+} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project3/RCA_structural.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project3/RCA_structural.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module RCA_structural
 
 Top level modules:
 	RCA_structural
 
-} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project3/RCA_behavioural.v {1 {vlog -work work -stats=none {C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project3\RCA_behavioural.v}
+} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project3/RCA_behavioural.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project3/RCA_behavioural.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module RCA_behavioural
 
 Top level modules:
 	RCA_behavioural
 
-} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project3/OnesCounter2.v {1 {vlog -work work -stats=none {C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project3\OnesCounter2.v}
+} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project3/OnesCounter2.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project3/OnesCounter2.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module ones_counter_behavioural
 
 Top level modules:
 	ones_counter_behavioural
 
-} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project3/OneCounterTB.v {1 {vlog -work work -stats=none {C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project3\OneCounterTB.v}
+} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project3/OneCounterTB.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project3/OneCounterTB.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module OnesCounterTB
 
