@@ -1,0 +1,30 @@
+# Compile of mealy10010.v was successful.
+# Compile of mealy10010.vo was successful.
+# Compile of mealyTB.v was successful.
+# 3 compiles, 0 failed with no errors.
+# Load canceled
+vsim -gui -L altera_ver -L cycloneiv_ver -sdftyp /CUT2=C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealy10010_v.sdo work.mealy10010TB
+# vsim -gui -L altera_ver -L cycloneiv_ver -sdftyp "/CUT2=C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealy10010_v.sdo" work.mealy10010TB 
+# Start time: 19:42:22 on Jun 11,2021
+# Loading work.mealy10010TB
+# Loading work.mealy10010_pre
+# Loading work.mealy10010
+# Loading work.hard_block
+# Loading cycloneiv_ver.cycloneiv_io_obuf
+# Loading cycloneiv_ver.cycloneiv_io_ibuf
+# Loading cycloneiv_ver.cycloneiv_clkctrl
+# Loading cycloneiv_ver.cycloneiv_mux41
+# Loading cycloneiv_ver.cycloneiv_ena_reg
+# Loading cycloneiv_ver.cycloneiv_lcell_comb
+# Loading altera_ver.dffeas
+# ** Error (suppressible): (vsim-SDF-3894) mealy10010_v.sdo: Compiled SDF file was not found.
+# Loading instances from C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealy10010_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealy10010_v.sdo
+# ** Error: (vsim-7) Failed to open SDF file "mealy10010_v.sdo" in read mode.
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-SDF-3445) Failed to parse SDF file "mealy10010_v.sdo".
+#    Time: 0 ps  Iteration: 0  Instance: /mealy10010TB File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealyTB.v
+# Error loading design
+# End time: 19:42:23 on Jun 11,2021, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 5

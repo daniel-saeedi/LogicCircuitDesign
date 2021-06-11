@@ -1,0 +1,23 @@
+C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealy10010.vo {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealy10010.vo
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mealy10010
+-- Compiling module hard_block
+
+Top level modules:
+	mealy10010
+
+} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealyTB.v {1 {vlog -work work -stats=none {C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project5-2\mealy\simulation\modelsim\mealyTB.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mealy10010TB
+
+Top level modules:
+	mealy10010TB
+
+} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealy10010.v {1 {vlog -work work -stats=none {C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project5-2\mealy\simulation\modelsim\mealy10010.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mealy10010_pre
+
+Top level modules:
+	mealy10010_pre
+
+} {} {}}

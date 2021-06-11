@@ -61,7 +61,14 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	shift_register
 
-} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project4/LFSR_TB.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project4/LFSR_TB.v
+} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project4/Shift_Register2.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project4/Shift_Register2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module shift_register2
+
+Top level modules:
+	shift_register2
+
+} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project4/LFSR_TB.v {1 {vlog -work work -stats=none {C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project4\LFSR_TB.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module LFSR_TB
 
@@ -74,13 +81,6 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 
 Top level modules:
 	DFF_MS_RST_TB
-
-} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project4/Shift_Register2.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project4/Shift_Register2.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module shift_register2
-
-Top level modules:
-	shift_register2
 
 } {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project4/Shift_Register3.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project4/Shift_Register3.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -102,5 +102,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 
 Top level modules:
 	DFF_MS_RST
+
+} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project4/LFSR.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project4/LFSR.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module LFSR
+
+Top level modules:
+	LFSR
 
 } {} {}}

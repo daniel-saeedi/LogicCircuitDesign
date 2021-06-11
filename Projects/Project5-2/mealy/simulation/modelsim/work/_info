@@ -1,0 +1,127 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/simulation/modelsim
+vhard_block
+Z0 !s110 1623421502
+!i10b 1
+!s100 bM5a_lFnjce3giGll`^Je3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I@eS8]^UPEM]cgdNiM=kbk3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim
+Z4 w1623420374
+Z5 8C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealy10010.vo
+Z6 FC:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealy10010.vo
+!i122 56
+L0 320 34
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1623421502.000000
+Z9 !s107 C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealy10010.vo|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealy10010.vo|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+vmealy10010
+R0
+!i10b 1
+!s100 T56CRnVN6S:h=Vli>L=Pk0
+R1
+Ib:mE<F>7_ON?YQE>8@;Xe0
+R2
+R3
+R4
+R5
+R6
+!i122 56
+Z13 L0 32 287
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vmealy10010_pre
+R0
+!i10b 1
+!s100 c<f:zY_>boFXeS^E7PTUV0
+R1
+IlUG2aG_`O`:CZ`k_^=cc@0
+R2
+R3
+w1623418435
+8C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project5-2\mealy\simulation\modelsim\mealy10010.v
+FC:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project5-2\mealy\simulation\modelsim\mealy10010.v
+!i122 57
+L0 2 27
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project5-2\mealy\simulation\modelsim\mealy10010.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project5-2\mealy\simulation\modelsim\mealy10010.v|
+!i113 1
+R11
+R12
+vmealy10010_synth
+!s110 1623417138
+!i10b 1
+!s100 7n=?B@XFN53FeCPkW@X5L1
+R1
+I2>R4FMEaMF?Ai=jFJDCH`1
+R2
+R3
+w1623417123
+R5
+R6
+!i122 16
+R13
+R7
+r1
+!s85 0
+31
+!s108 1623417138.000000
+R9
+R10
+!i113 1
+R11
+R12
+vmealy10010TB
+R0
+!i10b 1
+!s100 3<YLaWBMZiBHlNe0c5APh3
+R1
+ICCifJP;^kAS[_>V8oilh93
+R2
+R3
+w1623421488
+8C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project5-2\mealy\simulation\modelsim\mealyTB.v
+FC:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project5-2\mealy\simulation\modelsim\mealyTB.v
+!i122 58
+L0 2 21
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project5-2\mealy\simulation\modelsim\mealyTB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project5-2\mealy\simulation\modelsim\mealyTB.v|
+!i113 1
+R11
+R12
+nmealy10010@t@b

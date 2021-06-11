@@ -1,0 +1,221 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vcompareTB
+Z0 !s110 1623423818
+!i10b 1
+!s100 eHMV9e`FB9`Zii>YF4We01
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IRB8`YVB?ARIkjGRQ>:_Ob1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare_mealy_moore
+w1623423813
+Z4 8C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare_mealy_moore/mealyTB.v
+Z5 FC:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare_mealy_moore/mealyTB.v
+!i122 39
+Z6 L0 2 21
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1623423818.000000
+Z9 !s107 C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare_mealy_moore/mealyTB.v|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare_mealy_moore/mealyTB.v|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+ncompare@t@b
+vhard_block
+R0
+!i10b 1
+!s100 e]EF5hPCYhAUm0U5=i:033
+R1
+Ik]Ch[gK_2n[Bf4Ee9m9XZ3
+R2
+R3
+Z13 w1623422503
+Z14 8C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare_mealy_moore/moore10010.vo
+Z15 FC:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare_mealy_moore/moore10010.vo
+!i122 41
+L0 340 34
+R7
+r1
+!s85 0
+31
+R8
+Z16 !s107 C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare_mealy_moore/moore10010.vo|
+Z17 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare_mealy_moore/moore10010.vo|
+!i113 1
+R11
+R12
+vmealy10010
+R0
+!i10b 1
+!s100 T56CRnVN6S:h=Vli>L=Pk0
+R1
+IhgTa@8n<A:a]I]5KHn7CF2
+R2
+R3
+w1623420374
+8C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare_mealy_moore/mealy10010.vo
+FC:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare_mealy_moore/mealy10010.vo
+!i122 38
+L0 32 287
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare_mealy_moore/mealy10010.vo|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare_mealy_moore/mealy10010.vo|
+!i113 1
+R11
+R12
+vmealy10010_pre
+R0
+!i10b 1
+!s100 c<f:zY_>boFXeS^E7PTUV0
+R1
+Ij7mcjgVcNPh@o5VLKQKGi2
+R2
+R3
+w1623418435
+8C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare_mealy_moore/mealy10010.v
+FC:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare_mealy_moore/mealy10010.v
+!i122 37
+Z18 L0 2 27
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare_mealy_moore/mealy10010.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare_mealy_moore/mealy10010.v|
+!i113 1
+R11
+R12
+vmealy10010TB
+!s110 1623423759
+!i10b 1
+!s100 RmTAdnz[8]4zzkPJJmm0V3
+R1
+I383_?VKf6E9Z?ZS7XfAWE2
+R2
+R3
+w1623423752
+R4
+R5
+!i122 32
+R6
+R7
+r1
+!s85 0
+31
+!s108 1623423759.000000
+R9
+R10
+!i113 1
+R11
+R12
+nmealy10010@t@b
+vmoore10010
+R0
+!i10b 1
+!s100 M;5mZF9do6K2KS1fVhTTa3
+R1
+IKEmJUj>HMK55kk]JmW[GZ0
+R2
+R3
+R13
+R14
+R15
+!i122 41
+L0 32 307
+R7
+r1
+!s85 0
+31
+R8
+R16
+R17
+!i113 1
+R11
+R12
+vmoore10010_pre
+R0
+!i10b 1
+!s100 A1<OHF:L;nOB:]Yjd9:Am3
+R1
+ID`l[UY:bW>XHjBN;]eE6I3
+R2
+R3
+w1623422408
+8C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare_mealy_moore/moore10010.v
+FC:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare_mealy_moore/moore10010.v
+!i122 40
+R18
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare_mealy_moore/moore10010.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare_mealy_moore/moore10010.v|
+!i113 1
+R11
+R12
+vmoore10010_synth
+!s110 1623407857
+!i10b 1
+!s100 C@<gBZ>ZF[8KRAN;]@V;c2
+R1
+INEXnnlg8G;nH:f6;Kb<8l2
+R2
+dC:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/simulation/modelsim
+w1623407680
+8C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/simulation/modelsim/moore10010.vo
+FC:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/simulation/modelsim/moore10010.vo
+!i122 6
+L0 32 303
+R7
+r1
+!s85 0
+31
+!s108 1623407857.000000
+!s107 C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/simulation/modelsim/moore10010.vo|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/simulation/modelsim/moore10010.vo|
+!i113 1
+R11
+R12
+vmoore10010TB
+R0
+!i10b 1
+!s100 b>YlF:8glZ`20nf8aHi832
+R1
+IfQ@XSRemPZ4c_DZjohOF_1
+R2
+R3
+w1623423725
+8C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare_mealy_moore/compareTB.v
+FC:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare_mealy_moore/compareTB.v
+!i122 43
+R6
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare_mealy_moore/compareTB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare_mealy_moore/compareTB.v|
+!i113 1
+R11
+R12
+nmoore10010@t@b

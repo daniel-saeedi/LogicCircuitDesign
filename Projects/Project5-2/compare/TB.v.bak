@@ -1,0 +1,21 @@
+`include "../simulation/modelsim/"
+`timescale 1 ns/ 1 ps
+module TB();
+	reg cclk = 0,jj,rrst;
+	wire w;
+	moore10010 CUT1(cclk,rrst,jj,w);
+	always #50 cclk = ~cclk;
+	initial begin
+		#1 rrst = 1;
+		#10 rrst = 0;
+		#20 jj = 1;
+		#30 jj = 0;
+		#200 jj = 1;
+		#100 jj = 0;
+		#110 jj = 0;
+		#110 jj = 1;
+		#110 jj = 0;
+
+		#200 $stop;
+	end
+endmodule

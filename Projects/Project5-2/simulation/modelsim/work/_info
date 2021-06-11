@@ -1,0 +1,150 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vhard_block
+Z0 !s110 1623422724
+!i10b 1
+!s100 e]EF5hPCYhAUm0U5=i:033
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I@bEL[UeAi2;ocoONQH2VT2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/simulation/modelsim
+Z4 w1623422503
+Z5 8C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/simulation/modelsim/moore10010.vo
+Z6 FC:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/simulation/modelsim/moore10010.vo
+!i122 21
+L0 340 34
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1623422724.000000
+Z9 !s107 C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/simulation/modelsim/moore10010.vo|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/simulation/modelsim/moore10010.vo|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+vmealy10010
+!s110 1623422331
+!i10b 1
+!s100 ai[jEU7DiYiQRBL>=ZRa=2
+R1
+I^GbVbf@I>aUQHzL5`7RzB1
+R2
+R3
+w1623422324
+R5
+R6
+!i122 17
+L0 32 287
+R7
+r1
+!s85 0
+31
+!s108 1623422331.000000
+R9
+R10
+!i113 1
+R11
+R12
+vmoore10010
+R0
+!i10b 1
+!s100 M;5mZF9do6K2KS1fVhTTa3
+R1
+IIIol1IB2M_0oLZhBg:jR:3
+R2
+R3
+R4
+R5
+R6
+!i122 21
+L0 32 307
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vmoore10010_pre
+R0
+!i10b 1
+!s100 A1<OHF:L;nOB:]Yjd9:Am3
+R1
+I[cH[GgFDK>AQzd^JVQ_7Y2
+R2
+R3
+w1623422408
+8C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project5-2\simulation\modelsim\moore10010.v
+FC:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project5-2\simulation\modelsim\moore10010.v
+!i122 23
+L0 2 27
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project5-2\simulation\modelsim\moore10010.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project5-2\simulation\modelsim\moore10010.v|
+!i113 1
+R11
+R12
+vmoore10010_synth
+!s110 1623407857
+!i10b 1
+!s100 C@<gBZ>ZF[8KRAN;]@V;c2
+R1
+INEXnnlg8G;nH:f6;Kb<8l2
+R2
+R3
+w1623407680
+R5
+R6
+!i122 6
+L0 32 303
+R7
+r1
+!s85 0
+31
+!s108 1623407857.000000
+R9
+R10
+!i113 1
+R11
+R12
+vmoore10010TB
+R0
+!i10b 1
+!s100 O84dlA[WMR:iTW3BR259;2
+R1
+I48<P6??ZO9Q>Sbo<M9[aU0
+R2
+R3
+w1623422681
+8C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project5-2\simulation\modelsim\TB.v
+FC:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project5-2\simulation\modelsim\TB.v
+!i122 22
+L0 2 21
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project5-2\simulation\modelsim\TB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project5-2\simulation\modelsim\TB.v|
+!i113 1
+R11
+R12
+nmoore10010@t@b

@@ -8,6 +8,6 @@ module LFSR_TB();
 	initial begin
 		#50 rrs = 1;
 		#50 rrs = 0;
-		#2000 $stop;
+		#50000 $stop;
 	end
 endmodule

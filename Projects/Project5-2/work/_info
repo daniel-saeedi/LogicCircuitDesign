@@ -1,0 +1,105 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim
+vmealy10010
+Z0 !s110 1623413845
+!i10b 1
+!s100 NMCW`:6zBWoAUz:VT68Q13
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IBj3Xfl=PaB5aLeG6DbiGJ3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2
+w1623413582
+8C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy10010.v
+FC:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy10010.v
+!i122 54
+Z4 L0 2 27
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1623413845.000000
+!s107 C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy10010.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy10010.v|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+vmealy10010TB
+R0
+!i10b 1
+!s100 JBCReP]DU8_6SB^i2fOFA2
+R1
+I:V[^OPZd:>gU_jeU@Ve>73
+R2
+R3
+w1623413832
+8C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project5-2\mealyTB.v
+FC:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project5-2\mealyTB.v
+!i122 57
+L0 2 19
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project5-2\mealyTB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project5-2\mealyTB.v|
+!i113 1
+R7
+R8
+nmealy10010@t@b
+vmoore10010
+R0
+!i10b 1
+!s100 YFHReh4D;^6afAckfi7kc2
+R1
+IM4WP]ZD@6DY_S5=?=WUh;3
+R2
+R3
+w1623401672
+8C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/moore10010.v
+FC:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/moore10010.v
+!i122 55
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/moore10010.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/moore10010.v|
+!i113 1
+R7
+R8
+vmoore10010TB
+R0
+!i10b 1
+!s100 Omo18Q<8mF>n0`2C1G2K80
+R1
+IR5f2Y1`8D[3R<9NE<[9h52
+R2
+R3
+w1623361571
+8C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mooreTB.v
+FC:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mooreTB.v
+!i122 56
+L0 2 20
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mooreTB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mooreTB.v|
+!i113 1
+R7
+R8
+nmoore10010@t@b
