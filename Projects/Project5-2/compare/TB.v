@@ -8,7 +8,8 @@ module TB();
 	moore10010 CUT1(cclk,rrst,jj,moore);
 	mealy10010 CUT2(cclk,rrst,jj,mealy);
 	reg diff;
-	assign diff = moore ^ mealy;
+	
+	assign #1 diff = moore ^ mealy;
 
 	always #50 cclk = ~cclk;
 	initial begin

@@ -1,67 +1,8 @@
-# Compile of TB.v was successful.
-vsim -gui work.TB -L cycloneiv_ver -L altera_ver -sdftyp /CUT1=C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/simulation/modelsim/moore10010_v.sdo
-# vsim -gui work.TB -L cycloneiv_ver -L altera_ver -sdftyp "/CUT1=C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/simulation/modelsim/moore10010_v.sdo" 
-# Start time: 21:15:02 on Jun 11,2021
-# Loading work.TB
-# Loading work.moore10010
-# Loading work.hard_block
-# Loading cycloneiv_ver.cycloneiv_io_obuf
-# Loading cycloneiv_ver.cycloneiv_io_ibuf
-# Loading cycloneiv_ver.cycloneiv_clkctrl
-# Loading cycloneiv_ver.cycloneiv_mux41
-# Loading cycloneiv_ver.cycloneiv_ena_reg
-# Loading cycloneiv_ver.cycloneiv_lcell_comb
-# Loading altera_ver.dffeas
-# ** Error (suppressible): (vsim-SDF-3894) moore10010_v.sdo: Compiled SDF file was not found.
-# Loading instances from C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/simulation/modelsim/moore10010_v.sdo
-# Loading altera_ver.PRIM_GDFF_LOW
-# Loading timing data from C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/simulation/modelsim/moore10010_v.sdo
-# ** Error: (vsim-7) Failed to open SDF file "moore10010_v.sdo" in read mode.
-# No such file or directory. (errno = ENOENT)
-# ** Error: (vsim-SDF-3445) Failed to parse SDF file "moore10010_v.sdo".
-#    Time: 0 ps  Iteration: 0  Instance: /TB File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/TB.v
-# Error loading design
-# End time: 21:15:04 on Jun 11,2021, Elapsed time: 0:00:02
-# Errors: 3, Warnings: 5
-vsim -gui -L cycloneiv_ver -L altera_ver -sdftyp /CUT1=C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/moore10010_v.sdo work.TB
-# vsim -gui -L cycloneiv_ver -L altera_ver -sdftyp "/CUT1=C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/moore10010_v.sdo" work.TB 
-# Start time: 21:16:37 on Jun 11,2021
-# Loading work.TB
-# Loading work.moore10010
-# Loading work.hard_block
-# Loading cycloneiv_ver.cycloneiv_io_obuf
-# Loading cycloneiv_ver.cycloneiv_io_ibuf
-# Loading cycloneiv_ver.cycloneiv_clkctrl
-# Loading cycloneiv_ver.cycloneiv_mux41
-# Loading cycloneiv_ver.cycloneiv_ena_reg
-# Loading cycloneiv_ver.cycloneiv_lcell_comb
-# Loading altera_ver.dffeas
-# SDF 2020.1 Compiler 2020.02 Feb 28 2020
-# 
-# Loading instances from C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/moore10010_v.sdo
-# Loading instances from moore10010_v.sdo
-# Loading altera_ver.PRIM_GDFF_LOW
-# Loading timing data from C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/moore10010_v.sdo
-# Loading timing data from moore10010_v.sdo
-# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
-#    Time: 0 ps  Iteration: 0  Instance: /TB File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/TB.v
-add wave -position end  sim:/TB/cclk
-add wave -position end  sim:/TB/jj
-add wave -position end  sim:/TB/rrst
-add wave -position end  sim:/TB/w
-run -all
-# ** Note: $stop    : C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/TB.v(19)
-#    Time: 891 ns  Iteration: 0  Instance: /TB
-# Break in Module TB at C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/TB.v line 19
 # Compile of TB.v was successful with warnings.
 # Load canceled
-quit -sim
-# End time: 21:26:00 on Jun 11,2021, Elapsed time: 0:09:23
-# Errors: 0, Warnings: 2
-# Compile of TB.v was successful with warnings.
-vsim -gui -L cycloneiv_ver -L altera_ver -sdftyp /CUT1=C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/moore10010_v.sdo -sdftyp /CUT2=C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/mealy10010_v.sdo work.TB
-# vsim -gui -L cycloneiv_ver -L altera_ver -sdftyp "/CUT1=C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/moore10010_v.sdo" -sdftyp "/CUT2=C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/mealy10010_v.sdo" work.TB 
-# Start time: 21:26:55 on Jun 11,2021
+vsim -gui work.TB -L cycloneiv_ver -L altera_ver -sdftyp /CUT1=C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/moore10010_v.sdo -sdftyp /CUT2=C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/mealy10010_v.sdo
+# vsim -gui work.TB -L cycloneiv_ver -L altera_ver -sdftyp "/CUT1=C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/moore10010_v.sdo" -sdftyp "/CUT2=C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/mealy10010_v.sdo" 
+# Start time: 16:28:14 on Jun 13,2021
 # Loading work.TB
 # Loading work.moore10010
 # Loading work.hard_block
@@ -73,8 +14,6 @@ vsim -gui -L cycloneiv_ver -L altera_ver -sdftyp /CUT1=C:/Users/saeed/Desktop/Lo
 # Loading cycloneiv_ver.cycloneiv_lcell_comb
 # Loading altera_ver.dffeas
 # Loading work.mealy10010
-# SDF 2020.1 Compiler 2020.02 Feb 28 2020
-# 
 # Loading instances from C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/moore10010_v.sdo
 # Loading instances from C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/mealy10010_v.sdo
 # Loading instances from moore10010_v.sdo
@@ -91,19 +30,13 @@ add wave -position end  sim:/TB/jj
 add wave -position end  sim:/TB/rrst
 add wave -position end  sim:/TB/moore
 add wave -position end  sim:/TB/mealy
+add wave -position end  sim:/TB/diff
 run -all
-# ** Note: $stop    : C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/TB.v(22)
+# ** Note: $stop    : C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/TB.v(25)
 #    Time: 891 ns  Iteration: 0  Instance: /TB
-# Break in Module TB at C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/TB.v line 22
-# Compile of TB.v was successful with warnings.
+# Break in Module TB at C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/TB.v line 25
 restart -f
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.TB
-# Loading work.moore10010
-# Loading work.hard_block
-# Loading work.mealy10010
-# SDF 2020.1 Compiler 2020.02 Feb 28 2020
-# 
 # Loading instances from C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/moore10010_v.sdo
 # Loading instances from C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/mealy10010_v.sdo
 # Loading instances from moore10010_v.sdo
@@ -114,8 +47,69 @@ restart -f
 # Loading timing data from mealy10010_v.sdo
 # ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
 #    Time: 0 ps  Iteration: 0  Instance: /TB File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/TB.v
-add wave -position end  sim:/TB/diff
+# Compile of TB.v was successful with warnings.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB
+# Loading work.moore10010
+# Loading work.hard_block
+# Loading work.mealy10010
+# Loading instances from C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/moore10010_v.sdo
+# Loading instances from C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/mealy10010_v.sdo
+# Loading instances from moore10010_v.sdo
+# Loading instances from mealy10010_v.sdo
+# Loading timing data from C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/moore10010_v.sdo
+# Loading timing data from C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/mealy10010_v.sdo
+# Loading timing data from moore10010_v.sdo
+# Loading timing data from mealy10010_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /TB File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/TB.v
+run
 run -all
 # ** Note: $stop    : C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/TB.v(25)
 #    Time: 891 ns  Iteration: 0  Instance: /TB
 # Break in Module TB at C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/TB.v line 25
+# Compile of TB.v was successful with warnings.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB
+# Loading work.moore10010
+# Loading work.hard_block
+# Loading work.mealy10010
+# Loading instances from C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/moore10010_v.sdo
+# Loading instances from C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/mealy10010_v.sdo
+# Loading instances from moore10010_v.sdo
+# Loading instances from mealy10010_v.sdo
+# Loading timing data from C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/moore10010_v.sdo
+# Loading timing data from C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/mealy10010_v.sdo
+# Loading timing data from moore10010_v.sdo
+# Loading timing data from mealy10010_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /TB File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/TB.v
+run -all
+# ** Note: $stop    : C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/TB.v(25)
+#    Time: 891 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/TB.v line 25
+# Compile of TB.v was successful with warnings.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB
+# Loading work.moore10010
+# Loading work.hard_block
+# Loading work.mealy10010
+# Loading instances from C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/moore10010_v.sdo
+# Loading instances from C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/mealy10010_v.sdo
+# Loading instances from moore10010_v.sdo
+# Loading instances from mealy10010_v.sdo
+# Loading timing data from C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/moore10010_v.sdo
+# Loading timing data from C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/mealy10010_v.sdo
+# Loading timing data from moore10010_v.sdo
+# Loading timing data from mealy10010_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /TB File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/TB.v
+run -all
+# ** Note: $stop    : C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/TB.v(25)
+#    Time: 891 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/TB.v line 25
+# End time: 16:46:42 on Jun 13,2021, Elapsed time: 0:18:28
+# Errors: 0, Warnings: 1
