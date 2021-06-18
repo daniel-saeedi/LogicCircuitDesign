@@ -4,7 +4,7 @@ module mealy10010TB();
 	// wire pre;
 	wire post;
 	// mealy10010_pre CUT1(cclk,rrst,jj,pre);
-	mealy10010 CUT2(cclk,rrst,jj,post);
+	mealy10010_pre CUT10(cclk,rrst,jj,post);
 	always #50 cclk = ~cclk;
 	initial begin
 		#1 rrst = 1;

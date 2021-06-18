@@ -1,1 +1,42 @@
+C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mooreTB.v {1 {vlog -work work -stats=none {C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project5-2\mooreTB.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module moore10010TB
 
+Top level modules:
+	moore10010TB
+
+} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/moore10010.v {1 {vlog -work work -stats=none {C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project5-2\moore10010.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module moore10010_pre
+
+Top level modules:
+	moore10010_pre
+
+} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/TB.v {2 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/TB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module moore10010
+-- Compiling module hard_block
+-- Compiling module mealy10010
+** Warning: ** while parsing file included at C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/TB.v(2)
+** at ../mealy/simulation/modelsim/mealy10010.vo(320): (vlog-2275) Existing module 'hard_block' will be overwritten.
+-- Compiling module hard_block
+-- Compiling module TB
+
+Top level modules:
+	TB
+
+} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealyTB.v {1 {vlog -work work -stats=none {C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project5-2\mealyTB.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mealy10010TB
+
+Top level modules:
+	mealy10010TB
+
+} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy10010.v {1 {vlog -work work -stats=none {C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project5-2\mealy10010.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mealy10010_pre
+
+Top level modules:
+	mealy10010_pre
+
+} {} {}}

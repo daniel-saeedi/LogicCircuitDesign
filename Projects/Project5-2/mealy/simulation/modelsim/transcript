@@ -1,461 +1,61 @@
-vsim -gui work.mealy10010TB -L altera_ver -L cycloneiv_ver -sdftyp /CUT2=C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealy10010_v.sdo
-# vsim -gui work.mealy10010TB -L altera_ver -L cycloneiv_ver -sdftyp "/CUT2=C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealy10010_v.sdo" 
-# Start time: 17:59:16 on Jun 11,2021
-# Loading work.mealy10010TB
-# Loading work.mealy10010
-# Loading work.hard_block
-# Loading cycloneiv_ver.cycloneiv_io_obuf
-# Loading cycloneiv_ver.cycloneiv_io_ibuf
-# Loading cycloneiv_ver.cycloneiv_clkctrl
-# Loading cycloneiv_ver.cycloneiv_mux41
-# Loading cycloneiv_ver.cycloneiv_ena_reg
-# Loading cycloneiv_ver.cycloneiv_lcell_comb
-# Loading altera_ver.dffeas
-# Loading instances from C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealy10010_v.sdo
-# Loading instances from mealy10010_v.sdo
-# Loading altera_ver.PRIM_GDFF_LOW
-# Loading timing data from C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealy10010_v.sdo
-# Loading timing data from mealy10010_v.sdo
-# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
-#    Time: 0 ps  Iteration: 0  Instance: /mealy10010TB File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealyTB.v
-add wave -position end  sim:/mealy10010TB/cclk
-add wave -position end  sim:/mealy10010TB/jj
-add wave -position end  sim:/mealy10010TB/rrst
-add wave -position end  sim:/mealy10010TB/post
-run -all
-# ** Note: $stop    : C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealyTB.v(20)
-#    Time: 891 ps  Iteration: 0  Instance: /mealy10010TB
-# Break in Module mealy10010TB at C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealyTB.v line 20
-quit -sim
-vsim -gui -L altera_ver -L cycloneiv_ver work.mealy10010TB
-# End time: 18:00:17 on Jun 11,2021, Elapsed time: 0:01:01
-# Errors: 0, Warnings: 1
-# vsim -gui -L altera_ver -L cycloneiv_ver work.mealy10010TB 
-# Start time: 18:00:17 on Jun 11,2021
-# Loading work.mealy10010TB
-# Loading work.mealy10010
-# Loading work.hard_block
-# Loading cycloneiv_ver.cycloneiv_io_obuf
-# Loading cycloneiv_ver.cycloneiv_io_ibuf
-# Loading cycloneiv_ver.cycloneiv_clkctrl
-# Loading cycloneiv_ver.cycloneiv_mux41
-# Loading cycloneiv_ver.cycloneiv_ena_reg
-# Loading cycloneiv_ver.cycloneiv_lcell_comb
-# Loading altera_ver.dffeas
-# Loading instances from mealy10010_v.sdo
-# Loading altera_ver.PRIM_GDFF_LOW
-# Loading timing data from mealy10010_v.sdo
-# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
-#    Time: 0 ps  Iteration: 0  Instance: /mealy10010TB File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealyTB.v
-add wave -position end  sim:/mealy10010TB/cclk
-add wave -position end  sim:/mealy10010TB/jj
-add wave -position end  sim:/mealy10010TB/rrst
-add wave -position end  sim:/mealy10010TB/post
-run -continue
-run -all
-# ** Note: $stop    : C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealyTB.v(20)
-#    Time: 891 ps  Iteration: 0  Instance: /mealy10010TB
-# Break in Module mealy10010TB at C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealyTB.v line 20
-# Compile of mealy10010.vo was successful.
-# Compile of mealyTB.v was successful.
-# Compile of mealy10010.v was successful.
-# 3 compiles, 0 failed with no errors.
-# Compile of mealy10010.vo was successful.
-# Compile of mealyTB.v was successful.
-# Compile of mealy10010.v was successful.
-# 3 compiles, 0 failed with no errors.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.mealy10010TB
-# Loading work.mealy10010
-# Loading work.hard_block
-# SDF 2020.1 Compiler 2020.02 Feb 28 2020
-# 
-# Loading instances from mealy10010_v.sdo
-# Loading timing data from mealy10010_v.sdo
-# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
-#    Time: 0 ps  Iteration: 0  Instance: /mealy10010TB File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealyTB.v
-run -all
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-# ** Note: $stop    : C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealyTB.v(20)
-#    Time: 891 ps  Iteration: 0  Instance: /mealy10010TB
-# Break in Module mealy10010TB at C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealyTB.v line 20
-# Compile of mealy10010.vo was successful.
-# Compile of mealyTB.v was successful.
-# Compile of mealy10010.v was successful.
-# 3 compiles, 0 failed with no errors.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.mealy10010TB
-# Loading work.mealy10010
-# Loading work.hard_block
-# SDF 2020.1 Compiler 2020.02 Feb 28 2020
-# 
-# Loading instances from mealy10010_v.sdo
-# Loading timing data from mealy10010_v.sdo
-# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
-#    Time: 0 ps  Iteration: 0  Instance: /mealy10010TB File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealyTB.v
-run -all
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-# ** Note: $stop    : C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealyTB.v(20)
-#    Time: 891 ps  Iteration: 0  Instance: /mealy10010TB
-# Break in Module mealy10010TB at C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealyTB.v line 20
-quit -sim
-# End time: 18:04:22 on Jun 11,2021, Elapsed time: 0:04:05
-# Errors: 0, Warnings: 1
-vsim -gui -L altera_ver -L cycloneiv_ver work.mealy10010TB -sdftyp /CUT2=C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealy10010_v.sdo
-# vsim -gui -L altera_ver -L cycloneiv_ver work.mealy10010TB -sdftyp "/CUT2=C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealy10010_v.sdo" 
-# Start time: 18:05:01 on Jun 11,2021
-# Loading work.mealy10010TB
-# Loading work.mealy10010
-# Loading work.hard_block
-# Loading cycloneiv_ver.cycloneiv_io_obuf
-# Loading cycloneiv_ver.cycloneiv_io_ibuf
-# Loading cycloneiv_ver.cycloneiv_clkctrl
-# Loading cycloneiv_ver.cycloneiv_mux41
-# Loading cycloneiv_ver.cycloneiv_ena_reg
-# Loading cycloneiv_ver.cycloneiv_lcell_comb
-# Loading altera_ver.dffeas
-# Loading instances from C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealy10010_v.sdo
-# Loading instances from mealy10010_v.sdo
-# Loading altera_ver.PRIM_GDFF_LOW
-# Loading timing data from C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealy10010_v.sdo
-# Loading timing data from mealy10010_v.sdo
-# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
-#    Time: 0 ps  Iteration: 0  Instance: /mealy10010TB File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealyTB.v
-add wave -position end  sim:/mealy10010TB/cclk
-add wave -position end  sim:/mealy10010TB/jj
-add wave -position end  sim:/mealy10010TB/rrst
-add wave -position end  sim:/mealy10010TB/post
-run -all
-# ** Note: $stop    : C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealyTB.v(20)
-#    Time: 891 ps  Iteration: 0  Instance: /mealy10010TB
-# Break in Module mealy10010TB at C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealyTB.v line 20
-quit -sim
-# End time: 18:06:37 on Jun 11,2021, Elapsed time: 0:01:36
-# Errors: 0, Warnings: 1
-# Load canceled
-# Compile of mealyTB.v was successful.
-vsim -gui -L altera_ver -L cycloneiv_ver -sdftyp /CUT2=C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealy10010_v.sdo work.mealy10010TB
-# vsim -gui -L altera_ver -L cycloneiv_ver -sdftyp "/CUT2=C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealy10010_v.sdo" work.mealy10010TB 
-# Start time: 18:08:44 on Jun 11,2021
-# Loading work.mealy10010TB
-# Loading work.mealy10010
-# Loading work.hard_block
-# Loading cycloneiv_ver.cycloneiv_io_obuf
-# Loading cycloneiv_ver.cycloneiv_io_ibuf
-# Loading cycloneiv_ver.cycloneiv_clkctrl
-# Loading cycloneiv_ver.cycloneiv_mux41
-# Loading cycloneiv_ver.cycloneiv_ena_reg
-# Loading cycloneiv_ver.cycloneiv_lcell_comb
-# Loading altera_ver.dffeas
-# Loading instances from C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealy10010_v.sdo
-# Loading instances from mealy10010_v.sdo
-# Loading altera_ver.PRIM_GDFF_LOW
-# Loading timing data from C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealy10010_v.sdo
-# Loading timing data from mealy10010_v.sdo
-# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
-#    Time: 0 ps  Iteration: 0  Instance: /mealy10010TB File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealyTB.v
-add wave -position end  sim:/mealy10010TB/cclk
-add wave -position end  sim:/mealy10010TB/jj
-add wave -position end  sim:/mealy10010TB/rrst
-add wave -position end  sim:/mealy10010TB/post
-run -all
-# ** Note: $stop    : C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealyTB.v(20)
-#    Time: 891 ps  Iteration: 0  Instance: /mealy10010TB
-# Break in Module mealy10010TB at C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealyTB.v line 20
-quit -sim
-vsim -gui -L altera_ver -L cycloneiv_ver work.mealy10010TB
-# End time: 18:09:51 on Jun 11,2021, Elapsed time: 0:01:07
-# Errors: 0, Warnings: 4
-# vsim -gui -L altera_ver -L cycloneiv_ver work.mealy10010TB 
-# Start time: 18:09:52 on Jun 11,2021
-# Loading work.mealy10010TB
-# Loading work.mealy10010
-# Loading work.hard_block
-# Loading cycloneiv_ver.cycloneiv_io_obuf
-# Loading cycloneiv_ver.cycloneiv_io_ibuf
-# Loading cycloneiv_ver.cycloneiv_clkctrl
-# Loading cycloneiv_ver.cycloneiv_mux41
-# Loading cycloneiv_ver.cycloneiv_ena_reg
-# Loading cycloneiv_ver.cycloneiv_lcell_comb
-# Loading altera_ver.dffeas
-# Loading instances from mealy10010_v.sdo
-# Loading altera_ver.PRIM_GDFF_LOW
-# Loading timing data from mealy10010_v.sdo
-# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
-#    Time: 0 ps  Iteration: 0  Instance: /mealy10010TB File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealyTB.v
-add wave -position end  sim:/mealy10010TB/cclk
-add wave -position end  sim:/mealy10010TB/jj
-add wave -position end  sim:/mealy10010TB/rrst
-add wave -position end  sim:/mealy10010TB/post
-run -all
-# ** Note: $stop    : C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealyTB.v(20)
-#    Time: 891 ps  Iteration: 0  Instance: /mealy10010TB
-# Break in Module mealy10010TB at C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealyTB.v line 20
-restart -f
-# Loading instances from mealy10010_v.sdo
-# Loading timing data from mealy10010_v.sdo
-# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
-#    Time: 0 ps  Iteration: 0  Instance: /mealy10010TB File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealyTB.v
-run
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-run -next
-run -all
-# ** Note: $stop    : C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealyTB.v(20)
-#    Time: 891 ps  Iteration: 0  Instance: /mealy10010TB
-# Break in Module mealy10010TB at C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealyTB.v line 20
-quit -sim
-# End time: 18:26:23 on Jun 11,2021, Elapsed time: 0:16:31
-# Errors: 0, Warnings: 1
-# Compile of mealyTB.v was successful.
-vsim -gui -L altera_ver -L cycloneiv_ver work.mealy10010TB
-# vsim -gui -L altera_ver -L cycloneiv_ver work.mealy10010TB 
-# Start time: 18:26:45 on Jun 11,2021
-# Loading work.mealy10010TB
-# ** Error: (vsim-3033) Instantiation of 'mealy1001_s' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /mealy10010TB File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealyTB.v Line: 7
-#         Searched libraries:
-#             C:/intelFPGA/20.1/modelsim_ase/altera/verilog/altera
-#             C:/intelFPGA/20.1/modelsim_ase/altera/verilog/cycloneiv
-#             C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/work
-# Error loading design
-# End time: 18:26:46 on Jun 11,2021, Elapsed time: 0:00:01
-# Errors: 1, Warnings: 2
-# Compile of mealyTB.v was successful.
-vsim -gui -L altera_ver -L cycloneiv_ver work.mealy10010TB -sdftyp /CUT2=C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealy10010_v.sdo
-# vsim -gui -L altera_ver -L cycloneiv_ver work.mealy10010TB -sdftyp "/CUT2=C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealy10010_v.sdo" 
-# Start time: 18:27:29 on Jun 11,2021
-# Loading work.mealy10010TB
-# ** Error: (vsim-3033) Instantiation of 'mealy1001' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /mealy10010TB File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealyTB.v Line: 7
-#         Searched libraries:
-#             C:/intelFPGA/20.1/modelsim_ase/altera/verilog/altera
-#             C:/intelFPGA/20.1/modelsim_ase/altera/verilog/cycloneiv
-#             C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/work
-# Error loading design
-# End time: 18:27:30 on Jun 11,2021, Elapsed time: 0:00:01
-# Errors: 1, Warnings: 2
-# Load canceled
-# Compile of mealyTB.v was successful.
-vsim -gui -L altera_ver -L cycloneiv_ver -sdftyp /CUT2=C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealy10010_v.sdo work.mealy10010TB
-# vsim -gui -L altera_ver -L cycloneiv_ver -sdftyp "/CUT2=C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealy10010_v.sdo" work.mealy10010TB 
-# Start time: 18:27:54 on Jun 11,2021
-# Loading work.mealy10010TB
-# Loading work.mealy10010
-# Loading work.hard_block
-# Loading cycloneiv_ver.cycloneiv_io_obuf
-# Loading cycloneiv_ver.cycloneiv_io_ibuf
-# Loading cycloneiv_ver.cycloneiv_clkctrl
-# Loading cycloneiv_ver.cycloneiv_mux41
-# Loading cycloneiv_ver.cycloneiv_ena_reg
-# Loading cycloneiv_ver.cycloneiv_lcell_comb
-# Loading altera_ver.dffeas
-# Loading instances from C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealy10010_v.sdo
-# Loading instances from mealy10010_v.sdo
-# Loading altera_ver.PRIM_GDFF_LOW
-# Loading timing data from C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealy10010_v.sdo
-# Loading timing data from mealy10010_v.sdo
-# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
-#    Time: 0 ps  Iteration: 0  Instance: /mealy10010TB File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealyTB.v
-add wave -position end  sim:/mealy10010TB/cclk
-add wave -position end  sim:/mealy10010TB/jj
-add wave -position end  sim:/mealy10010TB/rrst
-add wave -position end  sim:/mealy10010TB/post
-run -all
-# ** Note: $stop    : C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealyTB.v(20)
-#    Time: 891 ps  Iteration: 0  Instance: /mealy10010TB
-# Break in Module mealy10010TB at C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealyTB.v line 20
-quit -sim
-# End time: 18:28:55 on Jun 11,2021, Elapsed time: 0:01:01
-# Errors: 0, Warnings: 2
-# Compile of mealy10010.vo was successful.
-# Compile of mealy10010.v was successful.
-# Compile of mealyTB.v was successful.
-# 3 compiles, 0 failed with no errors.
-vsim -gui -L altera_ver -L cycloneiv_ver -sdftyp /CUT2=C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealy10010_v.sdo work.mealy10010TB
-# vsim -gui -L altera_ver -L cycloneiv_ver -sdftyp "/CUT2=C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealy10010_v.sdo" work.mealy10010TB 
-# Start time: 18:29:32 on Jun 11,2021
-# Loading work.mealy10010TB
-# Loading work.mealy10010
-# Loading work.hard_block
-# Loading cycloneiv_ver.cycloneiv_io_obuf
-# Loading cycloneiv_ver.cycloneiv_io_ibuf
-# Loading cycloneiv_ver.cycloneiv_clkctrl
-# Loading cycloneiv_ver.cycloneiv_mux41
-# Loading cycloneiv_ver.cycloneiv_ena_reg
-# Loading cycloneiv_ver.cycloneiv_lcell_comb
-# Loading altera_ver.dffeas
-# SDF 2020.1 Compiler 2020.02 Feb 28 2020
-# 
-# Loading instances from C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealy10010_v.sdo
-# Loading instances from mealy10010_v.sdo
-# Loading altera_ver.PRIM_GDFF_LOW
-# Loading timing data from C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealy10010_v.sdo
-# Loading timing data from mealy10010_v.sdo
-# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
-#    Time: 0 ps  Iteration: 0  Instance: /mealy10010TB File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealyTB.v
-add wave -position end  sim:/mealy10010TB/cclk
-add wave -position end  sim:/mealy10010TB/jj
-add wave -position end  sim:/mealy10010TB/rrst
-add wave -position end  sim:/mealy10010TB/post
-run -all
-# ** Note: $stop    : C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealyTB.v(20)
-#    Time: 891 ps  Iteration: 0  Instance: /mealy10010TB
-# Break in Module mealy10010TB at C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealyTB.v line 20
-quit -sim
-vsim -gui -L altera_ver -L cycloneiv_ver -sdftyp /CUT2=C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealy10010_7_1200mv_125c_v_slow.sdo work.mealy10010TB
-# End time: 18:30:41 on Jun 11,2021, Elapsed time: 0:01:09
-# Errors: 0, Warnings: 2
-# vsim -gui -L altera_ver -L cycloneiv_ver -sdftyp "/CUT2=C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealy10010_7_1200mv_125c_v_slow.sdo" work.mealy10010TB 
-# Start time: 18:30:41 on Jun 11,2021
-# Loading work.mealy10010TB
-# Loading work.mealy10010
-# Loading work.hard_block
-# Loading cycloneiv_ver.cycloneiv_io_obuf
-# Loading cycloneiv_ver.cycloneiv_io_ibuf
-# Loading cycloneiv_ver.cycloneiv_clkctrl
-# Loading cycloneiv_ver.cycloneiv_mux41
-# Loading cycloneiv_ver.cycloneiv_ena_reg
-# Loading cycloneiv_ver.cycloneiv_lcell_comb
-# Loading altera_ver.dffeas
-# SDF 2020.1 Compiler 2020.02 Feb 28 2020
-# 
-# Loading instances from C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealy10010_7_1200mv_125c_v_slow.sdo
-# Loading instances from mealy10010_v.sdo
-# Loading altera_ver.PRIM_GDFF_LOW
-# Loading timing data from C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealy10010_7_1200mv_125c_v_slow.sdo
-# Loading timing data from mealy10010_v.sdo
-# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
-#    Time: 0 ps  Iteration: 0  Instance: /mealy10010TB File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealyTB.v
-add wave -position end  sim:/mealy10010TB/cclk
-add wave -position end  sim:/mealy10010TB/jj
-add wave -position end  sim:/mealy10010TB/rrst
-add wave -position end  sim:/mealy10010TB/post
-run -all
-# ** Note: $stop    : C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealyTB.v(20)
-#    Time: 891 ps  Iteration: 0  Instance: /mealy10010TB
-# Break in Module mealy10010TB at C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealyTB.v line 20
-quit -sim
-vsim -gui -L altera_ver -L cycloneiv_ver work.mealy10010TB
-# End time: 18:32:01 on Jun 11,2021, Elapsed time: 0:01:20
-# Errors: 0, Warnings: 1
-# vsim -gui -L altera_ver -L cycloneiv_ver work.mealy10010TB 
-# Start time: 18:32:01 on Jun 11,2021
-# Loading work.mealy10010TB
-# Loading work.mealy10010
-# Loading work.hard_block
-# Loading cycloneiv_ver.cycloneiv_io_obuf
-# Loading cycloneiv_ver.cycloneiv_io_ibuf
-# Loading cycloneiv_ver.cycloneiv_clkctrl
-# Loading cycloneiv_ver.cycloneiv_mux41
-# Loading cycloneiv_ver.cycloneiv_ena_reg
-# Loading cycloneiv_ver.cycloneiv_lcell_comb
-# Loading altera_ver.dffeas
-# Loading instances from mealy10010_v.sdo
-# Loading altera_ver.PRIM_GDFF_LOW
-# Loading timing data from mealy10010_v.sdo
-# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
-#    Time: 0 ps  Iteration: 0  Instance: /mealy10010TB File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealyTB.v
-add wave -position end  sim:/mealy10010TB/cclk
-add wave -position end  sim:/mealy10010TB/jj
-add wave -position end  sim:/mealy10010TB/rrst
-add wave -position end  sim:/mealy10010TB/post
-run -all
-# ** Note: $stop    : C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealyTB.v(20)
-#    Time: 891 ps  Iteration: 0  Instance: /mealy10010TB
-# Break in Module mealy10010TB at C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealyTB.v line 20
-quit -sim
-# End time: 18:33:40 on Jun 11,2021, Elapsed time: 0:01:39
-# Errors: 0, Warnings: 1
-# Compile of mealy10010.vo was successful.
-# Compile of mealy10010.v was successful.
-# Compile of mealyTB.v was successful.
-# 3 compiles, 0 failed with no errors.
-# Compile of mealyTB.v was successful.
-# Compile of mealy10010.vo was successful.
-vsim -gui -L altera_ver -L cycloneiv_ver work.mealy10010TB -sdftyp /CUT2=C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealy10010_v.sdo
-# vsim -gui -L altera_ver -L cycloneiv_ver work.mealy10010TB -sdftyp "/CUT2=C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealy10010_v.sdo" 
-# Start time: 18:37:24 on Jun 11,2021
-# Loading work.mealy10010TB
-# Loading work.mealy10010
-# Loading work.hard_block
-# Loading cycloneiv_ver.cycloneiv_io_obuf
-# Loading cycloneiv_ver.cycloneiv_io_ibuf
-# Loading cycloneiv_ver.cycloneiv_clkctrl
-# Loading cycloneiv_ver.cycloneiv_mux41
-# Loading cycloneiv_ver.cycloneiv_ena_reg
-# Loading cycloneiv_ver.cycloneiv_lcell_comb
-# Loading altera_ver.dffeas
-# SDF 2020.1 Compiler 2020.02 Feb 28 2020
-# 
-# Loading instances from C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealy10010_v.sdo
-# Loading instances from mealy10010_v.sdo
-# Loading altera_ver.PRIM_GDFF_LOW
-# Loading timing data from C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealy10010_v.sdo
-# Loading timing data from mealy10010_v.sdo
-# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
-#    Time: 0 ps  Iteration: 0  Instance: /mealy10010TB File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealyTB.v
-add wave -position end  sim:/mealy10010TB/cclk
-add wave -position end  sim:/mealy10010TB/jj
-add wave -position end  sim:/mealy10010TB/rrst
-add wave -position end  sim:/mealy10010TB/post
-run -all
-# ** Note: $stop    : C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealyTB.v(20)
-#    Time: 891 ns  Iteration: 0  Instance: /mealy10010TB
-# Break in Module mealy10010TB at C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealyTB.v line 20
-# Compile of mealy10010.vo was successful.
-# Compile of mealy10010.v was successful.
-# Compile of mealyTB.v was successful.
-# 3 compiles, 0 failed with no errors.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+vsim -gui -L cycloneiv_ver -L altera_ver -sdftyp /CUT2=C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/simulation/modelsim/moore10010_v.sdo work.mealy10010TB
+# vsim -gui -L cycloneiv_ver -L altera_ver -sdftyp "/CUT2=C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/simulation/modelsim/moore10010_v.sdo" work.mealy10010TB 
+# Start time: 07:51:44 on Jun 16,2021
 # Loading work.mealy10010TB
 # Loading work.mealy10010_pre
 # Loading work.mealy10010
 # Loading work.hard_block
-# SDF 2020.1 Compiler 2020.02 Feb 28 2020
-# 
-# Loading instances from C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealy10010_v.sdo
+# Loading cycloneiv_ver.cycloneiv_io_obuf
+# Loading cycloneiv_ver.cycloneiv_io_ibuf
+# Loading cycloneiv_ver.cycloneiv_clkctrl
+# Loading cycloneiv_ver.cycloneiv_mux41
+# Loading cycloneiv_ver.cycloneiv_ena_reg
+# Loading cycloneiv_ver.cycloneiv_lcell_comb
+# Loading altera_ver.dffeas
+# Loading instances from C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/simulation/modelsim/moore10010_v.sdo
+# ** Error (suppressible): (vsim-SDF-3250) moore10010_v.sdo(128): Failed to find INSTANCE '\ns.C~0 '.
+# ** Error (suppressible): (vsim-SDF-3250) moore10010_v.sdo(214): Failed to find INSTANCE '\ns.F~0 '.
+# ** Error (suppressible): (vsim-SDF-3250) moore10010_v.sdo(226): Failed to find INSTANCE '\ps.F '.
 # Loading instances from mealy10010_v.sdo
-# Loading timing data from C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealy10010_v.sdo
-# Loading timing data from mealy10010_v.sdo
-# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+# ** Error (suppressible): (vsim-SDF-3894) : Errors occured in reading and resolving instances from compiled SDF file(s).
+# Loading altera_ver.PRIM_GDFF_LOW
+# ** Error: (vsim-SDF-3445) Failed to parse SDF file "C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/simulation/modelsim/moore10010_v.sdo".
 #    Time: 0 ps  Iteration: 0  Instance: /mealy10010TB File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealyTB.v
-run -all
-# ** Note: $stop    : C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealyTB.v(20)
-#    Time: 891 ns  Iteration: 0  Instance: /mealy10010TB
-# Break in Module mealy10010TB at C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealyTB.v line 20
-# Compile of mealy10010.vo was successful.
-# Compile of mealy10010.v was successful.
-# Compile of mealyTB.v was successful.
-# 3 compiles, 0 failed with no errors.
-add wave -position 3  sim:/mealy10010TB/pre
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading timing data from mealy10010_v.sdo
+# Error loading design
+# End time: 07:51:45 on Jun 16,2021, Elapsed time: 0:00:01
+# Errors: 5, Warnings: 1
+vsim -gui -L cycloneiv_ver -L altera_ver -sdftyp /CUT2=C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealy10010_v.sdo work.mealy10010TB
+# vsim -gui -L cycloneiv_ver -L altera_ver -sdftyp "/CUT2=C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealy10010_v.sdo" work.mealy10010TB 
+# Start time: 07:52:17 on Jun 16,2021
 # Loading work.mealy10010TB
 # Loading work.mealy10010_pre
 # Loading work.mealy10010
 # Loading work.hard_block
-# SDF 2020.1 Compiler 2020.02 Feb 28 2020
-# 
+# Loading cycloneiv_ver.cycloneiv_io_obuf
+# Loading cycloneiv_ver.cycloneiv_io_ibuf
+# Loading cycloneiv_ver.cycloneiv_clkctrl
+# Loading cycloneiv_ver.cycloneiv_mux41
+# Loading cycloneiv_ver.cycloneiv_ena_reg
+# Loading cycloneiv_ver.cycloneiv_lcell_comb
+# Loading altera_ver.dffeas
 # Loading instances from C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealy10010_v.sdo
 # Loading instances from mealy10010_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
 # Loading timing data from C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealy10010_v.sdo
 # Loading timing data from mealy10010_v.sdo
 # ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
 #    Time: 0 ps  Iteration: 0  Instance: /mealy10010TB File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealyTB.v
+add wave -position end  sim:/mealy10010TB/cclk
+add wave -position end  sim:/mealy10010TB/jj
+add wave -position end  sim:/mealy10010TB/rrst
+add wave -position end  sim:/mealy10010TB/pre
+add wave -position end  sim:/mealy10010TB/post
 run -all
 # ** Note: $stop    : C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealyTB.v(20)
 #    Time: 891 ns  Iteration: 0  Instance: /mealy10010TB
 # Break in Module mealy10010TB at C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim/mealyTB.v line 20
 quit -sim
-# End time: 19:01:09 on Jun 11,2021, Elapsed time: 0:23:45
+# End time: 07:53:23 on Jun 16,2021, Elapsed time: 0:01:06
 # Errors: 0, Warnings: 1
-project open C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/simulation/modelsim/Moore
+cd C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare

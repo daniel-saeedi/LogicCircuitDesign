@@ -1,8 +1,64 @@
 # Compile of TB.v was successful with warnings.
-# Load canceled
+# Compile of mealy10010.v was successful.
+# Compile of mealyTB.v was successful.
+# Compile of moore10010.v was successful.
+# Compile of mooreTB.v was successful.
+# 5 compiles, 0 failed with no errors.
 vsim -gui work.TB -L cycloneiv_ver -L altera_ver -sdftyp /CUT1=C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/moore10010_v.sdo -sdftyp /CUT2=C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/mealy10010_v.sdo
 # vsim -gui work.TB -L cycloneiv_ver -L altera_ver -sdftyp "/CUT1=C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/moore10010_v.sdo" -sdftyp "/CUT2=C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/mealy10010_v.sdo" 
-# Start time: 16:28:14 on Jun 13,2021
+# Start time: 07:33:42 on Jun 16,2021
+# Loading work.TB
+# Loading work.moore10010
+# Loading work.mealy10010
+# Loading instances from C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/moore10010_v.sdo
+# ** Error (suppressible): (vsim-SDF-3250) moore10010_v.sdo(82): Failed to find INSTANCE '\Selector1~0 '.
+# ** Error (suppressible): (vsim-SDF-3250) moore10010_v.sdo(156): Failed to find INSTANCE '\Selector2~0 '.
+# ** Error (suppressible): (vsim-SDF-3250) moore10010_v.sdo(55): Failed to find INSTANCE '\clk~input '.
+# ** Error (suppressible): (vsim-SDF-3250) moore10010_v.sdo(64): Failed to find INSTANCE '\clk~inputclkctrl '.
+# ** Error (suppressible): (vsim-SDF-3250) moore10010_v.sdo(73): Failed to find INSTANCE '\j~input '.
+# ** Error (suppressible): (vsim-SDF-3250) moore10010_v.sdo(128): Failed to find INSTANCE '\ns.C~0 '.
+# ** Error (suppressible): (vsim-SDF-3250) moore10010_v.sdo(186): Failed to find INSTANCE '\ns.E~0 '.
+# ** Error (suppressible): (vsim-SDF-3250) moore10010_v.sdo(214): Failed to find INSTANCE '\ns.F~0 '.
+# ** Error (suppressible): (vsim-SDF-3250) moore10010_v.sdo(112): Failed to find INSTANCE '\ps.B '.
+# ** Error (suppressible): (vsim-SDF-3250) moore10010_v.sdo(140): Failed to find INSTANCE '\ps.C '.
+# ** Error (suppressible): (vsim-SDF-3250) moore10010_v.sdo(170): Failed to find INSTANCE '\ps.D '.
+# ** Error (suppressible): (vsim-SDF-3250) moore10010_v.sdo(198): Failed to find INSTANCE '\ps.E '.
+# ** Error (suppressible): (vsim-SDF-3250) moore10010_v.sdo(226): Failed to find INSTANCE '\ps.F '.
+# ** Error (suppressible): (vsim-SDF-3250) moore10010_v.sdo(94): Failed to find INSTANCE '\rst~input '.
+# ** Error (suppressible): (vsim-SDF-3250) moore10010_v.sdo(103): Failed to find INSTANCE '\rst~inputclkctrl '.
+# ** Error (suppressible): (vsim-SDF-3250) moore10010_v.sdo(45): Failed to find INSTANCE '\w~output '.
+# Loading instances from C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/mealy10010_v.sdo
+# ** Error (suppressible): (vsim-SDF-3250) mealy10010_v.sdo(82): Failed to find INSTANCE '\Selector1~0 '.
+# ** Error (suppressible): (vsim-SDF-3250) mealy10010_v.sdo(128): Failed to find INSTANCE '\Selector2~0 '.
+# ** Error (suppressible): (vsim-SDF-3250) mealy10010_v.sdo(55): Failed to find INSTANCE '\clk~input '.
+# ** Error (suppressible): (vsim-SDF-3250) mealy10010_v.sdo(64): Failed to find INSTANCE '\clk~inputclkctrl '.
+# ** Error (suppressible): (vsim-SDF-3250) mealy10010_v.sdo(73): Failed to find INSTANCE '\j~input '.
+# ** Error (suppressible): (vsim-SDF-3250) mealy10010_v.sdo(158): Failed to find INSTANCE '\ns.D~0 '.
+# ** Error (suppressible): (vsim-SDF-3250) mealy10010_v.sdo(186): Failed to find INSTANCE '\ns.E~0 '.
+# ** Error (suppressible): (vsim-SDF-3250) mealy10010_v.sdo(112): Failed to find INSTANCE '\ps.B '.
+# ** Error (suppressible): (vsim-SDF-3250) mealy10010_v.sdo(142): Failed to find INSTANCE '\ps.C '.
+# ** Error (suppressible): (vsim-SDF-3250) mealy10010_v.sdo(170): Failed to find INSTANCE '\ps.D '.
+# ** Error (suppressible): (vsim-SDF-3250) mealy10010_v.sdo(198): Failed to find INSTANCE '\ps.E '.
+# ** Error (suppressible): (vsim-SDF-3250) mealy10010_v.sdo(94): Failed to find INSTANCE '\rst~input '.
+# ** Error (suppressible): (vsim-SDF-3250) mealy10010_v.sdo(103): Failed to find INSTANCE '\rst~inputclkctrl '.
+# ** Error (suppressible): (vsim-SDF-3250) mealy10010_v.sdo(214): Failed to find INSTANCE '\w~0 '.
+# ** Error (suppressible): (vsim-SDF-3250) mealy10010_v.sdo(45): Failed to find INSTANCE '\w~output '.
+# ** Error (suppressible): (vsim-SDF-3894) : Errors occured in reading and resolving instances from compiled SDF file(s).
+# ** Fatal: SDF files require Intel FPGA Edition primitive library
+#    Time: 0 ps  Iteration: 0  Instance: /TB File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/TB.v
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 07:33:43 on Jun 16,2021, Elapsed time: 0:00:01
+# Errors: 33, Warnings: 3
+# Compile of TB.v was successful with warnings.
+# Compile of mealy10010.v was successful.
+# Compile of mealyTB.v was successful.
+# Compile of moore10010.v was successful.
+# Compile of mooreTB.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui -L cycloneiv_ver -L altera_ver -sdftyp /CUT1=C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/moore10010_v.sdo -sdftyp /CUT2=C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/mealy10010_v.sdo work.TB
+# vsim -gui -L cycloneiv_ver -L altera_ver -sdftyp "/CUT1=C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/moore10010_v.sdo" -sdftyp "/CUT2=C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/mealy10010_v.sdo" work.TB 
+# Start time: 07:34:50 on Jun 16,2021
 # Loading work.TB
 # Loading work.moore10010
 # Loading work.hard_block
@@ -32,84 +88,64 @@ add wave -position end  sim:/TB/moore
 add wave -position end  sim:/TB/mealy
 add wave -position end  sim:/TB/diff
 run -all
-# ** Note: $stop    : C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/TB.v(25)
+# ** Note: $stop    : C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/TB.v(26)
 #    Time: 891 ns  Iteration: 0  Instance: /TB
-# Break in Module TB at C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/TB.v line 25
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading instances from C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/moore10010_v.sdo
-# Loading instances from C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/mealy10010_v.sdo
-# Loading instances from moore10010_v.sdo
-# Loading instances from mealy10010_v.sdo
-# Loading timing data from C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/moore10010_v.sdo
-# Loading timing data from C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/mealy10010_v.sdo
-# Loading timing data from moore10010_v.sdo
-# Loading timing data from mealy10010_v.sdo
-# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
-#    Time: 0 ps  Iteration: 0  Instance: /TB File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/TB.v
+# Break in Module TB at C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/TB.v line 26
+quit -sim
+# End time: 07:35:51 on Jun 16,2021, Elapsed time: 0:01:01
+# Errors: 0, Warnings: 2
 # Compile of TB.v was successful with warnings.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.TB
-# Loading work.moore10010
-# Loading work.hard_block
-# Loading work.mealy10010
+# Compile of mealy10010.v was successful.
+# Compile of mealyTB.v was successful.
+# Compile of moore10010.v was successful.
+# Compile of mooreTB.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui -L cycloneiv_ver -L altera_ver -sdftyp /CUT1=C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/moore10010_v.sdo -sdftyp /CUT2=C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/mealy10010_v.sdo work.moore10010TB
+# vsim -gui -L cycloneiv_ver -L altera_ver -sdftyp "/CUT1=C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/moore10010_v.sdo" -sdftyp "/CUT2=C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/mealy10010_v.sdo" work.moore10010TB 
+# Start time: 07:37:19 on Jun 16,2021
+# Loading work.moore10010TB
+# Loading work.moore10010_pre
 # Loading instances from C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/moore10010_v.sdo
+# ** Error (suppressible): (vsim-SDF-3250) moore10010_v.sdo(0): Failed to find INSTANCE '/CUT1'.
 # Loading instances from C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/mealy10010_v.sdo
-# Loading instances from moore10010_v.sdo
-# Loading instances from mealy10010_v.sdo
-# Loading timing data from C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/moore10010_v.sdo
-# Loading timing data from C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/mealy10010_v.sdo
-# Loading timing data from moore10010_v.sdo
-# Loading timing data from mealy10010_v.sdo
-# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
-#    Time: 0 ps  Iteration: 0  Instance: /TB File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/TB.v
-run
+# ** Error (suppressible): (vsim-SDF-3250) mealy10010_v.sdo(0): Failed to find INSTANCE '/CUT2'.
+# ** Error (suppressible): (vsim-SDF-3894) : Errors occured in reading and resolving instances from compiled SDF file(s).
+# ** Fatal: SDF files require Intel FPGA Edition primitive library
+#    Time: 0 ps  Iteration: 0  Instance: /moore10010TB File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mooreTB.v
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 07:37:20 on Jun 16,2021, Elapsed time: 0:00:01
+# Errors: 4, Warnings: 2
+vsim -gui -L cycloneiv_ver -L altera_ver work.moore10010TB
+# vsim -gui -L cycloneiv_ver -L altera_ver work.moore10010TB 
+# Start time: 07:38:27 on Jun 16,2021
+# Loading work.moore10010TB
+# Loading work.moore10010_pre
+add wave -position end  sim:/moore10010TB/cclk
+add wave -position end  sim:/moore10010TB/jj
+add wave -position end  sim:/moore10010TB/rrst
+add wave -position end  sim:/moore10010TB/ww1
+add wave -position end  sim:/moore10010TB/ww2
 run -all
-# ** Note: $stop    : C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/TB.v(25)
-#    Time: 891 ns  Iteration: 0  Instance: /TB
-# Break in Module TB at C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/TB.v line 25
+# ** Note: $stop    : C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mooreTB.v(19)
+#    Time: 891 ps  Iteration: 0  Instance: /moore10010TB
+# Break in Module moore10010TB at C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mooreTB.v line 19
 # Compile of TB.v was successful with warnings.
+# Compile of mealy10010.v was successful.
+# Compile of mealyTB.v was successful.
+# Compile of moore10010.v was successful.
+# Compile of mooreTB.v was successful.
+# 5 compiles, 0 failed with no errors.
 restart -f
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.TB
-# Loading work.moore10010
-# Loading work.hard_block
-# Loading work.mealy10010
-# Loading instances from C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/moore10010_v.sdo
-# Loading instances from C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/mealy10010_v.sdo
-# Loading instances from moore10010_v.sdo
-# Loading instances from mealy10010_v.sdo
-# Loading timing data from C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/moore10010_v.sdo
-# Loading timing data from C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/mealy10010_v.sdo
-# Loading timing data from moore10010_v.sdo
-# Loading timing data from mealy10010_v.sdo
-# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
-#    Time: 0 ps  Iteration: 0  Instance: /TB File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/TB.v
+# Loading work.moore10010TB
+# Loading work.moore10010_pre
+# Warning in wave window restart: (vish-4014) No objects found matching '/moore10010TB/ww2'. 
 run -all
-# ** Note: $stop    : C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/TB.v(25)
-#    Time: 891 ns  Iteration: 0  Instance: /TB
-# Break in Module TB at C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/TB.v line 25
-# Compile of TB.v was successful with warnings.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.TB
-# Loading work.moore10010
-# Loading work.hard_block
-# Loading work.mealy10010
-# Loading instances from C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/moore10010_v.sdo
-# Loading instances from C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/mealy10010_v.sdo
-# Loading instances from moore10010_v.sdo
-# Loading instances from mealy10010_v.sdo
-# Loading timing data from C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/moore10010_v.sdo
-# Loading timing data from C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/mealy10010_v.sdo
-# Loading timing data from moore10010_v.sdo
-# Loading timing data from mealy10010_v.sdo
-# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
-#    Time: 0 ps  Iteration: 0  Instance: /TB File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/TB.v
-run -all
-# ** Note: $stop    : C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/TB.v(25)
-#    Time: 891 ns  Iteration: 0  Instance: /TB
-# Break in Module TB at C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/compare/TB.v line 25
-# End time: 16:46:42 on Jun 13,2021, Elapsed time: 0:18:28
+# ** Note: $stop    : C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mooreTB.v(18)
+#    Time: 891 ps  Iteration: 0  Instance: /moore10010TB
+# Break in Module moore10010TB at C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mooreTB.v line 18
+quit -sim
+# End time: 07:47:07 on Jun 16,2021, Elapsed time: 0:08:40
 # Errors: 0, Warnings: 1
+cd C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project5-2/mealy/simulation/modelsim
