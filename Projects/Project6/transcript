@@ -1,0 +1,31 @@
+# Compile of MULTDP.v was successful.
+# Compile of MULTCU.v was successful.
+# Compile of FPMULT.v was successful.
+# Load canceled
+# Compile of FPMULT_TB.v was successful.
+# Compile of FPMULT2.v was successful.
+# Compile of MULT_SEQ_TB.v was successful.
+# Compile of MULT_UP.v was successful.
+# Compile of FPMULT3.v was successful.
+# 8 compiles, 0 failed with no errors.
+vsim -gui work.FPMULT_TB
+# vsim -gui work.FPMULT_TB 
+# Start time: 07:40:51 on Jun 28,2021
+# Loading work.FPMULT_TB
+# Loading work.FPMULT_TOP
+# Loading work.SeqMultTop
+# Loading work.SeqMult
+# Loading work.SeqMultCont
+add wave -position end  sim:/FPMULT_TB/cclk
+add wave -position end  sim:/FPMULT_TB/rrst
+add wave -position end  sim:/FPMULT_TB/sstartFP
+add wave -position end  sim:/FPMULT_TB/iinBus
+add wave -position end  sim:/FPMULT_TB/rresBus
+add wave -position end  sim:/FPMULT_TB/ddoneFP
+run -all
+# ** Note: $stop    : C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT_TB.v(17)
+#    Time: 5271 ns  Iteration: 0  Instance: /FPMULT_TB
+# Break in Module FPMULT_TB at C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT_TB.v line 17
+quit -sim
+# End time: 07:44:26 on Jun 28,2021, Elapsed time: 0:03:35
+# Errors: 0, Warnings: 2

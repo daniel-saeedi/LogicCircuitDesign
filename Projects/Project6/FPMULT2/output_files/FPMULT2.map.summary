@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sat Jun 26 22:18:23 2021
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : FPMULT2
+Top-level Entity Name : FPMULT2
+Family : Cyclone IV E
+Total logic elements : 697
+    Total combinational functions : 692
+    Dedicated logic registers : 15
+Total registers : 15
+Total pins : 68
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 7
+Total PLLs : 0

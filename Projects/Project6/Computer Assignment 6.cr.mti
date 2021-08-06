@@ -1,0 +1,57 @@
+C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/MULTDP.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/MULTDP.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module SeqMult
+
+Top level modules:
+	SeqMult
+
+} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/MULTCU.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/MULTCU.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module SeqMultCont
+
+Top level modules:
+	SeqMultCont
+
+} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/MULT_UP.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/MULT_UP.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module SeqMultTop
+
+Top level modules:
+	SeqMultTop
+
+} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FPMULT2
+
+Top level modules:
+	FPMULT2
+
+} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/MULT_SEQ_TB.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/MULT_SEQ_TB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MULT_SEQ_TB
+
+Top level modules:
+	MULT_SEQ_TB
+
+} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT3.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT3.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FPMULT_TOP
+
+Top level modules:
+	FPMULT_TOP
+
+} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FPMULT
+
+Top level modules:
+	FPMULT
+
+} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT_TB.v {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT_TB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FPMULT_TB
+
+Top level modules:
+	FPMULT_TB
+
+} {} {}}

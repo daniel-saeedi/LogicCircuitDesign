@@ -1,0 +1,7 @@
+
+State Machine - |OutputWrapper|ps
+Name ps.makeSureGot ps.waitForGot ps.ReceiveData ps.Empty 
+ps.Empty 0 0 0 0 
+ps.ReceiveData 0 0 1 1 
+ps.waitForGot 0 1 0 1 
+ps.makeSureGot 1 0 0 1 

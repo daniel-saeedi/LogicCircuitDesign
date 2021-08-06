@@ -1,0 +1,37 @@
+`timescale 1ns/1ns
+module OutputWrapper(input clk,rst,ready,gotData,input [31:0] inBus,output [31:0] outBus,output reg oBufferReady,output reg oBufferEmpty);
+	reg [31:0] ResultReg;
+	parameter [2:0] Empty = 3'b000,ReceiveData = 3'b001, waitForGot = 3'b010,
+			   makeSureGot = 3'b011;
+	reg [2:0] ns,ps;
+	reg ldO;
+	always @(ps,ready,inBus) begin
+		{Empty,ReceiveData,waitForGot,makeSureGot} = 3'b000;
+		oBufferEmpty <= 1'b0;
+		case(ps) :
+			Empty : begin 
+				ns <= ready ? ReceiveData : Empty;
+				oBufferEmpty <= 1'b1;
+			end
+			ReceiveData : begin
+				InitBS <= 1'b1;
+				ns <= waitForGot;
+			end
+			waitForGot : begin
+				ns <= gotData ? makeSureGot : waitForGot;
+			end
+			waitForGot : begin
+				ns <= gotData ? waitForGot : Empty;
+			end	
+	end
+
+	always @(posedge clk,posedge rst) begin
+		if(rst) begin
+			ps <= Idle;
+			ResultReg <= 32'b0;
+		end
+		else
+			ps <= ns;
+	end
+
+endmodule

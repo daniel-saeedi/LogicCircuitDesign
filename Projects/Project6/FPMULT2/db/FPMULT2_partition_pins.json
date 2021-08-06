@@ -1,0 +1,281 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "resBus[0]",
+					"strict" : false
+				},
+				{
+					"name" : "resBus[1]",
+					"strict" : false
+				},
+				{
+					"name" : "resBus[2]",
+					"strict" : false
+				},
+				{
+					"name" : "resBus[3]",
+					"strict" : false
+				},
+				{
+					"name" : "resBus[4]",
+					"strict" : false
+				},
+				{
+					"name" : "resBus[5]",
+					"strict" : false
+				},
+				{
+					"name" : "resBus[6]",
+					"strict" : false
+				},
+				{
+					"name" : "resBus[7]",
+					"strict" : false
+				},
+				{
+					"name" : "resBus[8]",
+					"strict" : false
+				},
+				{
+					"name" : "resBus[9]",
+					"strict" : false
+				},
+				{
+					"name" : "resBus[10]",
+					"strict" : false
+				},
+				{
+					"name" : "resBus[11]",
+					"strict" : false
+				},
+				{
+					"name" : "resBus[12]",
+					"strict" : false
+				},
+				{
+					"name" : "resBus[13]",
+					"strict" : false
+				},
+				{
+					"name" : "resBus[14]",
+					"strict" : false
+				},
+				{
+					"name" : "resBus[15]",
+					"strict" : false
+				},
+				{
+					"name" : "resBus[16]",
+					"strict" : false
+				},
+				{
+					"name" : "resBus[17]",
+					"strict" : false
+				},
+				{
+					"name" : "resBus[18]",
+					"strict" : false
+				},
+				{
+					"name" : "resBus[19]",
+					"strict" : false
+				},
+				{
+					"name" : "resBus[20]",
+					"strict" : false
+				},
+				{
+					"name" : "resBus[21]",
+					"strict" : false
+				},
+				{
+					"name" : "resBus[22]",
+					"strict" : false
+				},
+				{
+					"name" : "resBus[23]",
+					"strict" : false
+				},
+				{
+					"name" : "resBus[24]",
+					"strict" : false
+				},
+				{
+					"name" : "resBus[25]",
+					"strict" : false
+				},
+				{
+					"name" : "resBus[26]",
+					"strict" : false
+				},
+				{
+					"name" : "resBus[27]",
+					"strict" : false
+				},
+				{
+					"name" : "resBus[28]",
+					"strict" : false
+				},
+				{
+					"name" : "resBus[29]",
+					"strict" : false
+				},
+				{
+					"name" : "resBus[30]",
+					"strict" : false
+				},
+				{
+					"name" : "resBus[31]",
+					"strict" : false
+				},
+				{
+					"name" : "doneFP",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "rst",
+					"strict" : false
+				},
+				{
+					"name" : "startFP",
+					"strict" : false
+				},
+				{
+					"name" : "inBus[24]",
+					"strict" : false
+				},
+				{
+					"name" : "inBus[23]",
+					"strict" : false
+				},
+				{
+					"name" : "inBus[25]",
+					"strict" : false
+				},
+				{
+					"name" : "inBus[26]",
+					"strict" : false
+				},
+				{
+					"name" : "inBus[27]",
+					"strict" : false
+				},
+				{
+					"name" : "inBus[30]",
+					"strict" : false
+				},
+				{
+					"name" : "inBus[29]",
+					"strict" : false
+				},
+				{
+					"name" : "inBus[28]",
+					"strict" : false
+				},
+				{
+					"name" : "inBus[0]",
+					"strict" : false
+				},
+				{
+					"name" : "inBus[1]",
+					"strict" : false
+				},
+				{
+					"name" : "inBus[2]",
+					"strict" : false
+				},
+				{
+					"name" : "inBus[3]",
+					"strict" : false
+				},
+				{
+					"name" : "inBus[4]",
+					"strict" : false
+				},
+				{
+					"name" : "inBus[5]",
+					"strict" : false
+				},
+				{
+					"name" : "inBus[6]",
+					"strict" : false
+				},
+				{
+					"name" : "inBus[7]",
+					"strict" : false
+				},
+				{
+					"name" : "inBus[8]",
+					"strict" : false
+				},
+				{
+					"name" : "inBus[9]",
+					"strict" : false
+				},
+				{
+					"name" : "inBus[10]",
+					"strict" : false
+				},
+				{
+					"name" : "inBus[11]",
+					"strict" : false
+				},
+				{
+					"name" : "inBus[12]",
+					"strict" : false
+				},
+				{
+					"name" : "inBus[13]",
+					"strict" : false
+				},
+				{
+					"name" : "inBus[14]",
+					"strict" : false
+				},
+				{
+					"name" : "inBus[15]",
+					"strict" : false
+				},
+				{
+					"name" : "inBus[16]",
+					"strict" : false
+				},
+				{
+					"name" : "inBus[17]",
+					"strict" : false
+				},
+				{
+					"name" : "inBus[18]",
+					"strict" : false
+				},
+				{
+					"name" : "inBus[19]",
+					"strict" : false
+				},
+				{
+					"name" : "inBus[20]",
+					"strict" : false
+				},
+				{
+					"name" : "inBus[21]",
+					"strict" : false
+				},
+				{
+					"name" : "inBus[22]",
+					"strict" : false
+				},
+				{
+					"name" : "inBus[31]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

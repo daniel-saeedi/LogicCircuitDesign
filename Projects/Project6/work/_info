@@ -1,0 +1,323 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vFPMULT
+!s110 1624849811
+!i10b 1
+!s100 WERYeTW<W3GRW:8j0aQc30
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ie`LXj0CKPakL5_g:F[^JZ0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6
+w1624702047
+8C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT.v
+FC:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT.v
+!i122 631
+L0 2 247
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z4 !s108 1624849810.000000
+!s107 C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@f@p@m@u@l@t
+vFPMULT2
+Z7 !s110 1624849815
+!i10b 1
+!s100 DdJbzgS7cN1]bilJHAod]2
+R0
+IfAd]cSK7_g3MhU60i>>`?3
+R1
+R2
+w1624725094
+8C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v
+FC:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v
+!i122 633
+L0 3 242
+R3
+r1
+!s85 0
+31
+Z8 !s108 1624849815.000000
+!s107 C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v|
+!i113 1
+R5
+R6
+n@f@p@m@u@l@t2
+vFPMULT3
+!s110 1624722392
+!i10b 1
+!s100 @lWoI]D1glH?gWf0=iHi_1
+R0
+IPAJ1ajE8`oi=zUJc6hcDW2
+R1
+R2
+w1624722383
+Z9 8C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT3.v
+Z10 FC:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT3.v
+!i122 620
+L0 3 255
+R3
+r1
+!s85 0
+31
+!s108 1624722392.000000
+!s107 C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT3.v|
+Z11 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT3.v|
+!i113 1
+R5
+R6
+n@f@p@m@u@l@t3
+vFPMULT_TB
+!s110 1624849812
+!i10b 1
+!s100 _G]_fko0709;e[@LEzmEX0
+R0
+IbZFS>[7U5SY^F<M6]ecF[2
+R1
+R2
+w1624722792
+8C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT_TB.v
+FC:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT_TB.v
+!i122 632
+L0 2 18
+R3
+r1
+!s85 0
+31
+!s108 1624849812.000000
+!s107 C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT_TB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT_TB.v|
+!i113 1
+R5
+R6
+n@f@p@m@u@l@t_@t@b
+vFPMULT_TOP
+R7
+!i10b 1
+!s100 Qk8TL0FGi5>QT]E^7N`621
+R0
+Id@iGf_4467^:X]HQATA6Z1
+R1
+R2
+w1624727407
+R9
+R10
+!i122 636
+L0 2 255
+R3
+r1
+!s85 0
+31
+R8
+Z12 !s107 C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT3.v|
+R11
+!i113 1
+R5
+R6
+n@f@p@m@u@l@t_@t@o@p
+vMULT_SEQ_TB
+R7
+!i10b 1
+!s100 eI7]CTcI]66UdP6a7;5eT1
+R0
+I3lVZ^Ea;eZ[lnzK63iMBT1
+R1
+R2
+w1624716445
+8C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/MULT_SEQ_TB.v
+FC:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/MULT_SEQ_TB.v
+!i122 634
+L0 2 23
+R3
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/MULT_SEQ_TB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/MULT_SEQ_TB.v|
+!i113 1
+R5
+R6
+n@m@u@l@t_@s@e@q_@t@b
+vMULT_TOP
+!s110 1624713723
+!i10b 1
+!s100 elb4mHH_2j6[R^5dINlil1
+R0
+INg87H7Xj<[eDY4CX>zi673
+R1
+R2
+w1624713665
+Z13 8C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/MULT_UP.v
+Z14 FC:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/MULT_UP.v
+!i122 335
+L0 1 7
+R3
+r1
+!s85 0
+31
+!s108 1624713723.000000
+Z15 !s107 C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/MULT_UP.v|
+Z16 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/MULT_UP.v|
+!i113 1
+R5
+R6
+n@m@u@l@t_@t@o@p
+vMULT_UP
+!s110 1624714756
+!i10b 1
+!s100 YTZDgdkmBO?:H_2<Zz9K62
+R0
+IM32OQ2mg=2`cEA`ofg3bZ1
+R1
+R2
+w1624714688
+R13
+R14
+!i122 363
+Z17 L0 2 7
+R3
+r1
+!s85 0
+31
+!s108 1624714756.000000
+R15
+R16
+!i113 1
+R5
+R6
+n@m@u@l@t_@u@p
+vMULTCU
+Z18 !s110 1624713722
+!i10b 1
+!s100 ]RS4MdgOc[T`ISQQI=0kQ2
+R0
+I<:HaF3^G]9E74H<QL2dhV1
+R1
+R2
+w1624713424
+Z19 8C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/MULTCU.v
+Z20 FC:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/MULTCU.v
+!i122 330
+L0 1 56
+R3
+r1
+!s85 0
+31
+Z21 !s108 1624713722.000000
+Z22 !s107 C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/MULTCU.v|
+Z23 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/MULTCU.v|
+!i113 1
+R5
+R6
+n@m@u@l@t@c@u
+vMULTDP
+R18
+!i10b 1
+!s100 YhF^oHmhmo4I;8[f@_jJc2
+R0
+IeD^<?JK?MniBTZ_k[aW:h2
+R1
+R2
+w1624713696
+Z24 8C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/MULTDP.v
+Z25 FC:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/MULTDP.v
+!i122 329
+L0 1 44
+R3
+r1
+!s85 0
+31
+R21
+Z26 !s107 C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/MULTDP.v|
+Z27 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/MULTDP.v|
+!i113 1
+R5
+R6
+n@m@u@l@t@d@p
+vSeqMult
+Z28 !s110 1624849810
+!i10b 1
+!s100 9Jg8b8CHINNn31AkRW@DJ0
+R0
+IYXb=lL=z6`D3c70:Vn_A43
+R1
+R2
+w1624721823
+R24
+R25
+!i122 629
+Z29 L0 2 44
+R3
+r1
+!s85 0
+31
+R4
+R26
+R27
+!i113 1
+R5
+R6
+n@seq@mult
+vSeqMultCont
+R28
+!i10b 1
+!s100 @f^3nKzKla[Z6;L5TUZBJ2
+R0
+I?KXATRkRg5[DB?=]faWoL2
+R1
+R2
+w1624714513
+R19
+R20
+!i122 630
+R29
+R3
+r1
+!s85 0
+31
+R4
+R22
+R23
+!i113 1
+R5
+R6
+n@seq@mult@cont
+vSeqMultTop
+R7
+!i10b 1
+!s100 09@5M@7i36h>OXTUcb=ao2
+R0
+I>Q7BXVU5c8LKULQ8n>z?P2
+R1
+R2
+w1624718425
+R13
+R14
+!i122 635
+R17
+R3
+r1
+!s85 0
+31
+R8
+R15
+R16
+!i113 1
+R5
+R6
+n@seq@mult@top

@@ -1,0 +1,353 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 125C Model Setup 'ps.multiply_add_0'
+Slack : -12.375
+TNS   : -524.969
+
+Type  : Slow 1200mV 125C Model Setup 'clk'
+Slack : -9.076
+TNS   : -36.256
+
+Type  : Slow 1200mV 125C Model Setup 'a_m[23]'
+Slack : -9.032
+TNS   : -379.331
+
+Type  : Slow 1200mV 125C Model Setup 'b_m[23]'
+Slack : -7.853
+TNS   : -312.458
+
+Type  : Slow 1200mV 125C Model Setup 'a_e[0]'
+Slack : -7.840
+TNS   : -272.365
+
+Type  : Slow 1200mV 125C Model Setup 'guard'
+Slack : -7.503
+TNS   : -209.144
+
+Type  : Slow 1200mV 125C Model Setup 'ps.unpack'
+Slack : -7.120
+TNS   : -266.117
+
+Type  : Slow 1200mV 125C Model Setup 'ps.multiply_1'
+Slack : -5.342
+TNS   : -117.936
+
+Type  : Slow 1200mV 125C Model Setup 'ps.result'
+Slack : -3.966
+TNS   : -119.128
+
+Type  : Slow 1200mV 125C Model Hold 'a_e[0]'
+Slack : -1.798
+TNS   : -17.809
+
+Type  : Slow 1200mV 125C Model Hold 'b_m[23]'
+Slack : -1.702
+TNS   : -27.166
+
+Type  : Slow 1200mV 125C Model Hold 'guard'
+Slack : -0.500
+TNS   : -1.956
+
+Type  : Slow 1200mV 125C Model Hold 'clk'
+Slack : -0.470
+TNS   : -0.470
+
+Type  : Slow 1200mV 125C Model Hold 'a_m[23]'
+Slack : -0.455
+TNS   : -3.079
+
+Type  : Slow 1200mV 125C Model Hold 'ps.multiply_1'
+Slack : -0.077
+TNS   : -0.149
+
+Type  : Slow 1200mV 125C Model Hold 'ps.unpack'
+Slack : 0.527
+TNS   : 0.000
+
+Type  : Slow 1200mV 125C Model Hold 'ps.multiply_add_0'
+Slack : 0.825
+TNS   : 0.000
+
+Type  : Slow 1200mV 125C Model Hold 'ps.result'
+Slack : 1.972
+TNS   : 0.000
+
+Type  : Slow 1200mV 125C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -25.305
+
+Type  : Slow 1200mV 125C Model Minimum Pulse Width 'ps.multiply_add_0'
+Slack : 0.342
+TNS   : 0.000
+
+Type  : Slow 1200mV 125C Model Minimum Pulse Width 'guard'
+Slack : 0.353
+TNS   : 0.000
+
+Type  : Slow 1200mV 125C Model Minimum Pulse Width 'ps.get_a'
+Slack : 0.357
+TNS   : 0.000
+
+Type  : Slow 1200mV 125C Model Minimum Pulse Width 'ps.unpack'
+Slack : 0.367
+TNS   : 0.000
+
+Type  : Slow 1200mV 125C Model Minimum Pulse Width 'ps.get_b'
+Slack : 0.386
+TNS   : 0.000
+
+Type  : Slow 1200mV 125C Model Minimum Pulse Width 'a_e[0]'
+Slack : 0.407
+TNS   : 0.000
+
+Type  : Slow 1200mV 125C Model Minimum Pulse Width 'b_m[23]'
+Slack : 0.418
+TNS   : 0.000
+
+Type  : Slow 1200mV 125C Model Minimum Pulse Width 'ps.multiply_1'
+Slack : 0.419
+TNS   : 0.000
+
+Type  : Slow 1200mV 125C Model Minimum Pulse Width 'a_m[23]'
+Slack : 0.428
+TNS   : 0.000
+
+Type  : Slow 1200mV 125C Model Minimum Pulse Width 'ps.result'
+Slack : 0.438
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Setup 'ps.multiply_add_0'
+Slack : -10.659
+TNS   : -457.243
+
+Type  : Slow 1200mV -40C Model Setup 'a_m[23]'
+Slack : -8.115
+TNS   : -327.341
+
+Type  : Slow 1200mV -40C Model Setup 'clk'
+Slack : -8.065
+TNS   : -29.904
+
+Type  : Slow 1200mV -40C Model Setup 'b_m[23]'
+Slack : -7.120
+TNS   : -271.674
+
+Type  : Slow 1200mV -40C Model Setup 'a_e[0]'
+Slack : -7.079
+TNS   : -240.678
+
+Type  : Slow 1200mV -40C Model Setup 'guard'
+Slack : -6.475
+TNS   : -178.462
+
+Type  : Slow 1200mV -40C Model Setup 'ps.unpack'
+Slack : -6.233
+TNS   : -229.453
+
+Type  : Slow 1200mV -40C Model Setup 'ps.multiply_1'
+Slack : -4.509
+TNS   : -98.453
+
+Type  : Slow 1200mV -40C Model Setup 'ps.result'
+Slack : -3.317
+TNS   : -99.180
+
+Type  : Slow 1200mV -40C Model Hold 'a_e[0]'
+Slack : -1.389
+TNS   : -13.005
+
+Type  : Slow 1200mV -40C Model Hold 'b_m[23]'
+Slack : -1.383
+TNS   : -24.502
+
+Type  : Slow 1200mV -40C Model Hold 'guard'
+Slack : -0.462
+TNS   : -2.343
+
+Type  : Slow 1200mV -40C Model Hold 'clk'
+Slack : -0.395
+TNS   : -0.395
+
+Type  : Slow 1200mV -40C Model Hold 'a_m[23]'
+Slack : -0.317
+TNS   : -1.956
+
+Type  : Slow 1200mV -40C Model Hold 'ps.multiply_1'
+Slack : -0.186
+TNS   : -0.393
+
+Type  : Slow 1200mV -40C Model Hold 'ps.unpack'
+Slack : 0.415
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Hold 'ps.multiply_add_0'
+Slack : 0.730
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Hold 'ps.result'
+Slack : 1.727
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -22.275
+
+Type  : Slow 1200mV -40C Model Minimum Pulse Width 'a_e[0]'
+Slack : 0.057
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Minimum Pulse Width 'b_m[23]'
+Slack : 0.133
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Minimum Pulse Width 'guard'
+Slack : 0.143
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Minimum Pulse Width 'a_m[23]'
+Slack : 0.185
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Minimum Pulse Width 'ps.result'
+Slack : 0.330
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Minimum Pulse Width 'ps.unpack'
+Slack : 0.343
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Minimum Pulse Width 'ps.multiply_add_0'
+Slack : 0.359
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Minimum Pulse Width 'ps.multiply_1'
+Slack : 0.395
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Minimum Pulse Width 'ps.get_a'
+Slack : 0.446
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Minimum Pulse Width 'ps.get_b'
+Slack : 0.452
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Setup 'ps.multiply_add_0'
+Slack : -5.470
+TNS   : -226.669
+
+Type  : Fast 1200mV -40C Model Setup 'a_m[23]'
+Slack : -3.954
+TNS   : -157.853
+
+Type  : Fast 1200mV -40C Model Setup 'clk'
+Slack : -3.875
+TNS   : -14.442
+
+Type  : Fast 1200mV -40C Model Setup 'b_m[23]'
+Slack : -3.356
+TNS   : -124.193
+
+Type  : Fast 1200mV -40C Model Setup 'a_e[0]'
+Slack : -3.343
+TNS   : -112.859
+
+Type  : Fast 1200mV -40C Model Setup 'guard'
+Slack : -3.020
+TNS   : -81.031
+
+Type  : Fast 1200mV -40C Model Setup 'ps.unpack'
+Slack : -2.829
+TNS   : -102.641
+
+Type  : Fast 1200mV -40C Model Setup 'ps.multiply_1'
+Slack : -2.085
+TNS   : -41.329
+
+Type  : Fast 1200mV -40C Model Setup 'ps.result'
+Slack : -1.605
+TNS   : -47.156
+
+Type  : Fast 1200mV -40C Model Hold 'a_e[0]'
+Slack : -1.040
+TNS   : -11.943
+
+Type  : Fast 1200mV -40C Model Hold 'b_m[23]'
+Slack : -0.945
+TNS   : -14.109
+
+Type  : Fast 1200mV -40C Model Hold 'guard'
+Slack : -0.370
+TNS   : -2.585
+
+Type  : Fast 1200mV -40C Model Hold 'clk'
+Slack : -0.368
+TNS   : -0.368
+
+Type  : Fast 1200mV -40C Model Hold 'a_m[23]'
+Slack : -0.322
+TNS   : -2.439
+
+Type  : Fast 1200mV -40C Model Hold 'ps.multiply_1'
+Slack : -0.075
+TNS   : -0.170
+
+Type  : Fast 1200mV -40C Model Hold 'ps.unpack'
+Slack : 0.160
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Hold 'ps.multiply_add_0'
+Slack : 0.384
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Hold 'ps.result'
+Slack : 1.141
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -18.493
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width 'guard'
+Slack : 0.258
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width 'a_e[0]'
+Slack : 0.263
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width 'b_m[23]'
+Slack : 0.302
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width 'ps.unpack'
+Slack : 0.320
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width 'ps.multiply_1'
+Slack : 0.335
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width 'ps.get_a'
+Slack : 0.343
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width 'ps.multiply_add_0'
+Slack : 0.356
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width 'ps.result'
+Slack : 0.364
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width 'a_m[23]'
+Slack : 0.368
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width 'ps.get_b'
+Slack : 0.415
+TNS   : 0.000
+
+------------------------------------------------------------

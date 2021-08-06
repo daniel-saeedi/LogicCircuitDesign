@@ -1,0 +1,82 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6
+vFPMULT2
+Z0 !s110 1624730190
+!i10b 1
+!s100 ]o;o058LTHD1;V_Geoj682
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IB[Q9Xg;=MhY]I9D768PXk3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2/simulation/modelsim
+Z4 w1624729722
+Z5 8C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2/simulation/modelsim/FPMULT2.vo
+Z6 FC:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2/simulation/modelsim/FPMULT2.vo
+!i122 3
+L0 32 14713
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1624730190.000000
+!s107 C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2/simulation/modelsim/FPMULT2.vo|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2/simulation/modelsim/FPMULT2.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+n@f@p@m@u@l@t2
+vFPMULT_TB
+!s110 1624729114
+!i10b 1
+!s100 F5VbYI=hedO9MWTg>dzTX1
+R1
+I>:>_0b[D`X:GzRG2G]haa3
+R2
+R3
+w1624729107
+8C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project6\FPMULT2\simulation\modelsim\TB.v
+FC:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project6\FPMULT2\simulation\modelsim\TB.v
+!i122 1
+L0 2 18
+R7
+r1
+!s85 0
+31
+!s108 1624729114.000000
+!s107 C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project6\FPMULT2\simulation\modelsim\TB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project6\FPMULT2\simulation\modelsim\TB.v|
+!i113 1
+R10
+R11
+n@f@p@m@u@l@t_@t@b
+vhard_block
+R0
+!i10b 1
+!s100 iSoJSX7LKlhlC0cdai^_D0
+R1
+I:k=bZnQzzFh:neUAl4zG@1
+R2
+R3
+R4
+R5
+R6
+!i122 3
+L0 14746 34
+R7
+r1
+!s85 0
+31
+R8
+Z12 !s107 C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2/simulation/modelsim/FPMULT2.vo|
+R9
+!i113 1
+R10
+R11

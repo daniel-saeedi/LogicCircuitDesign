@@ -1,0 +1,1158 @@
+Analysis & Synthesis report for FPMULT2
+Sat Jun 26 22:18:23 2021
+Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. Analysis & Synthesis DSP Block Usage Summary
+  9. State Machine - |FPMULT2|ps
+ 10. User-Specified and Inferred Latches
+ 11. Registers Removed During Synthesis
+ 12. General Register Statistics
+ 13. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 14. Parameter Settings for User Entity Instance: Top-level Entity: |FPMULT2
+ 15. Parameter Settings for Inferred Entity Instance: lpm_mult:Mult0
+ 16. lpm_mult Parameter Settings by Entity Instance
+ 17. Post-Synthesis Netlist Statistics for Top Partition
+ 18. Elapsed Time Per Partition
+ 19. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++----------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                     ;
++------------------------------------+---------------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Sat Jun 26 22:18:23 2021       ;
+; Quartus Prime Version              ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
+; Revision Name                      ; FPMULT2                                     ;
+; Top-level Entity Name              ; FPMULT2                                     ;
+; Family                             ; Cyclone IV E                                ;
+; Total logic elements               ; 697                                         ;
+;     Total combinational functions  ; 692                                         ;
+;     Dedicated logic registers      ; 15                                          ;
+; Total registers                    ; 15                                          ;
+; Total pins                         ; 68                                          ;
+; Total virtual pins                 ; 0                                           ;
+; Total memory bits                  ; 0                                           ;
+; Embedded Multiplier 9-bit elements ; 7                                           ;
+; Total PLLs                         ; 0                                           ;
++------------------------------------+---------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                              ;
++------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                           ; Setting            ; Default Value      ;
++------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                           ; EP4CE6E22A7        ;                    ;
+; Top-level entity name                                            ; FPMULT2            ; FPMULT2            ;
+; Family name                                                      ; Cyclone IV E       ; Cyclone V          ;
+; Use smart compilation                                            ; Off                ; Off                ;
+; Enable parallel Assembler and Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                      ; Off                ; Off                ;
+; Restructure Multiplexers                                         ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                              ; Off                ; Off                ;
+; Preserve fewer node names                                        ; On                 ; On                 ;
+; Intel FPGA IP Evaluation Mode                                    ; Enable             ; Enable             ;
+; Verilog Version                                                  ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                     ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                         ; Auto               ; Auto               ;
+; Safe State Machine                                               ; Off                ; Off                ;
+; Extract Verilog State Machines                                   ; On                 ; On                 ;
+; Extract VHDL State Machines                                      ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                       ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                   ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                          ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                        ; On                 ; On                 ;
+; Parallel Synthesis                                               ; On                 ; On                 ;
+; DSP Block Balancing                                              ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                               ; On                 ; On                 ;
+; Power-Up Don't Care                                              ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                     ; Off                ; Off                ;
+; Remove Duplicate Registers                                       ; On                 ; On                 ;
+; Ignore CARRY Buffers                                             ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                           ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                            ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                        ; Off                ; Off                ;
+; Ignore LCELL Buffers                                             ; Off                ; Off                ;
+; Ignore SOFT Buffers                                              ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                   ; Off                ; Off                ;
+; Optimization Technique                                           ; Balanced           ; Balanced           ;
+; Carry Chain Length                                               ; 70                 ; 70                 ;
+; Auto Carry Chains                                                ; On                 ; On                 ;
+; Auto Open-Drain Pins                                             ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                            ; Off                ; Off                ;
+; Auto ROM Replacement                                             ; On                 ; On                 ;
+; Auto RAM Replacement                                             ; On                 ; On                 ;
+; Auto DSP Block Replacement                                       ; On                 ; On                 ;
+; Auto Shift Register Replacement                                  ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                  ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                    ; On                 ; On                 ;
+; Strict RAM Replacement                                           ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                           ; Off                ; Off                ;
+; Auto RAM Block Balancing                                         ; On                 ; On                 ;
+; Auto RAM to Logic Cell Conversion                                ; Off                ; Off                ;
+; Auto Resource Sharing                                            ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                               ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                               ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                    ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing              ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                ; Off                ; Off                ;
+; Timing-Driven Synthesis                                          ; On                 ; On                 ;
+; Report Parameter Settings                                        ; On                 ; On                 ;
+; Report Source Assignments                                        ; On                 ; On                 ;
+; Report Connectivity Checks                                       ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                               ; Off                ; Off                ;
+; Synchronization Register Chain Length                            ; 2                  ; 2                  ;
+; Power Optimization During Synthesis                              ; Normal compilation ; Normal compilation ;
+; HDL message level                                                ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                  ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report         ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report               ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report        ; 100                ; 100                ;
+; Clock MUX Protection                                             ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                      ; Off                ; Off                ;
+; Block Design Naming                                              ; Auto               ; Auto               ;
+; SDC constraint protection                                        ; Off                ; Off                ;
+; Synthesis Effort                                                 ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal     ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                             ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                               ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                      ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                           ; On                 ; On                 ;
++------------------------------------------------------------------+--------------------+--------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 12          ;
+; Maximum allowed            ; 6           ;
+;                            ;             ;
+; Average used               ; 1.01        ;
+; Maximum used               ; 6           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processor 2            ;   0.2%      ;
+;     Processors 3-6         ;   0.2%      ;
++----------------------------+-------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                            ;
++----------------------------------+-----------------+------------------------------+-------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                        ; Library ;
++----------------------------------+-----------------+------------------------------+-------------------------------------------------------------------------------------+---------+
+; ../FPMULT2.v                     ; yes             ; User Verilog HDL File        ; C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v               ;         ;
+; lpm_mult.tdf                     ; yes             ; Megafunction                 ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_mult.tdf                 ;         ;
+; aglobal201.inc                   ; yes             ; Megafunction                 ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/aglobal201.inc               ;         ;
+; lpm_add_sub.inc                  ; yes             ; Megafunction                 ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_add_sub.inc              ;         ;
+; multcore.inc                     ; yes             ; Megafunction                 ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/multcore.inc                 ;         ;
+; bypassff.inc                     ; yes             ; Megafunction                 ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/bypassff.inc                 ;         ;
+; altshift.inc                     ; yes             ; Megafunction                 ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/altshift.inc                 ;         ;
+; db/mult_bdt.tdf                  ; yes             ; Auto-Generated Megafunction  ; C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2/db/mult_bdt.tdf ;         ;
++----------------------------------+-----------------+------------------------------+-------------------------------------------------------------------------------------+---------+
+
+
++-----------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                     ;
++---------------------------------------------+-------------------+
+; Resource                                    ; Usage             ;
++---------------------------------------------+-------------------+
+; Estimated Total logic elements              ; 697               ;
+;                                             ;                   ;
+; Total combinational functions               ; 692               ;
+; Logic element usage by number of LUT inputs ;                   ;
+;     -- 4 input functions                    ; 150               ;
+;     -- 3 input functions                    ; 432               ;
+;     -- <=2 input functions                  ; 110               ;
+;                                             ;                   ;
+; Logic elements by mode                      ;                   ;
+;     -- normal mode                          ; 565               ;
+;     -- arithmetic mode                      ; 127               ;
+;                                             ;                   ;
+; Total registers                             ; 15                ;
+;     -- Dedicated logic registers            ; 15                ;
+;     -- I/O registers                        ; 0                 ;
+;                                             ;                   ;
+; I/O pins                                    ; 68                ;
+;                                             ;                   ;
+; Embedded Multiplier 9-bit elements          ; 7                 ;
+;                                             ;                   ;
+; Maximum fan-out node                        ; ps.multiply_add_0 ;
+; Maximum fan-out                             ; 74                ;
+; Total fan-out                               ; 2351              ;
+; Average fan-out                             ; 2.76              ;
++---------------------------------------------+-------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                       ;
++---------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-------------------------------------------------+-------------+--------------+
+; Compilation Hierarchy Node      ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                             ; Entity Name ; Library Name ;
++---------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-------------------------------------------------+-------------+--------------+
+; |FPMULT2                        ; 692 (637)           ; 15 (15)                   ; 0           ; 7            ; 1       ; 3         ; 68   ; 0            ; |FPMULT2                                        ; FPMULT2     ; work         ;
+;    |lpm_mult:Mult0|             ; 55 (0)              ; 0 (0)                     ; 0           ; 7            ; 1       ; 3         ; 0    ; 0            ; |FPMULT2|lpm_mult:Mult0                         ; lpm_mult    ; work         ;
+;       |mult_bdt:auto_generated| ; 55 (55)             ; 0 (0)                     ; 0           ; 7            ; 1       ; 3         ; 0    ; 0            ; |FPMULT2|lpm_mult:Mult0|mult_bdt:auto_generated ; mult_bdt    ; work         ;
++---------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-------------------------------------------------+-------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++-----------------------------------------------------+
+; Analysis & Synthesis DSP Block Usage Summary        ;
++---------------------------------------+-------------+
+; Statistic                             ; Number Used ;
++---------------------------------------+-------------+
+; Simple Multipliers (9-bit)            ; 1           ;
+; Simple Multipliers (18-bit)           ; 3           ;
+; Embedded Multiplier Blocks            ; --          ;
+; Embedded Multiplier 9-bit elements    ; 7           ;
+; Signed Embedded Multipliers           ; 0           ;
+; Unsigned Embedded Multipliers         ; 4           ;
+; Mixed Sign Embedded Multipliers       ; 0           ;
+; Variable Sign Embedded Multipliers    ; 0           ;
+; Dedicated Input Shift Register Chains ; 0           ;
++---------------------------------------+-------------+
+Note: number of Embedded Multiplier Blocks used is only available after a successful fit.
+
+
+Encoding Type:  One-Hot
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; State Machine - |FPMULT2|ps                                                                                                                                                                                                         ;
++-------------------+-----------+---------+----------+----------------+----------------+---------------+-------------------+----------------+----------------+------------------+-----------+----------+----------+---------+---------+
+; Name              ; ps.result ; ps.pack ; ps.round ; ps.normalise_2 ; ps.normalise_1 ; ps.multiply_1 ; ps.multiply_add_0 ; ps.normalise_b ; ps.normalise_a ; ps.special_cases ; ps.unpack ; ps.get_b ; ps.get_a ; ps.init ; ps.idle ;
++-------------------+-----------+---------+----------+----------------+----------------+---------------+-------------------+----------------+----------------+------------------+-----------+----------+----------+---------+---------+
+; ps.idle           ; 0         ; 0       ; 0        ; 0              ; 0              ; 0             ; 0                 ; 0              ; 0              ; 0                ; 0         ; 0        ; 0        ; 0       ; 0       ;
+; ps.init           ; 0         ; 0       ; 0        ; 0              ; 0              ; 0             ; 0                 ; 0              ; 0              ; 0                ; 0         ; 0        ; 0        ; 1       ; 1       ;
+; ps.get_a          ; 0         ; 0       ; 0        ; 0              ; 0              ; 0             ; 0                 ; 0              ; 0              ; 0                ; 0         ; 0        ; 1        ; 0       ; 1       ;
+; ps.get_b          ; 0         ; 0       ; 0        ; 0              ; 0              ; 0             ; 0                 ; 0              ; 0              ; 0                ; 0         ; 1        ; 0        ; 0       ; 1       ;
+; ps.unpack         ; 0         ; 0       ; 0        ; 0              ; 0              ; 0             ; 0                 ; 0              ; 0              ; 0                ; 1         ; 0        ; 0        ; 0       ; 1       ;
+; ps.special_cases  ; 0         ; 0       ; 0        ; 0              ; 0              ; 0             ; 0                 ; 0              ; 0              ; 1                ; 0         ; 0        ; 0        ; 0       ; 1       ;
+; ps.normalise_a    ; 0         ; 0       ; 0        ; 0              ; 0              ; 0             ; 0                 ; 0              ; 1              ; 0                ; 0         ; 0        ; 0        ; 0       ; 1       ;
+; ps.normalise_b    ; 0         ; 0       ; 0        ; 0              ; 0              ; 0             ; 0                 ; 1              ; 0              ; 0                ; 0         ; 0        ; 0        ; 0       ; 1       ;
+; ps.multiply_add_0 ; 0         ; 0       ; 0        ; 0              ; 0              ; 0             ; 1                 ; 0              ; 0              ; 0                ; 0         ; 0        ; 0        ; 0       ; 1       ;
+; ps.multiply_1     ; 0         ; 0       ; 0        ; 0              ; 0              ; 1             ; 0                 ; 0              ; 0              ; 0                ; 0         ; 0        ; 0        ; 0       ; 1       ;
+; ps.normalise_1    ; 0         ; 0       ; 0        ; 0              ; 1              ; 0             ; 0                 ; 0              ; 0              ; 0                ; 0         ; 0        ; 0        ; 0       ; 1       ;
+; ps.normalise_2    ; 0         ; 0       ; 0        ; 1              ; 0              ; 0             ; 0                 ; 0              ; 0              ; 0                ; 0         ; 0        ; 0        ; 0       ; 1       ;
+; ps.round          ; 0         ; 0       ; 1        ; 0              ; 0              ; 0             ; 0                 ; 0              ; 0              ; 0                ; 0         ; 0        ; 0        ; 0       ; 1       ;
+; ps.pack           ; 0         ; 1       ; 0        ; 0              ; 0              ; 0             ; 0                 ; 0              ; 0              ; 0                ; 0         ; 0        ; 0        ; 0       ; 1       ;
+; ps.result         ; 1         ; 0       ; 0        ; 0              ; 0              ; 0             ; 0                 ; 0              ; 0              ; 0                ; 0         ; 0        ; 0        ; 0       ; 1       ;
++-------------------+-----------+---------+----------+----------------+----------------+---------------+-------------------+----------------+----------------+------------------+-----------+----------+----------+---------+---------+
+
+
++-----------------------------------------------------------------------------------------------------+
+; User-Specified and Inferred Latches                                                                 ;
++------------------------------------------------------+---------------------+------------------------+
+; Latch Name                                           ; Latch Enable Signal ; Free of Timing Hazards ;
++------------------------------------------------------+---------------------+------------------------+
+; s_output_z[0]                                        ; ps.result           ; yes                    ;
+; s_output_z[1]                                        ; ps.result           ; yes                    ;
+; s_output_z[2]                                        ; ps.result           ; yes                    ;
+; s_output_z[3]                                        ; ps.result           ; yes                    ;
+; s_output_z[4]                                        ; ps.result           ; yes                    ;
+; s_output_z[5]                                        ; ps.result           ; yes                    ;
+; s_output_z[6]                                        ; ps.result           ; yes                    ;
+; s_output_z[7]                                        ; ps.result           ; yes                    ;
+; s_output_z[8]                                        ; ps.result           ; yes                    ;
+; s_output_z[9]                                        ; ps.result           ; yes                    ;
+; s_output_z[10]                                       ; ps.result           ; yes                    ;
+; s_output_z[11]                                       ; ps.result           ; yes                    ;
+; s_output_z[12]                                       ; ps.result           ; yes                    ;
+; s_output_z[13]                                       ; ps.result           ; yes                    ;
+; s_output_z[14]                                       ; ps.result           ; yes                    ;
+; s_output_z[15]                                       ; ps.result           ; yes                    ;
+; s_output_z[16]                                       ; ps.result           ; yes                    ;
+; s_output_z[17]                                       ; ps.result           ; yes                    ;
+; s_output_z[18]                                       ; ps.result           ; yes                    ;
+; s_output_z[19]                                       ; ps.result           ; yes                    ;
+; s_output_z[20]                                       ; ps.result           ; yes                    ;
+; s_output_z[21]                                       ; ps.result           ; yes                    ;
+; s_output_z[22]                                       ; ps.result           ; yes                    ;
+; s_output_z[23]                                       ; ps.result           ; yes                    ;
+; s_output_z[24]                                       ; ps.result           ; yes                    ;
+; s_output_z[25]                                       ; ps.result           ; yes                    ;
+; s_output_z[26]                                       ; ps.result           ; yes                    ;
+; s_output_z[27]                                       ; ps.result           ; yes                    ;
+; s_output_z[28]                                       ; ps.result           ; yes                    ;
+; s_output_z[29]                                       ; ps.result           ; yes                    ;
+; s_output_z[30]                                       ; ps.result           ; yes                    ;
+; s_output_z[31]                                       ; ps.result           ; yes                    ;
+; z[0]                                                 ; Selector8           ; yes                    ;
+; z[1]                                                 ; Selector8           ; yes                    ;
+; z[2]                                                 ; Selector8           ; yes                    ;
+; z[3]                                                 ; Selector8           ; yes                    ;
+; z[4]                                                 ; Selector8           ; yes                    ;
+; z[5]                                                 ; Selector8           ; yes                    ;
+; z[6]                                                 ; Selector8           ; yes                    ;
+; z[7]                                                 ; Selector8           ; yes                    ;
+; z[8]                                                 ; Selector8           ; yes                    ;
+; z[9]                                                 ; Selector8           ; yes                    ;
+; z[10]                                                ; Selector8           ; yes                    ;
+; z[11]                                                ; Selector8           ; yes                    ;
+; z[12]                                                ; Selector8           ; yes                    ;
+; z[13]                                                ; Selector8           ; yes                    ;
+; z[14]                                                ; Selector8           ; yes                    ;
+; z[15]                                                ; Selector8           ; yes                    ;
+; z[16]                                                ; Selector8           ; yes                    ;
+; z[17]                                                ; Selector8           ; yes                    ;
+; z[18]                                                ; Selector8           ; yes                    ;
+; z[19]                                                ; Selector8           ; yes                    ;
+; z[20]                                                ; Selector8           ; yes                    ;
+; z[21]                                                ; Selector8           ; yes                    ;
+; z[22]                                                ; Selector8           ; yes                    ;
+; z[23]                                                ; Selector8           ; yes                    ;
+; z[24]                                                ; Selector8           ; yes                    ;
+; z[25]                                                ; Selector8           ; yes                    ;
+; z[26]                                                ; Selector8           ; yes                    ;
+; z[27]                                                ; Selector8           ; yes                    ;
+; z[28]                                                ; Selector8           ; yes                    ;
+; z[29]                                                ; Selector8           ; yes                    ;
+; z[30]                                                ; Selector8           ; yes                    ;
+; z[31]                                                ; Selector8           ; yes                    ;
+; a_m[23]                                              ; Selector154         ; yes                    ;
+; a_e[0]                                               ; Selector106         ; yes                    ;
+; a_e[1]                                               ; Selector106         ; yes                    ;
+; a_e[2]                                               ; Selector106         ; yes                    ;
+; a_e[3]                                               ; Selector106         ; yes                    ;
+; a_e[4]                                               ; Selector106         ; yes                    ;
+; a_e[5]                                               ; Selector106         ; yes                    ;
+; a_e[6]                                               ; Selector106         ; yes                    ;
+; a_e[7]                                               ; Selector106         ; yes                    ;
+; a_e[8]                                               ; Selector106         ; yes                    ;
+; a_e[9]                                               ; Selector106         ; yes                    ;
+; a_m[0]                                               ; Selector77          ; yes                    ;
+; a_m[1]                                               ; Selector77          ; yes                    ;
+; a_m[2]                                               ; Selector77          ; yes                    ;
+; a_m[3]                                               ; Selector77          ; yes                    ;
+; a_m[4]                                               ; Selector77          ; yes                    ;
+; a_m[5]                                               ; Selector77          ; yes                    ;
+; a_m[6]                                               ; Selector77          ; yes                    ;
+; a_m[7]                                               ; Selector77          ; yes                    ;
+; a_m[8]                                               ; Selector77          ; yes                    ;
+; a_m[9]                                               ; Selector77          ; yes                    ;
+; a_m[10]                                              ; Selector77          ; yes                    ;
+; a_m[11]                                              ; Selector77          ; yes                    ;
+; a_m[12]                                              ; Selector77          ; yes                    ;
+; a_m[13]                                              ; Selector77          ; yes                    ;
+; a_m[14]                                              ; Selector77          ; yes                    ;
+; a_m[15]                                              ; Selector77          ; yes                    ;
+; a_m[16]                                              ; Selector77          ; yes                    ;
+; a_m[17]                                              ; Selector77          ; yes                    ;
+; a_m[18]                                              ; Selector77          ; yes                    ;
+; a_m[19]                                              ; Selector77          ; yes                    ;
+; a_m[20]                                              ; Selector77          ; yes                    ;
+; a_m[21]                                              ; Selector77          ; yes                    ;
+; a_m[22]                                              ; Selector77          ; yes                    ;
+; b_e[0]                                               ; Selector105         ; yes                    ;
+; b_e[1]                                               ; Selector105         ; yes                    ;
+; Number of user-specified and inferred latches = 284  ;                     ;                        ;
++------------------------------------------------------+---------------------+------------------------+
+Table restricted to first 100 entries. Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
+
+
++------------------------------------------------------------+
+; Registers Removed During Synthesis                         ;
++---------------------------------------+--------------------+
+; Register name                         ; Reason for Removal ;
++---------------------------------------+--------------------+
+; ps~4                                  ; Lost fanout        ;
+; ps~5                                  ; Lost fanout        ;
+; ps~6                                  ; Lost fanout        ;
+; ps~7                                  ; Lost fanout        ;
+; Total Number of Removed Registers = 4 ;                    ;
++---------------------------------------+--------------------+
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 15    ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 15    ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 0     ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                           ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
+; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |FPMULT2|Selector37        ;
+; 3:1                ; 10 bits   ; 20 LEs        ; 20 LEs               ; 0 LEs                  ; No         ; |FPMULT2|Selector20        ;
+; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |FPMULT2|Selector154       ;
+; 3:1                ; 10 bits   ; 20 LEs        ; 20 LEs               ; 0 LEs                  ; No         ; |FPMULT2|Selector21        ;
+; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |FPMULT2|Selector105       ;
+; 5:1                ; 10 bits   ; 30 LEs        ; 20 LEs               ; 10 LEs                 ; No         ; |FPMULT2|Add7              ;
+; 4:1                ; 23 bits   ; 46 LEs        ; 46 LEs               ; 0 LEs                  ; No         ; |FPMULT2|Selector85        ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
+
+
++-------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Top-level Entity: |FPMULT2 ;
++----------------+-------+------------------------------------------------+
+; Parameter Name ; Value ; Type                                           ;
++----------------+-------+------------------------------------------------+
+; idle           ; 0000  ; Unsigned Binary                                ;
+; init           ; 0001  ; Unsigned Binary                                ;
+; get_a          ; 0010  ; Unsigned Binary                                ;
+; get_b          ; 0011  ; Unsigned Binary                                ;
+; unpack         ; 0100  ; Unsigned Binary                                ;
+; special_cases  ; 0101  ; Unsigned Binary                                ;
+; normalise_a    ; 0110  ; Unsigned Binary                                ;
+; normalise_b    ; 0111  ; Unsigned Binary                                ;
+; multiply_add_0 ; 1000  ; Unsigned Binary                                ;
+; multiply_1     ; 1001  ; Unsigned Binary                                ;
+; normalise_1    ; 1010  ; Unsigned Binary                                ;
+; normalise_2    ; 1011  ; Unsigned Binary                                ;
+; round          ; 1100  ; Unsigned Binary                                ;
+; pack           ; 1101  ; Unsigned Binary                                ;
+; result         ; 1110  ; Unsigned Binary                                ;
++----------------+-------+------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: lpm_mult:Mult0                     ;
++------------------------------------------------+--------------+---------------------+
+; Parameter Name                                 ; Value        ; Type                ;
++------------------------------------------------+--------------+---------------------+
+; AUTO_CARRY_CHAINS                              ; ON           ; AUTO_CARRY          ;
+; IGNORE_CARRY_BUFFERS                           ; OFF          ; IGNORE_CARRY        ;
+; AUTO_CASCADE_CHAINS                            ; ON           ; AUTO_CASCADE        ;
+; IGNORE_CASCADE_BUFFERS                         ; OFF          ; IGNORE_CASCADE      ;
+; LPM_WIDTHA                                     ; 24           ; Untyped             ;
+; LPM_WIDTHB                                     ; 24           ; Untyped             ;
+; LPM_WIDTHP                                     ; 48           ; Untyped             ;
+; LPM_WIDTHR                                     ; 48           ; Untyped             ;
+; LPM_WIDTHS                                     ; 1            ; Untyped             ;
+; LPM_REPRESENTATION                             ; UNSIGNED     ; Untyped             ;
+; LPM_PIPELINE                                   ; 0            ; Untyped             ;
+; LATENCY                                        ; 0            ; Untyped             ;
+; INPUT_A_IS_CONSTANT                            ; NO           ; Untyped             ;
+; INPUT_B_IS_CONSTANT                            ; NO           ; Untyped             ;
+; USE_EAB                                        ; OFF          ; Untyped             ;
+; MAXIMIZE_SPEED                                 ; 5            ; Untyped             ;
+; DEVICE_FAMILY                                  ; Cyclone IV E ; Untyped             ;
+; CARRY_CHAIN                                    ; MANUAL       ; Untyped             ;
+; APEX20K_TECHNOLOGY_MAPPER                      ; LUT          ; TECH_MAPPER_APEX20K ;
+; DEDICATED_MULTIPLIER_CIRCUITRY                 ; AUTO         ; Untyped             ;
+; DEDICATED_MULTIPLIER_MIN_INPUT_WIDTH_FOR_AUTO  ; 0            ; Untyped             ;
+; DEDICATED_MULTIPLIER_MIN_OUTPUT_WIDTH_FOR_AUTO ; 0            ; Untyped             ;
+; CBXI_PARAMETER                                 ; mult_bdt     ; Untyped             ;
+; INPUT_A_FIXED_VALUE                            ; Bx           ; Untyped             ;
+; INPUT_B_FIXED_VALUE                            ; Bx           ; Untyped             ;
+; USE_AHDL_IMPLEMENTATION                        ; OFF          ; Untyped             ;
++------------------------------------------------+--------------+---------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------+
+; lpm_mult Parameter Settings by Entity Instance         ;
++---------------------------------------+----------------+
+; Name                                  ; Value          ;
++---------------------------------------+----------------+
+; Number of entity instances            ; 1              ;
+; Entity Instance                       ; lpm_mult:Mult0 ;
+;     -- LPM_WIDTHA                     ; 24             ;
+;     -- LPM_WIDTHB                     ; 24             ;
+;     -- LPM_WIDTHP                     ; 48             ;
+;     -- LPM_REPRESENTATION             ; UNSIGNED       ;
+;     -- INPUT_A_IS_CONSTANT            ; NO             ;
+;     -- INPUT_B_IS_CONSTANT            ; NO             ;
+;     -- USE_EAB                        ; OFF            ;
+;     -- DEDICATED_MULTIPLIER_CIRCUITRY ; AUTO           ;
+;     -- INPUT_A_FIXED_VALUE            ; Bx             ;
+;     -- INPUT_B_FIXED_VALUE            ; Bx             ;
++---------------------------------------+----------------+
+
+
++-----------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Top Partition ;
++-----------------------+-----------------------------+
+; Type                  ; Count                       ;
++-----------------------+-----------------------------+
+; boundary_port         ; 68                          ;
+; cycloneiii_ff         ; 15                          ;
+;     CLR               ; 15                          ;
+; cycloneiii_lcell_comb ; 692                         ;
+;     arith             ; 127                         ;
+;         2 data inputs ; 69                          ;
+;         3 data inputs ; 58                          ;
+;     normal            ; 565                         ;
+;         0 data inputs ; 3                           ;
+;         1 data inputs ; 5                           ;
+;         2 data inputs ; 33                          ;
+;         3 data inputs ; 374                         ;
+;         4 data inputs ; 150                         ;
+; cycloneiii_mac_mult   ; 4                           ;
+; cycloneiii_mac_out    ; 4                           ;
+;                       ;                             ;
+; Max LUT depth         ; 7.00                        ;
+; Average LUT depth     ; 3.32                        ;
++-----------------------+-----------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:00     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+    Info: Processing started: Sat Jun 26 22:18:15 2021
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off FPMULT2 -c FPMULT2
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 6 of the 6 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file /users/saeed/desktop/logiccircuitdesign/projects/project6/fpmult2.v
+    Info (12023): Found entity 1: FPMULT2 File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 3
+Info (12127): Elaborating entity "FPMULT2" for the top level hierarchy
+Warning (10230): Verilog HDL assignment warning at FPMULT2.v(79): truncated value with size 32 to match size of target (10) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 79
+Warning (10230): Verilog HDL assignment warning at FPMULT2.v(80): truncated value with size 32 to match size of target (10) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 80
+Warning (10230): Verilog HDL assignment warning at FPMULT2.v(130): truncated value with size 32 to match size of target (10) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 130
+Warning (10230): Verilog HDL assignment warning at FPMULT2.v(136): truncated value with size 32 to match size of target (10) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 136
+Warning (10230): Verilog HDL assignment warning at FPMULT2.v(150): truncated value with size 32 to match size of target (10) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 150
+Warning (10230): Verilog HDL assignment warning at FPMULT2.v(159): truncated value with size 32 to match size of target (10) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 159
+Warning (10230): Verilog HDL assignment warning at FPMULT2.v(165): truncated value with size 32 to match size of target (10) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 165
+Warning (10230): Verilog HDL assignment warning at FPMULT2.v(180): truncated value with size 32 to match size of target (10) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 180
+Warning (10230): Verilog HDL assignment warning at FPMULT2.v(192): truncated value with size 32 to match size of target (10) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 192
+Warning (10230): Verilog HDL assignment warning at FPMULT2.v(203): truncated value with size 32 to match size of target (24) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 203
+Warning (10230): Verilog HDL assignment warning at FPMULT2.v(205): truncated value with size 32 to match size of target (10) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 205
+Warning (10230): Verilog HDL assignment warning at FPMULT2.v(213): truncated value with size 32 to match size of target (8) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 213
+Warning (10270): Verilog HDL Case Statement warning at FPMULT2.v(60): incomplete case statement has no default case item File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 60
+Info (10264): Verilog HDL Case Statement information at FPMULT2.v(60): all case item expressions in this case statement are onehot File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 60
+Warning (10240): Verilog HDL Always Construct warning at FPMULT2.v(59): inferring latch(es) for variable "Areg", which holds its previous value in one or more paths through the always construct File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Warning (10240): Verilog HDL Always Construct warning at FPMULT2.v(59): inferring latch(es) for variable "Breg", which holds its previous value in one or more paths through the always construct File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Warning (10240): Verilog HDL Always Construct warning at FPMULT2.v(59): inferring latch(es) for variable "a_m", which holds its previous value in one or more paths through the always construct File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Warning (10240): Verilog HDL Always Construct warning at FPMULT2.v(59): inferring latch(es) for variable "b_m", which holds its previous value in one or more paths through the always construct File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Warning (10240): Verilog HDL Always Construct warning at FPMULT2.v(59): inferring latch(es) for variable "a_e", which holds its previous value in one or more paths through the always construct File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Warning (10240): Verilog HDL Always Construct warning at FPMULT2.v(59): inferring latch(es) for variable "b_e", which holds its previous value in one or more paths through the always construct File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Warning (10240): Verilog HDL Always Construct warning at FPMULT2.v(59): inferring latch(es) for variable "a_s", which holds its previous value in one or more paths through the always construct File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Warning (10240): Verilog HDL Always Construct warning at FPMULT2.v(59): inferring latch(es) for variable "b_s", which holds its previous value in one or more paths through the always construct File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Warning (10240): Verilog HDL Always Construct warning at FPMULT2.v(59): inferring latch(es) for variable "z", which holds its previous value in one or more paths through the always construct File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Warning (10240): Verilog HDL Always Construct warning at FPMULT2.v(59): inferring latch(es) for variable "z_s", which holds its previous value in one or more paths through the always construct File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Warning (10240): Verilog HDL Always Construct warning at FPMULT2.v(59): inferring latch(es) for variable "z_e", which holds its previous value in one or more paths through the always construct File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Warning (10240): Verilog HDL Always Construct warning at FPMULT2.v(59): inferring latch(es) for variable "product", which holds its previous value in one or more paths through the always construct File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Warning (10240): Verilog HDL Always Construct warning at FPMULT2.v(59): inferring latch(es) for variable "z_m", which holds its previous value in one or more paths through the always construct File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Warning (10240): Verilog HDL Always Construct warning at FPMULT2.v(59): inferring latch(es) for variable "guard", which holds its previous value in one or more paths through the always construct File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Warning (10240): Verilog HDL Always Construct warning at FPMULT2.v(59): inferring latch(es) for variable "round_bit", which holds its previous value in one or more paths through the always construct File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Warning (10240): Verilog HDL Always Construct warning at FPMULT2.v(59): inferring latch(es) for variable "sticky", which holds its previous value in one or more paths through the always construct File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Warning (10240): Verilog HDL Always Construct warning at FPMULT2.v(59): inferring latch(es) for variable "s_output_z", which holds its previous value in one or more paths through the always construct File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "s_output_z[0]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "s_output_z[1]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "s_output_z[2]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "s_output_z[3]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "s_output_z[4]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "s_output_z[5]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "s_output_z[6]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "s_output_z[7]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "s_output_z[8]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "s_output_z[9]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "s_output_z[10]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "s_output_z[11]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "s_output_z[12]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "s_output_z[13]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "s_output_z[14]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "s_output_z[15]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "s_output_z[16]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "s_output_z[17]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "s_output_z[18]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "s_output_z[19]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "s_output_z[20]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "s_output_z[21]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "s_output_z[22]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "s_output_z[23]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "s_output_z[24]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "s_output_z[25]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "s_output_z[26]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "s_output_z[27]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "s_output_z[28]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "s_output_z[29]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "s_output_z[30]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "s_output_z[31]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "sticky" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "round_bit" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "guard" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "z_m[0]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "z_m[1]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "z_m[2]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "z_m[3]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "z_m[4]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "z_m[5]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "z_m[6]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "z_m[7]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "z_m[8]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "z_m[9]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "z_m[10]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "z_m[11]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "z_m[12]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "z_m[13]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "z_m[14]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "z_m[15]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "z_m[16]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "z_m[17]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "z_m[18]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "z_m[19]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "z_m[20]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "z_m[21]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "z_m[22]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "z_m[23]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "product[0]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "product[1]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "product[2]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "product[3]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "product[4]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "product[5]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "product[6]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "product[7]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "product[8]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "product[9]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "product[10]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "product[11]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "product[12]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "product[13]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "product[14]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "product[15]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "product[16]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "product[17]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "product[18]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "product[19]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "product[20]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "product[21]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "product[22]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "product[23]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "product[24]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "product[25]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "product[26]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "product[27]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "product[28]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "product[29]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "product[30]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "product[31]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "product[32]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "product[33]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "product[34]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "product[35]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "product[36]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "product[37]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "product[38]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "product[39]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "product[40]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "product[41]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "product[42]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "product[43]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "product[44]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "product[45]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "product[46]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "product[47]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "z_e[0]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "z_e[1]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "z_e[2]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "z_e[3]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "z_e[4]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "z_e[5]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "z_e[6]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "z_e[7]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "z_e[8]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "z_e[9]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "z_s" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "z[0]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "z[1]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "z[2]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "z[3]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "z[4]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "z[5]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "z[6]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "z[7]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "z[8]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "z[9]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "z[10]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "z[11]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "z[12]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "z[13]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "z[14]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "z[15]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "z[16]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "z[17]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "z[18]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "z[19]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "z[20]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "z[21]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "z[22]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "z[23]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "z[24]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "z[25]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "z[26]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "z[27]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "z[28]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "z[29]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "z[30]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "z[31]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "b_s" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "a_s" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "b_e[0]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "b_e[1]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "b_e[2]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "b_e[3]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "b_e[4]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "b_e[5]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "b_e[6]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "b_e[7]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "b_e[8]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "b_e[9]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "a_e[0]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "a_e[1]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "a_e[2]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "a_e[3]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "a_e[4]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "a_e[5]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "a_e[6]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "a_e[7]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "a_e[8]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "a_e[9]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "b_m[0]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "b_m[1]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "b_m[2]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "b_m[3]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "b_m[4]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "b_m[5]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "b_m[6]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "b_m[7]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "b_m[8]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "b_m[9]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "b_m[10]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "b_m[11]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "b_m[12]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "b_m[13]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "b_m[14]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "b_m[15]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "b_m[16]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "b_m[17]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "b_m[18]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "b_m[19]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "b_m[20]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "b_m[21]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "b_m[22]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "b_m[23]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "a_m[0]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "a_m[1]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "a_m[2]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "a_m[3]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "a_m[4]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "a_m[5]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "a_m[6]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "a_m[7]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "a_m[8]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "a_m[9]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "a_m[10]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "a_m[11]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "a_m[12]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "a_m[13]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "a_m[14]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "a_m[15]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "a_m[16]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "a_m[17]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "a_m[18]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "a_m[19]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "a_m[20]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "a_m[21]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "a_m[22]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "a_m[23]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "Breg[0]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "Breg[1]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "Breg[2]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "Breg[3]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "Breg[4]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "Breg[5]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "Breg[6]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "Breg[7]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "Breg[8]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "Breg[9]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "Breg[10]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "Breg[11]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "Breg[12]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "Breg[13]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "Breg[14]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "Breg[15]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "Breg[16]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "Breg[17]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "Breg[18]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "Breg[19]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "Breg[20]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "Breg[21]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "Breg[22]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "Breg[23]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "Breg[24]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "Breg[25]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "Breg[26]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "Breg[27]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "Breg[28]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "Breg[29]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "Breg[30]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "Breg[31]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "Areg[0]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "Areg[1]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "Areg[2]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "Areg[3]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "Areg[4]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "Areg[5]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "Areg[6]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "Areg[7]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "Areg[8]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "Areg[9]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "Areg[10]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "Areg[11]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "Areg[12]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "Areg[13]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "Areg[14]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "Areg[15]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "Areg[16]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "Areg[17]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "Areg[18]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "Areg[19]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "Areg[20]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "Areg[21]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "Areg[22]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "Areg[23]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "Areg[24]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "Areg[25]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "Areg[26]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "Areg[27]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "Areg[28]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "Areg[29]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "Areg[30]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (10041): Inferred latch for "Areg[31]" at FPMULT2.v(59) File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Info (278001): Inferred 1 megafunctions from design logic
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult0" File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 166
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult0" File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 166
+Info (12133): Instantiated megafunction "lpm_mult:Mult0" with the following parameter: File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 166
+    Info (12134): Parameter "LPM_WIDTHA" = "24"
+    Info (12134): Parameter "LPM_WIDTHB" = "24"
+    Info (12134): Parameter "LPM_WIDTHP" = "48"
+    Info (12134): Parameter "LPM_WIDTHR" = "48"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "UNSIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
+Info (12021): Found 1 design units, including 1 entities, in source file db/mult_bdt.tdf
+    Info (12023): Found entity 1: mult_bdt File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2/db/mult_bdt.tdf Line: 31
+Info (13014): Ignored 158 buffer(s)
+    Info (13019): Ignored 158 SOFT buffer(s)
+Warning (13012): Latch z[0] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.pack File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch z[1] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.pack File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch z[2] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.pack File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch z[3] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.pack File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch z[4] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.pack File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch z[5] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.pack File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch z[6] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.pack File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch z[7] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.pack File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch z[8] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.pack File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch z[9] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.pack File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch z[10] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.pack File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch z[11] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.pack File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch z[12] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.pack File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch z[13] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.pack File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch z[14] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.pack File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch z[15] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.pack File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch z[16] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.pack File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch z[17] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.pack File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch z[18] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.pack File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch z[19] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.pack File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch z[20] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.pack File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch z[21] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.pack File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch z[22] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.pack File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch z[23] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.pack File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch z[24] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.pack File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch z[25] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.pack File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch z[26] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.pack File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch z[27] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.pack File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch z[28] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.pack File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch z[29] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.pack File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch z[30] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.pack File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch z[31] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.pack File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch a_m[23] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.special_cases File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch a_e[0] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_a File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch a_e[1] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_a File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch a_e[2] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_a File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch a_e[3] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_a File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch a_e[4] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_a File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch a_e[5] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_a File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch a_e[6] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_a File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch a_e[7] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_a File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch a_e[8] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_a File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch a_e[9] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_a File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch a_m[0] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_a File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch a_m[1] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_a File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch a_m[2] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_a File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch a_m[3] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_a File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch a_m[4] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_a File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch a_m[5] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_a File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch a_m[6] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_a File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch a_m[7] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_a File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch a_m[8] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_a File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch a_m[9] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_a File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch a_m[10] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_a File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch a_m[11] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_a File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch a_m[12] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_a File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch a_m[13] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_a File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch a_m[14] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_a File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch a_m[15] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_a File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch a_m[16] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_a File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch a_m[17] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_a File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch a_m[18] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_a File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch a_m[19] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_a File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch a_m[20] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_a File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch a_m[21] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_a File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch a_m[22] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_a File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch b_e[0] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_b File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch b_e[1] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_b File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch b_e[2] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_b File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch b_e[3] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_b File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch b_e[4] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_b File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch b_e[5] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_b File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch b_e[6] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_b File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch b_e[7] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_b File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch b_e[8] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_b File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch b_e[9] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_b File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch b_m[0] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_b File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch b_m[1] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_b File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch b_m[2] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_b File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch b_m[3] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_b File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch b_m[4] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_b File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch b_m[5] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_b File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch b_m[6] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_b File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch b_m[7] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_b File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch b_m[8] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_b File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch b_m[9] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_b File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch b_m[10] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_b File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch b_m[11] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_b File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch b_m[12] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_b File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch b_m[13] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_b File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch b_m[14] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_b File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch b_m[15] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_b File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch b_m[16] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_b File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch b_m[17] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_b File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch b_m[18] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_b File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch b_m[19] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_b File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch b_m[20] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_b File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch b_m[21] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_b File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch b_m[22] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_b File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch b_m[23] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.special_cases File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch z_m[0] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_2 File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch z_m[1] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal z_m[0] File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Warning (13012): Latch z_m[2] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_2 File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch z_m[3] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.round File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch z_m[4] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_2 File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch z_m[5] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.round File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch z_m[6] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_2 File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch z_m[7] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.round File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch z_m[8] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_2 File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch z_m[9] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.round File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch z_m[10] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_2 File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch z_m[11] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.round File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch z_m[12] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_2 File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch z_m[13] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.round File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch z_m[14] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_2 File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch z_m[15] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.round File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch z_m[16] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_2 File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch z_m[17] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.round File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch z_m[18] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_2 File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch z_m[19] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.round File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch z_m[20] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_2 File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch z_m[21] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.round File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch z_m[22] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal z_m[23] File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+Warning (13012): Latch z_m[23] has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 59
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.round File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch guard has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 27
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_2 File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch round_bit has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 27
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_2 File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Warning (13012): Latch sticky has unsafe behavior File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 27
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ps.normalise_2 File: C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2.v Line: 21
+Info (286030): Timing-Driven Synthesis is running
+Info (17049): 4 registers lost all their fanouts during netlist optimizations.
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Info (21057): Implemented 773 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 35 input pins
+    Info (21059): Implemented 33 output pins
+    Info (21061): Implemented 698 logic cells
+    Info (21062): Implemented 7 DSP elements
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 285 warnings
+    Info: Peak virtual memory: 4811 megabytes
+    Info: Processing ended: Sat Jun 26 22:18:23 2021
+    Info: Elapsed time: 00:00:08
+    Info: Total CPU time (on all processors): 00:00:17
+
+

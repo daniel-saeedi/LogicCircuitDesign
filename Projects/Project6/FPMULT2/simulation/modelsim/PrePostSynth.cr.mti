@@ -1,0 +1,16 @@
+C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2/simulation/modelsim/FPMULT2.vo {1 {vlog -work work -stats=none C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2/simulation/modelsim/FPMULT2.vo
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FPMULT2
+-- Compiling module hard_block
+
+Top level modules:
+	FPMULT2
+
+} {} {}} C:/Users/saeed/Desktop/LogicCircuitDesign/Projects/Project6/FPMULT2/simulation/modelsim/TB.v {1 {vlog -work work -stats=none {C:\Users\saeed\Desktop\LogicCircuitDesign\Projects\Project6\FPMULT2\simulation\modelsim\TB.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FPMULT_TB
+
+Top level modules:
+	FPMULT_TB
+
+} {} {}}

@@ -1,0 +1,18 @@
+
+State Machine - |FPMULT2|ps
+Name ps.result ps.pack ps.round ps.normalise_2 ps.normalise_1 ps.multiply_1 ps.multiply_add_0 ps.normalise_b ps.normalise_a ps.special_cases ps.unpack ps.get_b ps.get_a ps.init ps.idle 
+ps.idle 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+ps.init 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+ps.get_a 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+ps.get_b 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+ps.unpack 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+ps.special_cases 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+ps.normalise_a 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+ps.normalise_b 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+ps.multiply_add_0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+ps.multiply_1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+ps.normalise_1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+ps.normalise_2 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+ps.round 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+ps.pack 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+ps.result 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
